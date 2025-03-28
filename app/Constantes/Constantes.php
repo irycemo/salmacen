@@ -12,7 +12,9 @@ class Constantes{
         'Entradas',
         'Artículos',
         'Categorías',
-        'Solicitudes'
+        'Solicitudes',
+        'Seguimiento',
+        'Reportes'
     ];
 
     const AREAS_ADSCRIPCION = [

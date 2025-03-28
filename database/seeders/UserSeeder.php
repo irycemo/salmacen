@@ -40,7 +40,7 @@ class UserSeeder extends Seeder
             'email' => 'directorcat@correo.michoacan.gob.mx',
             'password' => Hash::make('sistema'),
             'area' => 'Dirección de Catastro',
-        ])->assignRole('Administrador');
+        ])->assignRole('Director');
 
         User::create([
             'name' => 'Omar Alejandro',
@@ -49,7 +49,7 @@ class UserSeeder extends Seeder
             'email' => 'directorrpp@correo.michoacan.gob.mx',
             'password' => Hash::make('sistema'),
             'area' => 'Dirección del Registro Público de la Propiedad',
-        ])->assignRole('Administrador');
+        ])->assignRole('Director');
 
     }
 }

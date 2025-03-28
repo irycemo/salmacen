@@ -347,7 +347,7 @@
 
                     <div class="rounded-lg bg-gray-100 py-1 px-2">
 
-                        <p><strong>Artículo:</strong> {{ $articuloSeleccionado->nombre }}</p>
+                        <p><strong>Artículo:</strong> {{ ucfirst($articuloSeleccionado->nombre) }}</p>
 
                     </div>
 

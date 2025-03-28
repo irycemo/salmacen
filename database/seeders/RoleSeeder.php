@@ -18,7 +18,7 @@ class RoleSeeder extends Seeder
         $role1 = Role::create(['name' => 'Administrador']);
         $role2 = Role::create(['name' => 'Director']);
         $role3 = Role::create(['name' => 'Delegada(o) Administrativo']);
-        $role4 = Role::create(['name' => 'Contadora(o)']);
+        $role4 = Role::create(['name' => 'Contador(a)']);
         $role5 = Role::create(['name' => 'Solicitante']);
         $role6 = Role::create(['name' => 'Almacenista']);
 
@@ -59,10 +59,14 @@ class RoleSeeder extends Seeder
         Permission::create(['name' => 'Almacén catastro', 'area' => 'Almacén'])->syncRoles([$role1, $role2, $role3, $role4, $role6]);
 
         Permission::create(['name' => 'Lista de solicitudes', 'area' => 'Solicitudes'])->syncRoles([$role1, $role2, $role3, $role4, $role5, $role6]);
-        Permission::create(['name' => 'Crear solicitud', 'area' => 'Solicitudes'])->syncRoles([$role1, $role3, $role4, $role5, $role6]);
-        Permission::create(['name' => 'Editar solicitud', 'area' => 'Solicitudes'])->syncRoles([$role1, $role3, $role4, $role5, $role6]);
-        Permission::create(['name' => 'Borrar solicitud', 'area' => 'Solicitudes'])->syncRoles([$role1, $role3, $role4, $role5, $role6]);
+        Permission::create(['name' => 'Crear solicitud', 'area' => 'Solicitudes'])->syncRoles([$role1, $role2, $role3, $role4, $role5, $role6]);
+        Permission::create(['name' => 'Editar solicitud', 'area' => 'Solicitudes'])->syncRoles([$role1, $role2, $role3, $role4, $role5, $role6]);
+        Permission::create(['name' => 'Borrar solicitud', 'area' => 'Solicitudes'])->syncRoles([$role1, $role2, $role3, $role4, $role5, $role6]);
         Permission::create(['name' => 'Aceptar solicitud', 'area' => 'Solicitudes'])->syncRoles([$role1, $role3, $role4, $role5, $role6]);
+
+        Permission::create(['name' => 'Seguimiento', 'area' => 'Seguimiento'])->syncRoles([$role1, $role2, $role3, $role4, $role5, $role6]);
+
+        Permission::create(['name' => 'Reportes', 'area' => 'Reportes'])->syncRoles([$role1, $role2, $role3, $role4, $role5, $role6]);
 
     }
 }

@@ -110,7 +110,7 @@
 
             <x-h4>Artículos solicitados</x-h4>
 
-            @if($solicitud)
+            @if($solicitud->getKey())
 
                 <div class="mt-5">
 

@@ -17,7 +17,7 @@ class DashboardController extends Controller
         if(auth()->user()->roles[0]->name == "Solicitante" || auth()->user()->roles[0]->name == "Director"){
 
             $solicitudes = Solicitud::selectRaw('estado, count(estado) count')
-                                    ->where('created_by', auth()->user()->id)
+                                    ->where('creado_por', auth()->user()->id)
                                     ->groupBy('estado')
                                     ->get();
 

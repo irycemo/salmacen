@@ -5,16 +5,18 @@ use App\Livewire\Admin\Permisos;
 use App\Livewire\Admin\Usuarios;
 use App\Livewire\Admin\Categorias;
 use App\Livewire\Entradas\Entradas;
+use App\Livewire\Reportes\Reportes;
 use App\Livewire\Almacen\AlmacenRPP;
 use App\Livewire\Articulos\Articulos;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Almacen\AlmacenGeneral;
 use App\Livewire\Almacen\AlmacenCatastro;
+use App\Livewire\Seguimiento\Seguimiento;
+use App\Livewire\Solicitudes\Solicitudes;
 use App\Http\Controllers\ManualController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\SetPasswordController;
 use App\Livewire\Solicitudes\CrearEditarSolicitud;
-use App\Livewire\Solicitudes\Solicitudes;
 
 Route::get('/', function () {
     return redirect('login');
@@ -41,6 +43,10 @@ Route::group(['middleware' => ['auth', 'esta.activo']], function(){
 
     Route::get('solicitudes', Solicitudes::class)->middleware('permission:Lista de solicitudes')->name('solicitudes');
     Route::get('solicitud/{solicitud?}', CrearEditarSolicitud::class)->middleware('permission:Editar solicitud')->name('solicitud');
+
+    Route::get('seguimiento', Seguimiento::class)->middleware('permission:Seguimiento')->name('seguimiento');
+
+    Route::get('reportes', Reportes::class)->middleware('permission:Reportes')->name('reportes');
 
     /* Manual */
     Route::get('manual', ManualController::class)->name('manual');

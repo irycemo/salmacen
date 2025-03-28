@@ -53,7 +53,7 @@
 
                             <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Nombre</span>
 
-                            {{ $articulo->articulo->nombre }}
+                            {{ ucfirst($articulo->articulo->nombre) }}
 
                         </x-table.cell>
 
@@ -61,7 +61,7 @@
 
                             <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Marca</span>
 
-                            {{ $articulo->articulo->marca }}
+                            {{ ucfirst($articulo->articulo->marca) }}
 
                         </x-table.cell>
 
@@ -93,7 +93,7 @@
 
                             <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Descripción</span>
 
-                            {{ $articulo->articulo->descripcion }}
+                            {{ ucfirst($articulo->articulo->descripcion) }}
 
                         </x-table.cell>
 
@@ -101,16 +101,11 @@
 
                             <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Registrado</span>
 
-
-                            <span class="font-semibold">@if($articulo->creadoPor != null)Registrado por: {{$articulo->creadoPor->name}} @else Registro: @endif</span> <br>
-
                             {{ $articulo->created_at }}
 
                         </x-table.cell>
 
                         <x-table.cell>
-
-                            <span class="font-semibold">@if($articulo->actualizadoPor != null)Actualizado por: {{$articulo->actualizadoPor->name}} @else Actualizado: @endif</span> <br>
 
                             {{ $articulo->updated_at }}
 

@@ -74,6 +74,11 @@ class Solicitudes extends Component
 
                     $this->procesarSolicitudDirector();
 
+                    $this->modelo_editar->update([
+                        'estado' => 'entregado',
+                        'actualizado_por' => auth()->id()
+                    ]);
+
                 });
 
                 $this->dispatch('mostrarMensaje', ['success', "La solicitud se entregó con éxito, al almacen del solicitante fue actualizado."]);
@@ -156,20 +161,25 @@ class Solicitudes extends Component
 
         foreach ($this->modelo_editar->detalles as $detalle) {
 
-            $articuloDisponible = ArticuloDisponible::where('ubicacion', $this->modelo_editar->creadoPor->ubicacion)
-                                                        ->where('articulo_id', $detalle->articulo_disponible_id->articulo_id)
+            $articuloDisponible = ArticuloDisponible::when($this->modelo_editar->creadoPor->area == 'Dirección de Catastro',function($q){
+                                                            $q->where('ubicacion', 'Catastro');
+                                                        })
+                                                        ->when($this->modelo_editar->creadoPor->area == 'Dirección del Registro Público de la Propiedad',function($q){
+                                                            $q->where('ubicacion', 'RPP');
+                                                        })
+                                                        ->where('articulo_id', $detalle->articuloDisponible->articulo_id)
                                                         ->first();
 
             if($articuloDisponible){
 
-                $articuloDisponible->update(['stock' => $detalle->cantidad]);
+                $articuloDisponible->update(['stock_total' => $detalle->cantidad]);
 
             }else{
 
                 ArticuloDisponible::create([
-                    'articulo_id' => $detalle->articulo_disponible_id->articulo_id,
-                    'stock' => $detalle->cantidad,
-                    'ubicacion' => $this->modelo_editar->creadoPor->ubicacion
+                    'articulo_id' => $detalle->articuloDisponible->articulo_id,
+                    'stock_total' => $detalle->cantidad,
+                    'ubicacion' => $this->modelo_editar->creadoPor->area == 'Dirección de Catastro' ? 'Catastro' : 'RPP'
                 ]);
 
             }
@@ -258,6 +268,12 @@ class Solicitudes extends Component
     {
 
         $solicitudes = Solicitud::with('creadoPor', 'actualizadoPor')
+                                ->when(
+                                    auth()->user()->hasRole(['Solicitante', 'Director']),
+                                    function($q){
+                                        $q->where('creado_por', auth()->id());
+                                    }
+                                )
                                 ->withSum('detalles', 'cantidad')
                                 ->orderBy($this->sort, $this->direction)
                                 ->paginate($this->pagination);

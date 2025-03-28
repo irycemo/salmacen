@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Models\Entrada;
 use App\Models\Categoria;
 use App\Traits\ModelosTrait;
+use App\Models\ArticuloDisponible;
 use Illuminate\Database\Eloquent\Model;
 
 class Articulo extends Model
@@ -22,6 +23,8 @@ class Articulo extends Model
         return $this->hasMany(Entrada::class);
     }
 
-
+    public function articulosDisponibles(){
+        return $this->hasMany(ArticuloDisponible::class);
+    }
 
 }

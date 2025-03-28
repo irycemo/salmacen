@@ -329,53 +329,57 @@
 
                 </x-input-group>
 
-                <div class="flex gap-3 justify-center">
+                <div class="flex gap-3 justify-end">
 
-                    @if(!in_array($modelo_editar->estado, ['entregado', 'rechazado']))
+                    @if(auth()->user()->hasRole(['Administrador', 'Almacenista', 'Contadora(o)', 'Delegada(o) Administrativo']))
 
-                        @if($modelo_editar->estado != 'aceptado')
+                        @if(!in_array($modelo_editar->estado, ['entregado', 'rechazado']))
 
-                            <x-button-green
-                                wire:click="aceptar"
+                            @if($modelo_editar->estado != 'aceptado')
+
+                                <x-button-green
+                                    wire:click="aceptar"
+                                    wire:loading.attr="disabled"
+                                    wire:target="aceptar">
+
+                                    <img wire:loading wire:target="aceptar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
+
+                                    <span>Aceptar</span>
+                                </x-button-green>
+
+                            @endif
+
+                            <x-button-blue
+                                wire:click="entregar"
                                 wire:loading.attr="disabled"
-                                wire:target="aceptar">
+                                wire:target="entregar">
 
-                                <img wire:loading wire:target="aceptar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
+                                <img wire:loading wire:target="entregar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
 
-                                <span>Aceptar</span>
-                            </x-button-green>
+                                <span>Entregar</span>
+                            </x-button-blue>
+
+                            <x-button-gray
+                                wire:click="rechazar"
+                                wire:loading.attr="disabled"
+                                wire:target="rechazar">
+
+                                <img wire:loading wire:target="rechazar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
+
+                                <span>Rechazar</span>
+                            </x-button-gray>
 
                         @endif
 
-                        <x-button-blue
-                            wire:click="entregar"
-                            wire:loading.attr="disabled"
-                            wire:target="entregar">
-
-                            <img wire:loading wire:target="entregar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
-
-                            <span>Entregar</span>
-                        </x-button-blue>
-
-                        <x-button-gray
-                            wire:click="rechazar"
-                            wire:loading.attr="disabled"
-                            wire:target="rechazar">
-
-                            <img wire:loading wire:target="rechazar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
-
-                            <span>Rechazar</span>
-                        </x-button-gray>
-
-                        <x-button-red
-                            wire:click="$toggle('modalVer')"
-                            wire:loading.attr="disabled"
-                            wire:target="$toggle('modalVer')"
-                            type="button">
-                            X
-                        </x-button-red>
-
                     @endif
+
+                    <x-button-red
+                        wire:click="$toggle('modalVer')"
+                        wire:loading.attr="disabled"
+                        wire:target="$toggle('modalVer')"
+                        type="button">
+                        X
+                    </x-button-red>
 
                 </div>
 
