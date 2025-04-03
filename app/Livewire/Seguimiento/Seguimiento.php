@@ -53,12 +53,12 @@ class Seguimiento extends Component
 
         $this->solicitudes = Solicitud::with('creadoPor:id,name')
                                         ->withWhereHas('detalles', function($q){
-                                            $q->when($this->articuloDisponibleGeneral->getKey(), function($q){
+                                            $q->when($this->articuloDisponibleGeneral, function($q){
                                                     $q->where('articulo_disponible_id', $this->articuloDisponibleGeneral->id);
                                                 })
-                                                ->when($this->articuloDisponibleCatastro->getKey(), function($q){
+                                                ->when($this->articuloDisponibleCatastro, function($q){
                                                     $q->orWhere('articulo_disponible_id', $this->articuloDisponibleCatastro->id);
-                                                })->when($this->articuloDisponibleRpp->getKey(), function($q){
+                                                })->when($this->articuloDisponibleRpp, function($q){
                                                     $q->orWhere('articulo_disponible_id', $this->articuloDisponibleRpp->id);
                                                 });
                                         })

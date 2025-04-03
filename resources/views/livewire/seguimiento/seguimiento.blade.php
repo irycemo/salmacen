@@ -210,7 +210,7 @@
 
                                             <x-table.cell>
 
-                                                <span class="font-semibold">{{$entrada->creadoPor->name}}</span> <br>
+                                                <span class="font-semibold">{{$entrada->creadoPor?->name}}</span> <br>
 
                                                 {{ $entrada->created_at }}
 
