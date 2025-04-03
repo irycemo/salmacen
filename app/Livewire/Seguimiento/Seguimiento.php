@@ -33,6 +33,8 @@ class Seguimiento extends Component
 
     public function seleccionarArticulo(Articulo $articulo){
 
+        $this->reset(['articuloDisponibleGeneral', 'articuloDisponibleCatastro', 'articuloDisponibleRpp', 'solicitudes']);
+
         $this->articuloSeleccionado = $articulo;
 
         $this->articuloDisponibleGeneral = ArticuloDisponible::where('articulo_id', $this->articuloSeleccionado->id)
@@ -51,19 +53,25 @@ class Seguimiento extends Component
                                     ->where('articulo_id', $this->articuloSeleccionado->id)
                                     ->get();
 
-        $this->solicitudes = Solicitud::with('creadoPor:id,name')
-                                        ->withWhereHas('detalles', function($q){
-                                            $q->when(isset($this->articuloDisponibleGeneral), function($q){
-                                                    $q->where('articulo_disponible_id', $this->articuloDisponibleGeneral->id);
-                                                })
-                                                ->when(isset($this->articuloDisponibleCatastro), function($q){
-                                                    $q->orWhere('articulo_disponible_id', $this->articuloDisponibleCatastro->id);
-                                                })->when(isset($this->articuloDisponibleRpp), function($q){
-                                                    $q->orWhere('articulo_disponible_id', $this->articuloDisponibleRpp->id);
-                                                });
-                                        })
-                                        ->withSum('detalles', 'cantidad')
-                                        ->get();
+        if( $this->articuloDisponibleGeneral || $this->articuloDisponibleCatastro || $this->articuloDisponibleRpp){
+
+
+            $this->solicitudes = Solicitud::with('creadoPor:id,name')
+                                            ->withWhereHas('detalles', function($q){
+                                                $q->when(isset($this->articuloDisponibleGeneral), function($q){
+                                                        $q->where('articulo_disponible_id', $this->articuloDisponibleGeneral->id);
+                                                    })
+                                                    ->when(isset($this->articuloDisponibleCatastro), function($q){
+                                                        $q->orWhere('articulo_disponible_id', $this->articuloDisponibleCatastro->id);
+                                                    })
+                                                    ->when(isset($this->articuloDisponibleRpp), function($q){
+                                                        $q->orWhere('articulo_disponible_id', $this->articuloDisponibleRpp->id);
+                                                    });
+                                            })
+                                            ->withSum('detalles', 'cantidad')
+                                            ->get();
+
+        }
 
     }
 
