@@ -24,6 +24,8 @@ class Solicitudes extends Component
 
     public $comentario;
 
+    protected $queryString = ['search'];
+
     protected $validationAttributes  = [
         'modelo_editar.nadescripcionme' => 'descripción',
         'precio_unidad' => 'precio por unidad'
@@ -274,6 +276,7 @@ class Solicitudes extends Component
                                         $q->where('creado_por', auth()->id());
                                     }
                                 )
+                                ->orWhere('estado', 'LIKE', '%' . $this->search . '%')
                                 ->withSum('detalles', 'cantidad')
                                 ->orderBy($this->sort, $this->direction)
                                 ->paginate($this->pagination);

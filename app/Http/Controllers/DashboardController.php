@@ -56,9 +56,9 @@ class DashboardController extends Controller
 
         }
 
-        $articles = ArticuloDisponible::whereColumn('stock_total', '<', 'alerta')->orderBy('stock_total', 'asc')->get();
+        $articulos = ArticuloDisponible::with('articulo:id,nombre')->whereColumn('stock_total', '<', 'alerta')->orderBy('stock_total', 'asc')->get();
 
-        return view('dashboard', compact('data', 'solicitudes', 'articles'));
+        return view('dashboard', compact('data', 'solicitudes', 'articulos'));
     }
 
 }
