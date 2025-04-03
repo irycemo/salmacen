@@ -175,7 +175,7 @@ class CrearEditarSolicitud extends Component
 
                 }
 
-                $this->solicitud->load('detalles');
+                $this->solicitud->load('detalles.articuloDisponible.articulo');
 
                 $precioTotal = 0;
 
