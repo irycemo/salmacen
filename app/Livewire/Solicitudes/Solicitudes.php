@@ -174,7 +174,7 @@ class Solicitudes extends Component
 
             if($articuloDisponible){
 
-                $articuloDisponible->update(['stock_total' => $detalle->cantidad]);
+                $articuloDisponible->increment(['stock_total' => $detalle->cantidad]);
 
             }else{
 
