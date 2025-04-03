@@ -174,7 +174,7 @@ class Solicitudes extends Component
 
             if($articuloDisponible){
 
-                $articuloDisponible->increment(['stock_total' => $detalle->cantidad]);
+                $articuloDisponible->increment('stock_total', $detalle->cantidad);
 
             }else{
 
@@ -276,7 +276,7 @@ class Solicitudes extends Component
                                         $q->where('creado_por', auth()->id());
                                     }
                                 )
-                                ->orWhere('estado', 'LIKE', '%' . $this->search . '%')
+                                ->where('estado', 'LIKE', '%' . $this->search . '%')
                                 ->withSum('detalles', 'cantidad')
                                 ->orderBy($this->sort, $this->direction)
                                 ->paginate($this->pagination);
@@ -284,3 +284,4 @@ class Solicitudes extends Component
         return view('livewire.solicitudes.solicitudes', compact('solicitudes'))->extends('layouts.admin');
     }
 }
+;
