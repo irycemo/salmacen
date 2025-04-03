@@ -12,9 +12,12 @@ use App\Models\ArticuloDisponible;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use App\Exceptions\GeneralExpection;
+use Livewire\WithPagination;
 
 class CrearEditarSolicitud extends Component
 {
+
+    use WithPagination;
 
     public Solicitud $solicitud;
 

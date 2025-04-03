@@ -189,11 +189,7 @@
 
                             <x-table.row>
 
-                                <x-table.cell colspan="9" class="bg-gray-50">
 
-                                    {{ $this->articulos->links()}}
-
-                                </x-table.cell>
 
                             </x-table.row>
 
