@@ -26,8 +26,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 82,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             1 => 
             array (
@@ -36,8 +36,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 5336,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             2 => 
             array (
@@ -46,8 +46,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1032,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             3 => 
             array (
@@ -56,8 +56,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 264,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             4 => 
             array (
@@ -66,8 +66,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 996,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             5 => 
             array (
@@ -76,8 +76,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 204,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             6 => 
             array (
@@ -86,8 +86,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 36,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             7 => 
             array (
@@ -96,8 +96,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 59,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             8 => 
             array (
@@ -106,8 +106,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 136,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             9 => 
             array (
@@ -116,8 +116,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 285,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             10 => 
             array (
@@ -126,8 +126,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 32,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             11 => 
             array (
@@ -136,8 +136,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 25,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             12 => 
             array (
@@ -146,8 +146,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 3,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             13 => 
             array (
@@ -156,8 +156,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 9,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             14 => 
             array (
@@ -166,8 +166,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             15 => 
             array (
@@ -176,8 +176,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             16 => 
             array (
@@ -186,8 +186,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 6,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             17 => 
             array (
@@ -196,8 +196,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 3,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             18 => 
             array (
@@ -206,8 +206,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 6,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             19 => 
             array (
@@ -216,8 +216,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 158,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             20 => 
             array (
@@ -226,8 +226,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 27,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             21 => 
             array (
@@ -236,8 +236,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 100,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             22 => 
             array (
@@ -246,8 +246,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 43,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             23 => 
             array (
@@ -256,8 +256,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 66,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             24 => 
             array (
@@ -266,8 +266,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 3,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             25 => 
             array (
@@ -276,8 +276,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 58,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             26 => 
             array (
@@ -286,8 +286,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 271,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             27 => 
             array (
@@ -296,8 +296,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 70,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             28 => 
             array (
@@ -306,8 +306,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 87,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             29 => 
             array (
@@ -316,8 +316,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 63,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             30 => 
             array (
@@ -326,8 +326,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 32,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             31 => 
             array (
@@ -336,8 +336,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 147,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             32 => 
             array (
@@ -346,8 +346,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 919,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             33 => 
             array (
@@ -356,8 +356,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 100,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             34 => 
             array (
@@ -366,8 +366,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 329,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             35 => 
             array (
@@ -376,8 +376,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 103,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             36 => 
             array (
@@ -386,8 +386,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 675,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             37 => 
             array (
@@ -396,8 +396,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 54,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             38 => 
             array (
@@ -406,8 +406,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 3,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             39 => 
             array (
@@ -416,8 +416,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 53,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             40 => 
             array (
@@ -426,8 +426,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 49,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             41 => 
             array (
@@ -436,8 +436,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 546,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             42 => 
             array (
@@ -446,8 +446,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 382,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             43 => 
             array (
@@ -456,8 +456,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 82,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             44 => 
             array (
@@ -466,8 +466,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 5,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             45 => 
             array (
@@ -476,8 +476,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 152,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             46 => 
             array (
@@ -486,8 +486,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 882,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             47 => 
             array (
@@ -496,8 +496,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1000,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             48 => 
             array (
@@ -506,8 +506,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 69,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             49 => 
             array (
@@ -516,8 +516,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 76,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             50 => 
             array (
@@ -526,8 +526,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 116,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             51 => 
             array (
@@ -536,8 +536,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 49,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             52 => 
             array (
@@ -546,8 +546,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 123,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             53 => 
             array (
@@ -556,8 +556,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 64,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             54 => 
             array (
@@ -566,8 +566,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 130,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             55 => 
             array (
@@ -576,8 +576,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 120,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             56 => 
             array (
@@ -586,8 +586,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             57 => 
             array (
@@ -596,8 +596,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 15,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             58 => 
             array (
@@ -606,8 +606,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 13,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             59 => 
             array (
@@ -616,8 +616,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 16,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             60 => 
             array (
@@ -626,8 +626,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 3730,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             61 => 
             array (
@@ -636,8 +636,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1770,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             62 => 
             array (
@@ -646,8 +646,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 12,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             63 => 
             array (
@@ -656,8 +656,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 16,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             64 => 
             array (
@@ -666,8 +666,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 283,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             65 => 
             array (
@@ -676,8 +676,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 623,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             66 => 
             array (
@@ -686,8 +686,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 168,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             67 => 
             array (
@@ -696,8 +696,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 370,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             68 => 
             array (
@@ -706,8 +706,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 193,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             69 => 
             array (
@@ -716,8 +716,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 19,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             70 => 
             array (
@@ -726,8 +726,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 142,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             71 => 
             array (
@@ -736,8 +736,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 83,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             72 => 
             array (
@@ -746,8 +746,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 89,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             73 => 
             array (
@@ -756,8 +756,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 80,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             74 => 
             array (
@@ -766,8 +766,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 5400,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             75 => 
             array (
@@ -776,8 +776,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 330,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             76 => 
             array (
@@ -786,8 +786,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 15,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             77 => 
             array (
@@ -796,8 +796,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             78 => 
             array (
@@ -806,8 +806,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 57,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             79 => 
             array (
@@ -816,8 +816,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 71,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             80 => 
             array (
@@ -826,8 +826,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 12,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             81 => 
             array (
@@ -836,8 +836,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 72,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             82 => 
             array (
@@ -846,8 +846,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 274,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             83 => 
             array (
@@ -856,8 +856,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 6,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             84 => 
             array (
@@ -866,8 +866,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 91,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             85 => 
             array (
@@ -876,8 +876,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 118,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             86 => 
             array (
@@ -886,8 +886,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             87 => 
             array (
@@ -896,8 +896,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 703,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             88 => 
             array (
@@ -906,8 +906,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 281,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             89 => 
             array (
@@ -916,8 +916,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 18,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             90 => 
             array (
@@ -926,8 +926,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 4,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             91 => 
             array (
@@ -936,8 +936,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 4,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             92 => 
             array (
@@ -946,8 +946,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             93 => 
             array (
@@ -956,8 +956,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             94 => 
             array (
@@ -966,8 +966,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             95 => 
             array (
@@ -976,8 +976,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 15,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             96 => 
             array (
@@ -986,8 +986,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             97 => 
             array (
@@ -996,8 +996,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 23,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             98 => 
             array (
@@ -1006,8 +1006,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             99 => 
             array (
@@ -1016,8 +1016,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 5,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             100 => 
             array (
@@ -1026,8 +1026,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 7,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             101 => 
             array (
@@ -1036,8 +1036,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             102 => 
             array (
@@ -1046,8 +1046,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 3,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             103 => 
             array (
@@ -1056,8 +1056,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             104 => 
             array (
@@ -1066,8 +1066,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 4,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             105 => 
             array (
@@ -1076,8 +1076,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             106 => 
             array (
@@ -1086,8 +1086,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             107 => 
             array (
@@ -1096,8 +1096,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             108 => 
             array (
@@ -1106,8 +1106,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             109 => 
             array (
@@ -1116,8 +1116,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 3,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             110 => 
             array (
@@ -1126,8 +1126,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 15,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             111 => 
             array (
@@ -1136,8 +1136,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 32,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             112 => 
             array (
@@ -1146,8 +1146,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 41,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             113 => 
             array (
@@ -1156,8 +1156,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 30,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             114 => 
             array (
@@ -1166,8 +1166,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 68,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             115 => 
             array (
@@ -1176,8 +1176,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 31,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             116 => 
             array (
@@ -1186,8 +1186,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 10,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             117 => 
             array (
@@ -1196,8 +1196,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 20,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             118 => 
             array (
@@ -1206,8 +1206,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 10,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             119 => 
             array (
@@ -1216,8 +1216,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 33,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             120 => 
             array (
@@ -1226,8 +1226,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 331,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             121 => 
             array (
@@ -1236,8 +1236,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 22,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             122 => 
             array (
@@ -1246,8 +1246,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 2,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             123 => 
             array (
@@ -1256,8 +1256,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 22,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             124 => 
             array (
@@ -1266,8 +1266,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 12,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             125 => 
             array (
@@ -1276,8 +1276,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 5,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             126 => 
             array (
@@ -1286,8 +1286,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 79,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             127 => 
             array (
@@ -1296,8 +1296,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 6,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             128 => 
             array (
@@ -1306,8 +1306,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 344,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             129 => 
             array (
@@ -1316,8 +1316,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 152,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             130 => 
             array (
@@ -1326,8 +1326,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 59,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             131 => 
             array (
@@ -1336,8 +1336,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 82,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             132 => 
             array (
@@ -1346,8 +1346,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 360,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             133 => 
             array (
@@ -1356,8 +1356,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 300,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             134 => 
             array (
@@ -1366,8 +1366,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 46,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             135 => 
             array (
@@ -1376,8 +1376,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 160,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             136 => 
             array (
@@ -1386,8 +1386,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 11,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             137 => 
             array (
@@ -1396,8 +1396,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 360,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             138 => 
             array (
@@ -1406,8 +1406,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 380,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             139 => 
             array (
@@ -1416,8 +1416,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 173,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             140 => 
             array (
@@ -1426,8 +1426,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 11,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             141 => 
             array (
@@ -1436,8 +1436,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 20,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             142 => 
             array (
@@ -1446,8 +1446,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 20,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             143 => 
             array (
@@ -1456,8 +1456,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 27,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             144 => 
             array (
@@ -1466,8 +1466,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 199,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             145 => 
             array (
@@ -1476,8 +1476,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 500,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             146 => 
             array (
@@ -1486,8 +1486,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 383,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             147 => 
             array (
@@ -1496,8 +1496,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 1,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             148 => 
             array (
@@ -1506,8 +1506,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 52,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             149 => 
             array (
@@ -1516,8 +1516,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 5,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             150 => 
             array (
@@ -1526,8 +1526,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 175,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             151 => 
             array (
@@ -1536,8 +1536,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 62,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             152 => 
             array (
@@ -1546,8 +1546,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 103,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             153 => 
             array (
@@ -1556,8 +1556,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 622,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             154 => 
             array (
@@ -1566,8 +1566,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 27,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             155 => 
             array (
@@ -1576,8 +1576,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 68,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             156 => 
             array (
@@ -1586,8 +1586,8 @@ class ArticuloDisponiblesTableSeeder extends Seeder
                 'stock_total' => 252,
                 'alerta' => NULL,
                 'ubicacion' => 'general',
-                'created_at' => '2025-04-03 11:05:28',
-                'updated_at' => '2025-04-03 11:05:28',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
         ));
         

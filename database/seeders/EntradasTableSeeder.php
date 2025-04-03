@@ -29,8 +29,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             1 => 
             array (
@@ -42,8 +42,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             2 => 
             array (
@@ -55,8 +55,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             3 => 
             array (
@@ -68,8 +68,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             4 => 
             array (
@@ -81,8 +81,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             5 => 
             array (
@@ -94,8 +94,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             6 => 
             array (
@@ -107,8 +107,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             7 => 
             array (
@@ -120,8 +120,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             8 => 
             array (
@@ -133,8 +133,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             9 => 
             array (
@@ -146,8 +146,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             10 => 
             array (
@@ -159,8 +159,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             11 => 
             array (
@@ -172,8 +172,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             12 => 
             array (
@@ -185,8 +185,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             13 => 
             array (
@@ -198,8 +198,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             14 => 
             array (
@@ -211,8 +211,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             15 => 
             array (
@@ -224,8 +224,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             16 => 
             array (
@@ -237,8 +237,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             17 => 
             array (
@@ -250,8 +250,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             18 => 
             array (
@@ -263,8 +263,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             19 => 
             array (
@@ -276,8 +276,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             20 => 
             array (
@@ -289,8 +289,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             21 => 
             array (
@@ -302,8 +302,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             22 => 
             array (
@@ -315,8 +315,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             23 => 
             array (
@@ -328,8 +328,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             24 => 
             array (
@@ -341,8 +341,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             25 => 
             array (
@@ -354,8 +354,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             26 => 
             array (
@@ -367,8 +367,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             27 => 
             array (
@@ -380,8 +380,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             28 => 
             array (
@@ -393,8 +393,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             29 => 
             array (
@@ -406,8 +406,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             30 => 
             array (
@@ -419,8 +419,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             31 => 
             array (
@@ -432,8 +432,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             32 => 
             array (
@@ -445,8 +445,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             33 => 
             array (
@@ -458,8 +458,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             34 => 
             array (
@@ -471,8 +471,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             35 => 
             array (
@@ -484,8 +484,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             36 => 
             array (
@@ -497,8 +497,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             37 => 
             array (
@@ -510,8 +510,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             38 => 
             array (
@@ -523,8 +523,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             39 => 
             array (
@@ -536,8 +536,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             40 => 
             array (
@@ -549,8 +549,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             41 => 
             array (
@@ -562,8 +562,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             42 => 
             array (
@@ -575,8 +575,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             43 => 
             array (
@@ -588,8 +588,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             44 => 
             array (
@@ -601,8 +601,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             45 => 
             array (
@@ -614,8 +614,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             46 => 
             array (
@@ -627,8 +627,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             47 => 
             array (
@@ -640,8 +640,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             48 => 
             array (
@@ -653,8 +653,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             49 => 
             array (
@@ -666,8 +666,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             50 => 
             array (
@@ -679,8 +679,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             51 => 
             array (
@@ -692,8 +692,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             52 => 
             array (
@@ -705,8 +705,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             53 => 
             array (
@@ -718,8 +718,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             54 => 
             array (
@@ -731,8 +731,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             55 => 
             array (
@@ -744,8 +744,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             56 => 
             array (
@@ -757,8 +757,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             57 => 
             array (
@@ -770,8 +770,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             58 => 
             array (
@@ -783,8 +783,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             59 => 
             array (
@@ -796,8 +796,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             60 => 
             array (
@@ -809,8 +809,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             61 => 
             array (
@@ -822,8 +822,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             62 => 
             array (
@@ -835,8 +835,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             63 => 
             array (
@@ -848,8 +848,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             64 => 
             array (
@@ -861,8 +861,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             65 => 
             array (
@@ -874,8 +874,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             66 => 
             array (
@@ -887,8 +887,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             67 => 
             array (
@@ -900,8 +900,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             68 => 
             array (
@@ -913,8 +913,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             69 => 
             array (
@@ -926,8 +926,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             70 => 
             array (
@@ -939,8 +939,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             71 => 
             array (
@@ -952,8 +952,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             72 => 
             array (
@@ -965,8 +965,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             73 => 
             array (
@@ -978,8 +978,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             74 => 
             array (
@@ -991,8 +991,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             75 => 
             array (
@@ -1004,8 +1004,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             76 => 
             array (
@@ -1017,8 +1017,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             77 => 
             array (
@@ -1030,8 +1030,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             78 => 
             array (
@@ -1043,8 +1043,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             79 => 
             array (
@@ -1056,8 +1056,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             80 => 
             array (
@@ -1069,8 +1069,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             81 => 
             array (
@@ -1082,8 +1082,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             82 => 
             array (
@@ -1095,8 +1095,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             83 => 
             array (
@@ -1108,8 +1108,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             84 => 
             array (
@@ -1121,8 +1121,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             85 => 
             array (
@@ -1134,8 +1134,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             86 => 
             array (
@@ -1147,8 +1147,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             87 => 
             array (
@@ -1160,8 +1160,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             88 => 
             array (
@@ -1173,8 +1173,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             89 => 
             array (
@@ -1186,8 +1186,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             90 => 
             array (
@@ -1199,8 +1199,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             91 => 
             array (
@@ -1212,8 +1212,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             92 => 
             array (
@@ -1225,8 +1225,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             93 => 
             array (
@@ -1238,8 +1238,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             94 => 
             array (
@@ -1251,8 +1251,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             95 => 
             array (
@@ -1264,8 +1264,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             96 => 
             array (
@@ -1277,8 +1277,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             97 => 
             array (
@@ -1290,8 +1290,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             98 => 
             array (
@@ -1303,8 +1303,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             99 => 
             array (
@@ -1316,8 +1316,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             100 => 
             array (
@@ -1329,8 +1329,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:06',
-                'updated_at' => '2025-04-03 11:01:06',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             101 => 
             array (
@@ -1342,8 +1342,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             102 => 
             array (
@@ -1355,8 +1355,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             103 => 
             array (
@@ -1368,8 +1368,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             104 => 
             array (
@@ -1381,8 +1381,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             105 => 
             array (
@@ -1394,8 +1394,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             106 => 
             array (
@@ -1407,8 +1407,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             107 => 
             array (
@@ -1420,8 +1420,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             108 => 
             array (
@@ -1433,8 +1433,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             109 => 
             array (
@@ -1446,8 +1446,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             110 => 
             array (
@@ -1459,8 +1459,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             111 => 
             array (
@@ -1472,8 +1472,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             112 => 
             array (
@@ -1485,8 +1485,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             113 => 
             array (
@@ -1498,8 +1498,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             114 => 
             array (
@@ -1511,8 +1511,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             115 => 
             array (
@@ -1524,8 +1524,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             116 => 
             array (
@@ -1537,8 +1537,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             117 => 
             array (
@@ -1550,8 +1550,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             118 => 
             array (
@@ -1563,8 +1563,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             119 => 
             array (
@@ -1576,8 +1576,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             120 => 
             array (
@@ -1589,8 +1589,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             121 => 
             array (
@@ -1602,8 +1602,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             122 => 
             array (
@@ -1615,8 +1615,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             123 => 
             array (
@@ -1628,8 +1628,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             124 => 
             array (
@@ -1641,8 +1641,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             125 => 
             array (
@@ -1654,8 +1654,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             126 => 
             array (
@@ -1667,8 +1667,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             127 => 
             array (
@@ -1680,8 +1680,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             128 => 
             array (
@@ -1693,8 +1693,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             129 => 
             array (
@@ -1706,8 +1706,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             130 => 
             array (
@@ -1719,8 +1719,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             131 => 
             array (
@@ -1732,8 +1732,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             132 => 
             array (
@@ -1745,8 +1745,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             133 => 
             array (
@@ -1758,8 +1758,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             134 => 
             array (
@@ -1771,8 +1771,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             135 => 
             array (
@@ -1784,8 +1784,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             136 => 
             array (
@@ -1797,8 +1797,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             137 => 
             array (
@@ -1810,8 +1810,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             138 => 
             array (
@@ -1823,8 +1823,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             139 => 
             array (
@@ -1836,8 +1836,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             140 => 
             array (
@@ -1849,8 +1849,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             141 => 
             array (
@@ -1862,8 +1862,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             142 => 
             array (
@@ -1875,8 +1875,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             143 => 
             array (
@@ -1888,8 +1888,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             144 => 
             array (
@@ -1901,8 +1901,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             145 => 
             array (
@@ -1914,8 +1914,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             146 => 
             array (
@@ -1927,8 +1927,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             147 => 
             array (
@@ -1940,8 +1940,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             148 => 
             array (
@@ -1953,8 +1953,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             149 => 
             array (
@@ -1966,8 +1966,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             150 => 
             array (
@@ -1979,8 +1979,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             151 => 
             array (
@@ -1992,8 +1992,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             152 => 
             array (
@@ -2005,8 +2005,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             153 => 
             array (
@@ -2018,8 +2018,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             154 => 
             array (
@@ -2031,8 +2031,8 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             155 => 
             array (
@@ -2044,21 +2044,21 @@ class EntradasTableSeeder extends Seeder
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
                 'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:01:07',
-                'updated_at' => '2025-04-03 11:01:07',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
             156 => 
             array (
-                'id' => 158,
+                'id' => 157,
                 'articulo_id' => 492,
                 'cantidad' => 252,
                 'precio' => '635.04',
                 'origen' => 'compra',
                 'descripcion' => 'Existencias al 28 de marzo de 2025',
-                'creado_por' => 1,
+                'creado_por' => NULL,
                 'actualizado_por' => NULL,
-                'created_at' => '2025-04-03 11:05:28',
-                'updated_at' => '2025-04-03 11:05:28',
+                'created_at' => '2025-04-03 11:27:02',
+                'updated_at' => '2025-04-03 11:27:02',
             ),
         ));
         
