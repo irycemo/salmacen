@@ -14,12 +14,12 @@ class ArticulosTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('articulos')->delete();
-        
+
         \DB::table('articulos')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'nombre' => 'banderitas auto adheribles',
@@ -32,7 +32,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'nombre' => 'bolígrafo punto fino tinta azul',
@@ -45,7 +45,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'nombre' => 'bolígrafo punto fino tinta negro',
@@ -58,7 +58,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'nombre' => 'bolígrafo punto fino tinta rojo',
@@ -71,7 +71,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'nombre' => 'bolígrafo punto mediano azul',
@@ -84,7 +84,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'nombre' => 'bolígrafo punto mediano negro',
@@ -97,7 +97,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'nombre' => 'bolígrafo punto mediano rojo',
@@ -110,7 +110,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 8,
                 'nombre' => 'bolígrafo roller ball gel azul',
@@ -123,7 +123,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 9,
                 'nombre' => 'bolígrafo roller ball gel negro',
@@ -136,7 +136,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 10,
                 'nombre' => 'broches para archivo no.8 ',
@@ -149,7 +149,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 11,
                 'nombre' => 'caja archivo muerto alta resistencia oficio',
@@ -162,7 +162,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 12,
                 'nombre' => 'caja archivo muerto de plástico tamaño oficio',
@@ -175,7 +175,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 13,
                 'nombre' => 'caja guarda historia tamaño oficio',
@@ -188,7 +188,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 14,
                 'nombre' => 'caja para archivo tamaño carta',
@@ -201,7 +201,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 15,
                 'nombre' => 'caja para archivo tamaño oficio',
@@ -214,7 +214,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 16,
                 'nombre' => 'calculadora de escritorio',
@@ -227,7 +227,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 17,
                 'nombre' => 'carpeta con broche metálico tamaño carta',
@@ -240,7 +240,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 18,
                 'nombre' => 'carpeta con broche metálico tamaño oficio',
@@ -253,7 +253,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 19,
                 'nombre' => 'carpeta con palanca metálica tamaño carta',
@@ -266,7 +266,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 20,
                 'nombre' => 'carpeta con palanca metálica tamaño oficio',
@@ -279,7 +279,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 21,
                 'nombre' => 'carpeta de vinil con 3 argollas 1/2 ',
@@ -292,7 +292,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 22,
                 'nombre' => 'carpeta de vinil con 3 argollas de 1',
@@ -305,7 +305,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 23,
                 'nombre' => 'carpeta de vinil con 3 argollas de 2',
@@ -318,7 +318,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 24,
                 'nombre' => 'carpeta de vinil con 3 argollas de 3',
@@ -331,7 +331,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 25,
                 'nombre' => 'carpeta de vinil con 3 argollas de 4',
@@ -344,7 +344,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 26,
                 'nombre' => 'cartulina opalina tamaño carta gruesa. ',
@@ -357,7 +357,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 27,
                 'nombre' => 'charola de escritorio para documentos carta',
@@ -370,7 +370,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 28,
                 'nombre' => 'charolas de escritorio para documentos carta',
@@ -383,7 +383,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 29,
                 'nombre' => 'cinta adhesiva 24x65',
@@ -396,7 +396,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 30,
                 'nombre' => 'cinta adhesiva transparente 12 x 33',
@@ -409,7 +409,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 31,
                 'nombre' => 'cinta adhesiva transparente 18 mm  x 65m',
@@ -422,7 +422,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 32,
                 'nombre' => 'cinta adhesiva transparente 18 x 33',
@@ -435,7 +435,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 33,
                 'nombre' => 'cinta canela',
@@ -448,7 +448,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 34,
                 'nombre' => 'cinta masking tape 1',
@@ -461,7 +461,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 35,
                 'nombre' => 'cinta masking tape 2',
@@ -474,7 +474,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 36,
                 'nombre' => 'clip estándar no. 1',
@@ -487,7 +487,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 37,
                 'nombre' => 'clip mariposa no. 1',
@@ -500,7 +500,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 38,
                 'nombre' => 'clip mariposa no.2',
@@ -513,7 +513,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 39,
                 'nombre' => 'clip sujetadocumentos 15 mm',
@@ -526,7 +526,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 40,
                 'nombre' => 'clip sujetadocumentos 19 mm',
@@ -539,7 +539,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 41,
                 'nombre' => 'clip sujetadocumentos 25 mm',
@@ -552,7 +552,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 42,
                 'nombre' => 'clip sujetadocumentos 32 mm',
@@ -565,7 +565,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 43,
                 'nombre' => 'clip sujetadocumentos 50 mm',
@@ -578,7 +578,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 44,
                 'nombre' => 'clips estándar no.2 ',
@@ -591,7 +591,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 45,
                 'nombre' => 'cojín para sello no. 2',
@@ -604,7 +604,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 46,
                 'nombre' => 'corrector en cinta',
@@ -617,7 +617,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 47,
                 'nombre' => 'corrector líquido con brocha',
@@ -630,7 +630,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 48,
                 'nombre' => 'cuenta fácil',
@@ -643,7 +643,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 49,
                 'nombre' => 'cutter grande',
@@ -656,7 +656,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 50,
                 'nombre' => 'dedal de hule no. 12',
@@ -669,7 +669,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 51,
                 'nombre' => 'engrapadora tira completa de golpe',
@@ -682,7 +682,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 52,
                 'nombre' => 'engrapadora uso pesado',
@@ -695,7 +695,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 53,
                 'nombre' => 'folder tamaño carta ',
@@ -708,7 +708,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 54,
                 'nombre' => 'folder tamaño oficio ',
@@ -721,7 +721,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 55,
                 'nombre' => 'foliador de 6 dígitos',
@@ -734,7 +734,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 56,
                 'nombre' => 'goma de migajón',
@@ -747,7 +747,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 57,
             'nombre' => 'grapa uso rudo  23.81 mm (15/16\'\')',
@@ -760,7 +760,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 58,
                 'nombre' => 'grapas estándar',
@@ -773,7 +773,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 59,
             'nombre' => 'grapas uso rudo  14.29 mm (9/16\'\')',
@@ -786,7 +786,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 60,
             'nombre' => 'grapas uso rudo  20.64 mm (13/16\'\')',
@@ -799,7 +799,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 61,
             'nombre' => 'grapas uso rudo  9.53 mm (3/8\'\')',
@@ -812,7 +812,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 62,
                 'nombre' => 'hojas de colores paquete de 100 hojas',
@@ -825,7 +825,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 63,
                 'nombre' => 'lápiz adhesivo',
@@ -838,7 +838,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 64,
                 'nombre' => 'lápiz bicolor hexagonal',
@@ -851,7 +851,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 65,
                 'nombre' => 'lápiz no. 2 hexagonal',
@@ -864,7 +864,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 66,
                 'nombre' => 'libreta de pasta gruesa forma francesa de raya',
@@ -877,7 +877,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 67,
                 'nombre' => 'libreta de pasta gruesa forma italiana de raya',
@@ -890,7 +890,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 68,
                 'nombre' => 'libreta de raya profesional',
@@ -903,7 +903,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 69,
                 'nombre' => 'libreta de taquigrafía',
@@ -916,7 +916,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 70,
                 'nombre' => 'libro florete sin índice forma francesa',
@@ -929,7 +929,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 71,
                 'nombre' => 'ligas de hule #18',
@@ -942,7 +942,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 72,
                 'nombre' => 'ligas de hule #33',
@@ -955,7 +955,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 73,
                 'nombre' => 'marcador permanente color azul',
@@ -968,7 +968,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 74,
                 'nombre' => 'marcador permanente color negro',
@@ -981,7 +981,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 75,
                 'nombre' => 'marcador permanente ultra fino color negro',
@@ -994,7 +994,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 76,
                 'nombre' => 'marcador de tinta fugaz para pintarrón azul',
@@ -1007,7 +1007,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 77,
                 'nombre' => 'marcador de tinta fugaz para pintarrón negro',
@@ -1020,7 +1020,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 78,
                 'nombre' => 'notas adhesivas 3 x 3',
@@ -1033,7 +1033,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 79,
                 'nombre' => 'papel  bond original tamaño carta  ',
@@ -1046,7 +1046,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 80,
                 'nombre' => 'papel  bond original tamaño oficio ',
@@ -1059,7 +1059,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 81,
                 'nombre' => 'papel opalina tamaño carta ',
@@ -1072,7 +1072,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 82,
                 'nombre' => 'perforadora de 2 orificios',
@@ -1085,7 +1085,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 83,
                 'nombre' => 'perforadora de 3 orificios',
@@ -1098,7 +1098,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 84,
                 'nombre' => 'plumón marca texto  rosa',
@@ -1111,7 +1111,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 85,
                 'nombre' => 'plumón marca texto amarillo',
@@ -1124,7 +1124,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 86,
                 'nombre' => 'plumón marca texto azul',
@@ -1137,7 +1137,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 87,
                 'nombre' => 'plumón marca texto naranja',
@@ -1150,7 +1150,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 88,
                 'nombre' => 'plumón marca texto verde',
@@ -1163,7 +1163,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 89,
                 'nombre' => 'protector para hojas tamaño carta',
@@ -1176,7 +1176,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 90,
                 'nombre' => 'quitagrapas',
@@ -1189,7 +1189,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 91,
                 'nombre' => 'recopiladores tamaño carta dos arillos',
@@ -1202,7 +1202,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 92,
                 'nombre' => 'recopiladores tamaño oficio dos arillos',
@@ -1215,7 +1215,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 93,
                 'nombre' => 'regla metálica 30 cm',
@@ -1228,7 +1228,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 94,
                 'nombre' => 'rollos térmico  80x80',
@@ -1241,7 +1241,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 95,
                 'nombre' => 'sacapuntas metálico',
@@ -1254,7 +1254,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 96,
                 'nombre' => 'separador de hojas con 5 divisiones',
@@ -1267,7 +1267,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 97,
                 'nombre' => 'separador de hojas con 8 divisiones',
@@ -1280,7 +1280,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 98,
                 'nombre' => 'separadores plástico c/12 divisiones',
@@ -1293,7 +1293,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 99,
                 'nombre' => 'sobre bolsa amarillo con solapa engomada tamaño carta',
@@ -1306,7 +1306,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 100,
                 'nombre' => 'sobre bolsa amarillo con solapa engomada tamaño oficio',
@@ -1319,7 +1319,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 101,
                 'nombre' => 'sobre bolsa amarillo tamaño esquela con solapa engomada',
@@ -1332,7 +1332,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 102,
                 'nombre' => 'sobre bolsa tamaño radiografía',
@@ -1345,7 +1345,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 103,
                 'nombre' => 'sobres para cd blancos',
@@ -1358,7 +1358,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 104,
                 'nombre' => 'tabla de madera sujeta documentos con clip tamaño oficio',
@@ -1371,7 +1371,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 105,
                 'nombre' => 'tarjeta bristol 3x5',
@@ -1384,7 +1384,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 106,
                 'nombre' => 'tijeras metálicas no. 6',
@@ -1397,7 +1397,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 107,
                 'nombre' => 'tinta para sello color azul',
@@ -1410,7 +1410,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 108,
                 'nombre' => 'tinta para sello color negro',
@@ -1423,7 +1423,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 109,
                 'nombre' => 'tinta para sello color rojo',
@@ -1436,7 +1436,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 110,
                 'nombre' => 'tinta protectora de cheques azul',
@@ -1449,7 +1449,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 111,
                 'nombre' => 'tinta protectora de cheques negro',
@@ -1462,7 +1462,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 112,
                 'nombre' => 'tinta protectora de cheques rojo',
@@ -1475,7 +1475,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 113,
                 'nombre' => 'aire comprimido',
@@ -1488,7 +1488,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 114,
                 'nombre' => 'espuma limpiadora',
@@ -1501,7 +1501,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 115,
                 'nombre' => 'memoria usb flash 32 gb',
@@ -1514,7 +1514,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 116,
                 'nombre' => 'memoria usb flash 64 gb',
@@ -1527,7 +1527,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 117,
                 'nombre' => 'memoria usb flash 128 gb',
@@ -1540,7 +1540,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 118,
                 'nombre' => 'memoria usb flash 256 gb',
@@ -1553,7 +1553,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 119,
                 'nombre' => 'torre de discos  cd-r',
@@ -1566,7 +1566,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 120,
                 'nombre' => 'torre de discos dvd-r',
@@ -1579,7 +1579,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 121,
                 'nombre' => 'cartucho 195 t195120al bk negro genérico',
@@ -1592,7 +1592,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 122,
                 'nombre' => 'cartucho 195 t195220al c cian genérico',
@@ -1605,7 +1605,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 123,
                 'nombre' => 'cartucho 195 t195320al m magenta genérico',
@@ -1618,7 +1618,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 124,
                 'nombre' => 'cartucho 195 t195420al y amarillo genérico',
@@ -1631,7 +1631,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 125,
                 'nombre' => 'cartucho 21a c9351al negro genérico',
@@ -1644,7 +1644,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 126,
                 'nombre' => 'cartucho 60xl cc641wl negro genérico',
@@ -1657,7 +1657,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 127,
                 'nombre' => 'cartucho 60xl cc644wl tricolor genérico',
@@ -1670,7 +1670,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 128,
                 'nombre' => 'cartucho 662xl cz105al negro genérico',
@@ -1683,7 +1683,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 129,
                 'nombre' => 'cartucho 662xl cz106al tricolor genérico',
@@ -1696,7 +1696,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 130,
                 'nombre' => 'cartucho 664xl f6v28al tricolor genérico',
@@ -1709,7 +1709,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 131,
                 'nombre' => 'cartucho 664xl f6v31al negro genérico',
@@ -1722,7 +1722,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 132,
                 'nombre' => 'cartucho 711 cz129a negro genérico',
@@ -1735,7 +1735,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 133,
                 'nombre' => 'cartucho 711 cz130a cian genérico',
@@ -1748,7 +1748,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 134,
                 'nombre' => 'cartucho 711 cz131a magenta genérico',
@@ -1761,7 +1761,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 135,
                 'nombre' => 'cartucho 711 cz132a amarillo genérico',
@@ -1774,7 +1774,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 136,
                 'nombre' => 'cartucho 920xl cd972al cian genérico',
@@ -1787,7 +1787,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 137,
                 'nombre' => 'cartucho 920xl cd973al magenta genérico',
@@ -1800,7 +1800,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 138,
                 'nombre' => 'cartucho 920xl cd974al amarillo genérico',
@@ -1813,7 +1813,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 139,
                 'nombre' => 'cartucho 920xl cd975al negro genérico',
@@ -1826,7 +1826,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 140,
                 'nombre' => 'cartucho 950xl cn045al negro genérico',
@@ -1839,7 +1839,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 141,
                 'nombre' => 'cartucho 951xl cn046al cyan genérico',
@@ -1852,7 +1852,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 142,
                 'nombre' => 'cartucho 951xl cn047al magenta genérico',
@@ -1865,7 +1865,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            142 => 
+            142 =>
             array (
                 'id' => 143,
                 'nombre' => 'cartucho 951xl cn048al amarillo genérico',
@@ -1878,7 +1878,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            143 => 
+            143 =>
             array (
                 'id' => 144,
                 'nombre' => 'cartucho 954xl l0s62al cian genérico',
@@ -1891,7 +1891,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            144 => 
+            144 =>
             array (
                 'id' => 145,
                 'nombre' => 'cartucho 954xl l0s65al magenta genérico',
@@ -1904,7 +1904,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            145 => 
+            145 =>
             array (
                 'id' => 146,
                 'nombre' => 'cartucho 954xl l0s68al amarillo genérico',
@@ -1917,7 +1917,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            146 => 
+            146 =>
             array (
                 'id' => 147,
                 'nombre' => 'cartucho 954xl l0s71al negro genérico',
@@ -1930,7 +1930,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            147 => 
+            147 =>
             array (
                 'id' => 148,
                 'nombre' => 'cartucho 970xl cn6221am negro genérico',
@@ -1943,7 +1943,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            148 => 
+            148 =>
             array (
                 'id' => 149,
                 'nombre' => 'cartucho 971xl cn622am cian genérico',
@@ -1956,7 +1956,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            149 => 
+            149 =>
             array (
                 'id' => 150,
                 'nombre' => 'cartucho 971xl cn623am magenta genérico',
@@ -1969,7 +1969,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            150 => 
+            150 =>
             array (
                 'id' => 151,
                 'nombre' => 'cartucho 971xl cn624am amarillo genérico',
@@ -1982,7 +1982,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            151 => 
+            151 =>
             array (
                 'id' => 152,
                 'nombre' => 'tóner 05a ce505a negro genérico',
@@ -1995,7 +1995,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            152 => 
+            152 =>
             array (
                 'id' => 153,
                 'nombre' => 'tóner 10a q2610a negro genérico',
@@ -2008,7 +2008,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            153 => 
+            153 =>
             array (
                 'id' => 154,
                 'nombre' => 'tóner 124a q6000a negro genérico',
@@ -2021,7 +2021,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            154 => 
+            154 =>
             array (
                 'id' => 155,
                 'nombre' => 'tóner 124a q6001a cian genérico',
@@ -2034,7 +2034,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            155 => 
+            155 =>
             array (
                 'id' => 156,
                 'nombre' => 'tóner 124a q6002a amarillo genérico',
@@ -2047,7 +2047,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            156 => 
+            156 =>
             array (
                 'id' => 157,
                 'nombre' => 'tóner 124a q6003a magenta genérico',
@@ -2060,7 +2060,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            157 => 
+            157 =>
             array (
                 'id' => 158,
                 'nombre' => 'tóner 125a cb540a negro genérico',
@@ -2073,7 +2073,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            158 => 
+            158 =>
             array (
                 'id' => 159,
                 'nombre' => 'tóner 125a cb541a cian genérico',
@@ -2086,7 +2086,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            159 => 
+            159 =>
             array (
                 'id' => 160,
                 'nombre' => 'tóner 125a cb542a amarillo genérico',
@@ -2099,7 +2099,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            160 => 
+            160 =>
             array (
                 'id' => 161,
                 'nombre' => 'tóner 125a cb543a magenta genérico',
@@ -2112,7 +2112,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            161 => 
+            161 =>
             array (
                 'id' => 162,
                 'nombre' => 'tóner 128a ce320a negro genérico',
@@ -2125,7 +2125,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            162 => 
+            162 =>
             array (
                 'id' => 163,
                 'nombre' => 'tóner 128a ce321a cian genérico',
@@ -2138,7 +2138,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            163 => 
+            163 =>
             array (
                 'id' => 164,
                 'nombre' => 'tóner 128a ce322a amarillo genérico',
@@ -2151,7 +2151,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            164 => 
+            164 =>
             array (
                 'id' => 165,
                 'nombre' => 'tóner 128a ce323a magenta genérico',
@@ -2164,7 +2164,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            165 => 
+            165 =>
             array (
                 'id' => 166,
                 'nombre' => 'tóner 12a q2612a negro genérico',
@@ -2177,7 +2177,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            166 => 
+            166 =>
             array (
                 'id' => 167,
                 'nombre' => 'tóner 131a cf210a negro genérico',
@@ -2190,7 +2190,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            167 => 
+            167 =>
             array (
                 'id' => 168,
                 'nombre' => 'tóner 131a cf211a cian genérico',
@@ -2203,7 +2203,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            168 => 
+            168 =>
             array (
                 'id' => 169,
                 'nombre' => 'tóner 131a cf212a amarillo genérico',
@@ -2216,7 +2216,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            169 => 
+            169 =>
             array (
                 'id' => 170,
                 'nombre' => 'tóner 131a cf213a magenta genérico',
@@ -2229,7 +2229,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            170 => 
+            170 =>
             array (
                 'id' => 171,
                 'nombre' => 'tóner 17a cf217a negro genérico',
@@ -2242,7 +2242,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            171 => 
+            171 =>
             array (
                 'id' => 172,
                 'nombre' => 'tóner 204a cf510a negro genérico',
@@ -2255,7 +2255,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            172 => 
+            172 =>
             array (
                 'id' => 173,
                 'nombre' => 'tóner 204a cf511a cian genérico',
@@ -2268,7 +2268,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            173 => 
+            173 =>
             array (
                 'id' => 174,
                 'nombre' => 'tóner 204a cf512a amarillo genérico',
@@ -2281,7 +2281,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            174 => 
+            174 =>
             array (
                 'id' => 175,
                 'nombre' => 'tóner 204a cf513 magenta genérico',
@@ -2294,7 +2294,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            175 => 
+            175 =>
             array (
                 'id' => 176,
                 'nombre' => 'tóner 26a cf226a negro genérico',
@@ -2307,7 +2307,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            176 => 
+            176 =>
             array (
                 'id' => 177,
                 'nombre' => 'tóner 304a cc530a cp2025 negro genérico',
@@ -2320,7 +2320,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            177 => 
+            177 =>
             array (
                 'id' => 178,
                 'nombre' => 'tóner 304a cc531a cp2025 cian genérico',
@@ -2333,7 +2333,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            178 => 
+            178 =>
             array (
                 'id' => 179,
                 'nombre' => 'tóner 304a cc532a cp2025 amarillo genérico',
@@ -2346,7 +2346,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            179 => 
+            179 =>
             array (
                 'id' => 180,
                 'nombre' => 'tóner 304a cc533a cp2025 magenta genérico',
@@ -2359,7 +2359,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            180 => 
+            180 =>
             array (
                 'id' => 181,
                 'nombre' => 'tóner 305a ce411a cian genérico',
@@ -2372,7 +2372,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            181 => 
+            181 =>
             array (
                 'id' => 182,
                 'nombre' => 'tóner 305a ce412a amarillo genérico',
@@ -2385,7 +2385,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            182 => 
+            182 =>
             array (
                 'id' => 183,
                 'nombre' => 'tóner 305a ce413a magenta genérico',
@@ -2398,7 +2398,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            183 => 
+            183 =>
             array (
                 'id' => 184,
                 'nombre' => 'tóner 305x ce410x negro genérico',
@@ -2411,7 +2411,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            184 => 
+            184 =>
             array (
                 'id' => 185,
                 'nombre' => 'tóner 35a  cb435a negro genérico',
@@ -2424,7 +2424,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            185 => 
+            185 =>
             array (
                 'id' => 186,
                 'nombre' => 'tóner 36a cb436a negro genérico',
@@ -2437,7 +2437,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            186 => 
+            186 =>
             array (
                 'id' => 187,
                 'nombre' => 'tóner 410a cf410a negro genérico',
@@ -2450,7 +2450,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            187 => 
+            187 =>
             array (
                 'id' => 188,
                 'nombre' => 'tóner 410a cf411a cian genérico',
@@ -2463,7 +2463,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            188 => 
+            188 =>
             array (
                 'id' => 189,
                 'nombre' => 'tóner 410a cf412a amarillo genérico',
@@ -2476,7 +2476,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            189 => 
+            189 =>
             array (
                 'id' => 190,
                 'nombre' => 'tóner 410a cf413a magenta genérico',
@@ -2489,7 +2489,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            190 => 
+            190 =>
             array (
                 'id' => 191,
                 'nombre' => 'tóner 49a q5949a negro genérico',
@@ -2502,7 +2502,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            191 => 
+            191 =>
             array (
                 'id' => 192,
                 'nombre' => 'tóner 53a q7553a genérico',
@@ -2515,7 +2515,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            192 => 
+            192 =>
             array (
                 'id' => 193,
                 'nombre' => 'tóner 55x ce255x genérico',
@@ -2528,7 +2528,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            193 => 
+            193 =>
             array (
                 'id' => 194,
                 'nombre' => 'tóner 64x cc364xd negro genérico',
@@ -2541,7 +2541,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            194 => 
+            194 =>
             array (
                 'id' => 195,
                 'nombre' => 'tóner 78a ce278a negro genérico',
@@ -2554,7 +2554,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            195 => 
+            195 =>
             array (
                 'id' => 196,
                 'nombre' => 'tóner 80a cf280a negro genérico',
@@ -2567,7 +2567,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            196 => 
+            196 =>
             array (
                 'id' => 197,
                 'nombre' => 'tóner 83a cf283a negro genérico',
@@ -2580,7 +2580,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            197 => 
+            197 =>
             array (
                 'id' => 198,
                 'nombre' => 'tóner 85a ce285a negro genérico',
@@ -2593,7 +2593,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            198 => 
+            198 =>
             array (
                 'id' => 199,
                 'nombre' => 'tóner 90a ce390a negro genérico',
@@ -2606,7 +2606,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            199 => 
+            199 =>
             array (
                 'id' => 200,
                 'nombre' => 'tóner 974a l0r87al cian genérico',
@@ -2619,7 +2619,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            200 => 
+            200 =>
             array (
                 'id' => 201,
                 'nombre' => 'tóner 974a l0r90al magenta genérico',
@@ -2632,7 +2632,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            201 => 
+            201 =>
             array (
                 'id' => 202,
                 'nombre' => 'tóner 974a l0r93al amarillo genérico',
@@ -2645,7 +2645,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            202 => 
+            202 =>
             array (
                 'id' => 203,
                 'nombre' => 'tóner 974a l0r96al negro genérico',
@@ -2658,7 +2658,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            203 => 
+            203 =>
             array (
                 'id' => 204,
                 'nombre' => 'tóner mlt d104s genérico',
@@ -2671,7 +2671,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            204 => 
+            204 =>
             array (
                 'id' => 205,
                 'nombre' => 'tóner mlt d111s negro genérico',
@@ -2684,7 +2684,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            205 => 
+            205 =>
             array (
                 'id' => 206,
                 'nombre' => 'tóner mlt d205l ml 3710 3310 negro genérico',
@@ -2697,7 +2697,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            206 => 
+            206 =>
             array (
                 'id' => 207,
                 'nombre' => 'tóner tk1112 fs1060dn genérico',
@@ -2710,7 +2710,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            207 => 
+            207 =>
             array (
                 'id' => 208,
                 'nombre' => 'tóner tk-1152 ecosys p2235 dn genérico',
@@ -2723,7 +2723,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            208 => 
+            208 =>
             array (
                 'id' => 209,
                 'nombre' => 'tóner tk-132 ecosys genérico',
@@ -2736,7 +2736,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            209 => 
+            209 =>
             array (
                 'id' => 210,
                 'nombre' => 'tóner tk-172 ecosys genérico',
@@ -2749,7 +2749,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            210 => 
+            210 =>
             array (
                 'id' => 211,
                 'nombre' => 'tinta 544 bk negro genérico',
@@ -2762,7 +2762,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            211 => 
+            211 =>
             array (
                 'id' => 212,
                 'nombre' => 'tinta 544 c cyan genérico',
@@ -2775,7 +2775,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            212 => 
+            212 =>
             array (
                 'id' => 213,
                 'nombre' => 'tinta 544 m magenta genérico',
@@ -2788,7 +2788,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            213 => 
+            213 =>
             array (
                 'id' => 214,
                 'nombre' => 'tinta 544 y amarillo genérico',
@@ -2801,7 +2801,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            214 => 
+            214 =>
             array (
                 'id' => 215,
                 'nombre' => 'tinta 664 t6641 bk negro genérico',
@@ -2814,7 +2814,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            215 => 
+            215 =>
             array (
                 'id' => 216,
                 'nombre' => 'tinta 664 t6642 c cyan genérico',
@@ -2827,7 +2827,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            216 => 
+            216 =>
             array (
                 'id' => 217,
                 'nombre' => 'tinta 664 t6643 m magenta genérico',
@@ -2840,7 +2840,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            217 => 
+            217 =>
             array (
                 'id' => 218,
                 'nombre' => 'tinta 664 t6643 y amarillo genérico',
@@ -2853,7 +2853,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            218 => 
+            218 =>
             array (
                 'id' => 219,
                 'nombre' => 'tinta 673 bk negro genérico',
@@ -2866,7 +2866,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            219 => 
+            219 =>
             array (
                 'id' => 220,
                 'nombre' => 'tinta 673 c cyan genérico',
@@ -2879,7 +2879,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            220 => 
+            220 =>
             array (
                 'id' => 221,
                 'nombre' => 'tinta 673 m magenta genérico',
@@ -2892,7 +2892,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            221 => 
+            221 =>
             array (
                 'id' => 222,
                 'nombre' => 'tinta 673 y amarillo genérico',
@@ -2905,7 +2905,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            222 => 
+            222 =>
             array (
                 'id' => 223,
                 'nombre' => 'tinta 674 bk negro genérico',
@@ -2918,7 +2918,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            223 => 
+            223 =>
             array (
                 'id' => 224,
                 'nombre' => 'tinta 674 c cyan genérico',
@@ -2931,7 +2931,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            224 => 
+            224 =>
             array (
                 'id' => 225,
                 'nombre' => 'tinta 674 m magenta genérico',
@@ -2944,7 +2944,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            225 => 
+            225 =>
             array (
                 'id' => 226,
                 'nombre' => 'tinta 674 y amarillo genérico',
@@ -2957,7 +2957,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            226 => 
+            226 =>
             array (
                 'id' => 227,
                 'nombre' => 'tinta 774 bk negro genérico',
@@ -2970,7 +2970,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            227 => 
+            227 =>
             array (
                 'id' => 228,
                 'nombre' => 'tinta 122 negro genérico',
@@ -2983,7 +2983,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            228 => 
+            228 =>
             array (
                 'id' => 229,
                 'nombre' => 'tinta 122 tricolor  genérico',
@@ -2996,7 +2996,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            229 => 
+            229 =>
             array (
                 'id' => 230,
                 'nombre' => 'tinta gt52 amarillo genérico',
@@ -3009,7 +3009,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            230 => 
+            230 =>
             array (
                 'id' => 231,
                 'nombre' => 'tinta gt52 cyan genérico',
@@ -3022,7 +3022,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            231 => 
+            231 =>
             array (
                 'id' => 232,
                 'nombre' => 'tinta gt52 magenta genérico',
@@ -3035,7 +3035,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            232 => 
+            232 =>
             array (
                 'id' => 233,
                 'nombre' => 'tinta gt53 negro genérico',
@@ -3048,7 +3048,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            233 => 
+            233 =>
             array (
                 'id' => 234,
                 'nombre' => 'tinta pfi-050 bk negro genérico',
@@ -3061,7 +3061,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            234 => 
+            234 =>
             array (
                 'id' => 235,
                 'nombre' => 'tinta pfi-050 c cyan  genérico',
@@ -3074,7 +3074,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            235 => 
+            235 =>
             array (
                 'id' => 236,
                 'nombre' => 'tinta pfi-050 m magenta genérico',
@@ -3087,7 +3087,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            236 => 
+            236 =>
             array (
                 'id' => 237,
                 'nombre' => 'tinta pfi-050 y amarillo genérico',
@@ -3100,7 +3100,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            237 => 
+            237 =>
             array (
                 'id' => 238,
                 'nombre' => 'tinta t504 bk negro genérico',
@@ -3113,7 +3113,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            238 => 
+            238 =>
             array (
                 'id' => 239,
                 'nombre' => 'tinta t504 c cyan genérico',
@@ -3126,7 +3126,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            239 => 
+            239 =>
             array (
                 'id' => 240,
                 'nombre' => 'tinta t504 m magenta genérico',
@@ -3139,7 +3139,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            240 => 
+            240 =>
             array (
                 'id' => 241,
                 'nombre' => 'tinta t504 y amarillo genérico',
@@ -3152,7 +3152,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            241 => 
+            241 =>
             array (
                 'id' => 242,
                 'nombre' => 'tóner 045 h black genérico',
@@ -3165,7 +3165,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            242 => 
+            242 =>
             array (
                 'id' => 243,
                 'nombre' => 'tóner 045 h cyan genérico',
@@ -3178,7 +3178,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            243 => 
+            243 =>
             array (
                 'id' => 244,
                 'nombre' => 'tóner 045 h magenta genérico',
@@ -3191,7 +3191,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            244 => 
+            244 =>
             array (
                 'id' => 245,
                 'nombre' => 'tóner 045 h yellow genérico',
@@ -3204,7 +3204,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            245 => 
+            245 =>
             array (
                 'id' => 246,
                 'nombre' => 'tóner 1170 d negro genérico',
@@ -3217,7 +3217,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            246 => 
+            246 =>
             array (
                 'id' => 247,
                 'nombre' => 'tóner 55b4000 negro genérico',
@@ -3230,7 +3230,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            247 => 
+            247 =>
             array (
                 'id' => 248,
                 'nombre' => 'tóner b405 genérico',
@@ -3243,7 +3243,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            248 => 
+            248 =>
             array (
                 'id' => 249,
                 'nombre' => 'tóner 103a w1103a negro genérico',
@@ -3256,7 +3256,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            249 => 
+            249 =>
             array (
                 'id' => 250,
                 'nombre' => 'tóner 105a negro laser jet w1105a genérico',
@@ -3269,7 +3269,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            250 => 
+            250 =>
             array (
                 'id' => 251,
                 'nombre' => 'tóner 126a ce310a negro genérico',
@@ -3282,7 +3282,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            251 => 
+            251 =>
             array (
                 'id' => 252,
                 'nombre' => 'tóner 126a ce311a cian genérico',
@@ -3295,7 +3295,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            252 => 
+            252 =>
             array (
                 'id' => 253,
                 'nombre' => 'tóner 126a ce312a amarillo genérico',
@@ -3308,7 +3308,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            253 => 
+            253 =>
             array (
                 'id' => 254,
                 'nombre' => 'tóner 126a ce313a magenta genérico',
@@ -3321,7 +3321,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            254 => 
+            254 =>
             array (
                 'id' => 255,
                 'nombre' => 'tóner 130a amarillo genérico',
@@ -3334,7 +3334,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            255 => 
+            255 =>
             array (
                 'id' => 256,
                 'nombre' => 'tóner 130a cyan genérico',
@@ -3347,7 +3347,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            256 => 
+            256 =>
             array (
                 'id' => 257,
                 'nombre' => 'tóner 130a magenta genérico',
@@ -3360,7 +3360,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            257 => 
+            257 =>
             array (
                 'id' => 258,
                 'nombre' => 'tóner 130a negro  genérico',
@@ -3373,7 +3373,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            258 => 
+            258 =>
             array (
                 'id' => 259,
                 'nombre' => 'tóner 145a laserjet w1450a negro genérico',
@@ -3386,7 +3386,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            259 => 
+            259 =>
             array (
                 'id' => 260,
                 'nombre' => 'tóner 150a w1500a negro genérico',
@@ -3399,7 +3399,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            260 => 
+            260 =>
             array (
                 'id' => 261,
                 'nombre' => 'tóner 201a cf400a negro genérico',
@@ -3412,7 +3412,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            261 => 
+            261 =>
             array (
                 'id' => 262,
                 'nombre' => 'tóner 201a cf401a cyan genérico',
@@ -3425,7 +3425,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            262 => 
+            262 =>
             array (
                 'id' => 263,
                 'nombre' => 'tóner 201a cf402a yellow genérico',
@@ -3438,7 +3438,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            263 => 
+            263 =>
             array (
                 'id' => 264,
                 'nombre' => 'tóner 201a cf403a magenta genérico',
@@ -3451,7 +3451,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            264 => 
+            264 =>
             array (
                 'id' => 265,
                 'nombre' => 'tóner 30a cf230a negro genérico',
@@ -3464,7 +3464,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            265 => 
+            265 =>
             array (
                 'id' => 266,
                 'nombre' => 'tóner 30x cf230x negro genérico',
@@ -3477,7 +3477,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            266 => 
+            266 =>
             array (
                 'id' => 267,
                 'nombre' => 'tóner 32a cf232a negro genérico',
@@ -3490,7 +3490,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            267 => 
+            267 =>
             array (
                 'id' => 268,
                 'nombre' => 'tóner 414a w2020a black genérico',
@@ -3503,7 +3503,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            268 => 
+            268 =>
             array (
                 'id' => 269,
                 'nombre' => 'tóner 414a w2021a cyan genérico',
@@ -3516,7 +3516,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            269 => 
+            269 =>
             array (
                 'id' => 270,
                 'nombre' => 'tóner 414a w2022a yellow genérico',
@@ -3529,7 +3529,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            270 => 
+            270 =>
             array (
                 'id' => 271,
                 'nombre' => 'tóner 414a w2023a magenta genérico',
@@ -3542,7 +3542,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            271 => 
+            271 =>
             array (
                 'id' => 272,
                 'nombre' => 'tóner 48a negro cf248a genérico',
@@ -3555,7 +3555,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            272 => 
+            272 =>
             array (
                 'id' => 273,
                 'nombre' => 'tóner 507a ce400a negro genérico',
@@ -3568,7 +3568,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            273 => 
+            273 =>
             array (
                 'id' => 274,
                 'nombre' => 'tóner 507a ce401a cyan genérico',
@@ -3581,7 +3581,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            274 => 
+            274 =>
             array (
                 'id' => 275,
                 'nombre' => 'tóner 507a ce402a yelow genérico',
@@ -3594,7 +3594,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            275 => 
+            275 =>
             array (
                 'id' => 276,
                 'nombre' => 'tóner 507a ce403a magenta genérico',
@@ -3607,7 +3607,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            276 => 
+            276 =>
             array (
                 'id' => 277,
                 'nombre' => 'tóner 58x cf258x negro genérico',
@@ -3620,7 +3620,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            277 => 
+            277 =>
             array (
                 'id' => 278,
                 'nombre' => 'tóner 79a cf279a negro genérico',
@@ -3633,7 +3633,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            278 => 
+            278 =>
             array (
                 'id' => 279,
                 'nombre' => 'tóner 87x cf287x negro genérico',
@@ -3646,7 +3646,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            279 => 
+            279 =>
             array (
                 'id' => 280,
                 'nombre' => 'tóner 89a cf289a negro genérico',
@@ -3659,7 +3659,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            280 => 
+            280 =>
             array (
                 'id' => 281,
                 'nombre' => 'tóner 151a laserjet w1510a negro genérico',
@@ -3672,7 +3672,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            281 => 
+            281 =>
             array (
                 'id' => 282,
                 'nombre' => 'tóner mlt d209l negro genérico',
@@ -3685,7 +3685,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            282 => 
+            282 =>
             array (
                 'id' => 283,
                 'nombre' => 'tóner 101s negro genérico',
@@ -3698,7 +3698,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            283 => 
+            283 =>
             array (
                 'id' => 284,
                 'nombre' => 'tóner tk-5442 b negro genérico',
@@ -3711,7 +3711,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            284 => 
+            284 =>
             array (
                 'id' => 285,
                 'nombre' => 'tóner tk-5442 c cyan genérico',
@@ -3724,7 +3724,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            285 => 
+            285 =>
             array (
                 'id' => 286,
                 'nombre' => 'tóner tk-5442 m magenta genérico',
@@ -3737,7 +3737,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            286 => 
+            286 =>
             array (
                 'id' => 287,
                 'nombre' => 'tóner tk-5442 y amarillo genérico',
@@ -3750,7 +3750,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            287 => 
+            287 =>
             array (
                 'id' => 288,
                 'nombre' => 'cartucho 60xl cc641wl negro original',
@@ -3763,7 +3763,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            288 => 
+            288 =>
             array (
                 'id' => 289,
                 'nombre' => 'cartucho 60xl cc644wl tricolor original',
@@ -3776,7 +3776,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            289 => 
+            289 =>
             array (
                 'id' => 290,
                 'nombre' => 'cartucho 62xl c2p05al negro original',
@@ -3789,7 +3789,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            290 => 
+            290 =>
             array (
                 'id' => 291,
                 'nombre' => 'cartucho 62xl c2p07al tricolor original',
@@ -3802,7 +3802,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            291 => 
+            291 =>
             array (
                 'id' => 292,
                 'nombre' => 'cartucho 662xl cz105al negro original',
@@ -3815,7 +3815,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            292 => 
+            292 =>
             array (
                 'id' => 293,
                 'nombre' => 'cartucho 662xl cz106al tricolor original',
@@ -3828,7 +3828,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            293 => 
+            293 =>
             array (
                 'id' => 294,
                 'nombre' => 'cartucho 664xl f6v28al tricolor original',
@@ -3841,7 +3841,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            294 => 
+            294 =>
             array (
                 'id' => 295,
                 'nombre' => 'cartucho 664xl f6v31al negro original',
@@ -3854,7 +3854,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            295 => 
+            295 =>
             array (
                 'id' => 296,
                 'nombre' => 'cartucho 950xl cn045al negro original',
@@ -3867,7 +3867,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            296 => 
+            296 =>
             array (
                 'id' => 297,
                 'nombre' => 'cartucho 951xl cn046al cyan original',
@@ -3880,7 +3880,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            297 => 
+            297 =>
             array (
                 'id' => 298,
                 'nombre' => 'cartucho 951xl cn047al magenta original',
@@ -3893,7 +3893,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            298 => 
+            298 =>
             array (
                 'id' => 299,
                 'nombre' => 'cartucho 951xl cn048al amarillo original',
@@ -3906,7 +3906,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            299 => 
+            299 =>
             array (
                 'id' => 300,
                 'nombre' => 'cartucho 954xl l0s62al cian original',
@@ -3919,7 +3919,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            300 => 
+            300 =>
             array (
                 'id' => 301,
                 'nombre' => 'cartucho 954xl l0s65al magenta original',
@@ -3932,7 +3932,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            301 => 
+            301 =>
             array (
                 'id' => 302,
                 'nombre' => 'cartucho 954xl l0s68al amarillo original',
@@ -3945,7 +3945,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            302 => 
+            302 =>
             array (
                 'id' => 303,
                 'nombre' => 'cartucho 954xl l0s71al negro original',
@@ -3958,7 +3958,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            303 => 
+            303 =>
             array (
                 'id' => 304,
                 'nombre' => 'cartucho 970xl cn6221am negro original',
@@ -3971,7 +3971,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            304 => 
+            304 =>
             array (
                 'id' => 305,
                 'nombre' => 'cartucho 971xl cn622am cian original',
@@ -3984,7 +3984,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            305 => 
+            305 =>
             array (
                 'id' => 306,
                 'nombre' => 'cartucho 971xl cn623am magenta original',
@@ -3997,7 +3997,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            306 => 
+            306 =>
             array (
                 'id' => 307,
                 'nombre' => 'cartucho 971xl cn624am amarillo original',
@@ -4010,7 +4010,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            307 => 
+            307 =>
             array (
                 'id' => 308,
                 'nombre' => 'tinta t664 bk negra  original',
@@ -4023,7 +4023,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            308 => 
+            308 =>
             array (
                 'id' => 309,
                 'nombre' => 'tinta t664 c cian  original',
@@ -4036,7 +4036,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            309 => 
+            309 =>
             array (
                 'id' => 310,
                 'nombre' => 'tinta t664 m magenta original',
@@ -4049,7 +4049,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            310 => 
+            310 =>
             array (
                 'id' => 311,
                 'nombre' => 'tinta t664 y amarillo original',
@@ -4062,7 +4062,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            311 => 
+            311 =>
             array (
                 'id' => 312,
                 'nombre' => 'tóner 125a cb541a cian genérico',
@@ -4075,7 +4075,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            312 => 
+            312 =>
             array (
                 'id' => 313,
                 'nombre' => 'tóner 10a q2610a negro original',
@@ -4088,7 +4088,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            313 => 
+            313 =>
             array (
                 'id' => 314,
                 'nombre' => 'tóner 124a q6000a negro original',
@@ -4101,7 +4101,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            314 => 
+            314 =>
             array (
                 'id' => 315,
                 'nombre' => 'tóner 124a q6001a cian original',
@@ -4114,7 +4114,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            315 => 
+            315 =>
             array (
                 'id' => 316,
                 'nombre' => 'tóner 124a q6002a amarillo original',
@@ -4127,7 +4127,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            316 => 
+            316 =>
             array (
                 'id' => 317,
                 'nombre' => 'tóner 124a q6003a magenta original',
@@ -4140,7 +4140,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            317 => 
+            317 =>
             array (
                 'id' => 318,
                 'nombre' => 'tóner 125a cb540a negro original',
@@ -4153,7 +4153,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            318 => 
+            318 =>
             array (
                 'id' => 319,
                 'nombre' => 'tóner 125a cb541a cian original',
@@ -4166,7 +4166,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            319 => 
+            319 =>
             array (
                 'id' => 320,
                 'nombre' => 'tóner 125a cb542a amarillo original',
@@ -4179,7 +4179,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            320 => 
+            320 =>
             array (
                 'id' => 321,
                 'nombre' => 'tóner 125a cb543a magenta original',
@@ -4192,7 +4192,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            321 => 
+            321 =>
             array (
                 'id' => 322,
                 'nombre' => 'tóner 126a ce310a negro original',
@@ -4205,7 +4205,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            322 => 
+            322 =>
             array (
                 'id' => 323,
                 'nombre' => 'tóner 126a ce311a cian original',
@@ -4218,7 +4218,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            323 => 
+            323 =>
             array (
                 'id' => 324,
                 'nombre' => 'tóner 126a ce312a amarillo original',
@@ -4231,7 +4231,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            324 => 
+            324 =>
             array (
                 'id' => 325,
                 'nombre' => 'tóner 126a ce313a magenta original',
@@ -4244,7 +4244,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            325 => 
+            325 =>
             array (
                 'id' => 326,
                 'nombre' => 'tóner 128a ce320a negro original',
@@ -4257,7 +4257,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            326 => 
+            326 =>
             array (
                 'id' => 327,
                 'nombre' => 'tóner 128a ce321a cian original',
@@ -4270,7 +4270,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            327 => 
+            327 =>
             array (
                 'id' => 328,
                 'nombre' => 'tóner 128a ce322a amarillo original',
@@ -4283,7 +4283,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            328 => 
+            328 =>
             array (
                 'id' => 329,
                 'nombre' => 'tóner 128a ce323a magenta original',
@@ -4296,7 +4296,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            329 => 
+            329 =>
             array (
                 'id' => 330,
                 'nombre' => 'tóner 12a q2612a negro original',
@@ -4309,7 +4309,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            330 => 
+            330 =>
             array (
                 'id' => 331,
                 'nombre' => 'tóner 131a cf210a negro original',
@@ -4322,7 +4322,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            331 => 
+            331 =>
             array (
                 'id' => 332,
                 'nombre' => 'tóner 131a cf211a cian original',
@@ -4335,7 +4335,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            332 => 
+            332 =>
             array (
                 'id' => 333,
                 'nombre' => 'tóner 131a cf212a amarillo original',
@@ -4348,7 +4348,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            333 => 
+            333 =>
             array (
                 'id' => 334,
                 'nombre' => 'tóner 131a cf213a magenta original',
@@ -4361,7 +4361,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            334 => 
+            334 =>
             array (
                 'id' => 335,
                 'nombre' => 'tóner 17a cf217a negro original',
@@ -4374,7 +4374,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            335 => 
+            335 =>
             array (
                 'id' => 336,
                 'nombre' => 'tóner 204a cf510a negro original',
@@ -4387,7 +4387,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            336 => 
+            336 =>
             array (
                 'id' => 337,
                 'nombre' => 'tóner 204a cf511a cian original',
@@ -4400,7 +4400,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            337 => 
+            337 =>
             array (
                 'id' => 338,
                 'nombre' => 'tóner 204a cf512a amarillo original',
@@ -4413,7 +4413,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            338 => 
+            338 =>
             array (
                 'id' => 339,
                 'nombre' => 'tóner 204a cf513 magenta original',
@@ -4426,7 +4426,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            339 => 
+            339 =>
             array (
                 'id' => 340,
                 'nombre' => 'tóner 26a cf226a negro original',
@@ -4439,7 +4439,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            340 => 
+            340 =>
             array (
                 'id' => 341,
                 'nombre' => 'tóner 304a cc530a cp2025 negro original',
@@ -4452,7 +4452,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            341 => 
+            341 =>
             array (
                 'id' => 342,
                 'nombre' => 'tóner 304a cc531a cp2025 cian original',
@@ -4465,7 +4465,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            342 => 
+            342 =>
             array (
                 'id' => 343,
                 'nombre' => 'tóner 304a cc532a cp2025 amarillo original',
@@ -4478,7 +4478,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            343 => 
+            343 =>
             array (
                 'id' => 344,
                 'nombre' => 'tóner 304a cc533a cp2025 magenta original',
@@ -4491,7 +4491,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            344 => 
+            344 =>
             array (
                 'id' => 345,
                 'nombre' => 'tóner 305a ce411a cian original',
@@ -4504,7 +4504,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            345 => 
+            345 =>
             array (
                 'id' => 346,
                 'nombre' => 'tóner 305a ce412a amarillo original',
@@ -4517,7 +4517,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            346 => 
+            346 =>
             array (
                 'id' => 347,
                 'nombre' => 'tóner 305a ce413a magenta original',
@@ -4530,7 +4530,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            347 => 
+            347 =>
             array (
                 'id' => 348,
                 'nombre' => 'tóner 305x ce410x negro original',
@@ -4543,7 +4543,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            348 => 
+            348 =>
             array (
                 'id' => 349,
                 'nombre' => 'tóner 35a  cb435a negro original',
@@ -4556,7 +4556,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            349 => 
+            349 =>
             array (
                 'id' => 350,
                 'nombre' => 'tóner 36a cb436a negro original',
@@ -4569,7 +4569,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            350 => 
+            350 =>
             array (
                 'id' => 351,
                 'nombre' => 'tóner 410a cf410a negro original',
@@ -4582,7 +4582,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            351 => 
+            351 =>
             array (
                 'id' => 352,
                 'nombre' => 'tóner 410a cf411a cian original',
@@ -4595,7 +4595,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            352 => 
+            352 =>
             array (
                 'id' => 353,
                 'nombre' => 'tóner 410a cf412a amarillo original',
@@ -4608,7 +4608,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            353 => 
+            353 =>
             array (
                 'id' => 354,
                 'nombre' => 'tóner 410a cf413a magenta original',
@@ -4621,7 +4621,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            354 => 
+            354 =>
             array (
                 'id' => 355,
                 'nombre' => 'tóner 49a q5949a negro original',
@@ -4634,7 +4634,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            355 => 
+            355 =>
             array (
                 'id' => 356,
                 'nombre' => 'tóner 53a q7553a original',
@@ -4647,7 +4647,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            356 => 
+            356 =>
             array (
                 'id' => 357,
                 'nombre' => 'tóner 64x cc364xd negro original',
@@ -4660,7 +4660,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            357 => 
+            357 =>
             array (
                 'id' => 358,
                 'nombre' => 'tóner 78a ce278a negro original',
@@ -4673,7 +4673,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            358 => 
+            358 =>
             array (
                 'id' => 359,
                 'nombre' => 'tóner 80a cf280a negro original',
@@ -4686,7 +4686,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            359 => 
+            359 =>
             array (
                 'id' => 360,
                 'nombre' => 'tóner 83a cf283a negro original',
@@ -4699,7 +4699,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            360 => 
+            360 =>
             array (
                 'id' => 361,
                 'nombre' => 'tóner 85a ce285a negro original',
@@ -4712,7 +4712,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            361 => 
+            361 =>
             array (
                 'id' => 362,
                 'nombre' => 'tóner 974a l0r87al cian original',
@@ -4725,7 +4725,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            362 => 
+            362 =>
             array (
                 'id' => 363,
                 'nombre' => 'tóner 974a l0r90al magenta original',
@@ -4738,7 +4738,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            363 => 
+            363 =>
             array (
                 'id' => 364,
                 'nombre' => 'tóner 974a l0r93al amarillo original',
@@ -4751,7 +4751,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            364 => 
+            364 =>
             array (
                 'id' => 365,
                 'nombre' => 'tóner 974a l0r96al negro original',
@@ -4764,7 +4764,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            365 => 
+            365 =>
             array (
                 'id' => 366,
                 'nombre' => 'tóner tk1112 fs1060dn original',
@@ -4777,7 +4777,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            366 => 
+            366 =>
             array (
                 'id' => 367,
                 'nombre' => 'tinta 215 t215520 colores original',
@@ -4790,7 +4790,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            367 => 
+            367 =>
             array (
                 'id' => 368,
                 'nombre' => 'tinta 215 t215520 negro original',
@@ -4803,7 +4803,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            368 => 
+            368 =>
             array (
                 'id' => 369,
                 'nombre' => 'tinta 544 bk negro original',
@@ -4816,7 +4816,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            369 => 
+            369 =>
             array (
                 'id' => 370,
                 'nombre' => 'tinta 544 c cyan original',
@@ -4829,7 +4829,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            370 => 
+            370 =>
             array (
                 'id' => 371,
                 'nombre' => 'tinta 544 m magenta original',
@@ -4842,7 +4842,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            371 => 
+            371 =>
             array (
                 'id' => 372,
                 'nombre' => 'tinta 544 y amarillo original',
@@ -4855,7 +4855,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            372 => 
+            372 =>
             array (
                 'id' => 373,
                 'nombre' => 'tinta 664 t6641 bk negro original',
@@ -4868,7 +4868,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            373 => 
+            373 =>
             array (
                 'id' => 374,
                 'nombre' => 'tinta 664 t6642 c cyan original',
@@ -4881,7 +4881,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            374 => 
+            374 =>
             array (
                 'id' => 375,
                 'nombre' => 'tinta 664 t6643 m magenta original',
@@ -4894,7 +4894,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            375 => 
+            375 =>
             array (
                 'id' => 376,
                 'nombre' => 'tinta 664 t6643 y amarillo original',
@@ -4907,7 +4907,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            376 => 
+            376 =>
             array (
                 'id' => 377,
                 'nombre' => 'tinta 673 bk negro original',
@@ -4920,7 +4920,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            377 => 
+            377 =>
             array (
                 'id' => 378,
                 'nombre' => 'tinta 673 c cyan original',
@@ -4933,7 +4933,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            378 => 
+            378 =>
             array (
                 'id' => 379,
                 'nombre' => 'tinta 673 c cyan ligth original',
@@ -4946,7 +4946,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            379 => 
+            379 =>
             array (
                 'id' => 380,
                 'nombre' => 'tinta 673 m magenta ligth original',
@@ -4959,7 +4959,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            380 => 
+            380 =>
             array (
                 'id' => 381,
                 'nombre' => 'tinta 673 m magenta original',
@@ -4972,7 +4972,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            381 => 
+            381 =>
             array (
                 'id' => 382,
                 'nombre' => 'tinta 673 y amarillo original',
@@ -4985,7 +4985,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            382 => 
+            382 =>
             array (
                 'id' => 383,
                 'nombre' => 'tinta 674 bk negro original',
@@ -4998,7 +4998,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            383 => 
+            383 =>
             array (
                 'id' => 384,
                 'nombre' => 'tinta 674 c cyan original',
@@ -5011,7 +5011,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            384 => 
+            384 =>
             array (
                 'id' => 385,
                 'nombre' => 'tinta 674 m magenta original',
@@ -5024,7 +5024,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            385 => 
+            385 =>
             array (
                 'id' => 386,
                 'nombre' => 'tinta 674 y amarillo original',
@@ -5037,7 +5037,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            386 => 
+            386 =>
             array (
                 'id' => 387,
                 'nombre' => 'tinta 774 bk negro original',
@@ -5050,7 +5050,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            387 => 
+            387 =>
             array (
                 'id' => 388,
                 'nombre' => 'tinta 964xl 3ja54al cyan original',
@@ -5063,7 +5063,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            388 => 
+            388 =>
             array (
                 'id' => 389,
                 'nombre' => 'tinta 964xl 3ja55al magenta original',
@@ -5076,7 +5076,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            389 => 
+            389 =>
             array (
                 'id' => 390,
                 'nombre' => 'tinta 964xl 3ja56al amarillo original',
@@ -5089,7 +5089,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            390 => 
+            390 =>
             array (
                 'id' => 391,
                 'nombre' => 'tinta 964xl 3ja57al negro original',
@@ -5102,7 +5102,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            391 => 
+            391 =>
             array (
                 'id' => 392,
                 'nombre' => 'tinta 728 amarillo original',
@@ -5115,7 +5115,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            392 => 
+            392 =>
             array (
                 'id' => 393,
                 'nombre' => 'tinta 728 cyan original',
@@ -5128,7 +5128,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            393 => 
+            393 =>
             array (
                 'id' => 394,
                 'nombre' => 'tinta 728 magenta original',
@@ -5141,7 +5141,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            394 => 
+            394 =>
             array (
                 'id' => 395,
                 'nombre' => 'tinta 728 negro original',
@@ -5154,7 +5154,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            395 => 
+            395 =>
             array (
                 'id' => 396,
                 'nombre' => 'tinta gt52 amarillo original',
@@ -5167,7 +5167,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            396 => 
+            396 =>
             array (
                 'id' => 397,
                 'nombre' => 'tinta gt52 cyan original',
@@ -5180,7 +5180,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            397 => 
+            397 =>
             array (
                 'id' => 398,
                 'nombre' => 'tinta gt52 magenta original',
@@ -5193,7 +5193,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            398 => 
+            398 =>
             array (
                 'id' => 399,
                 'nombre' => 'tinta gt53 negro original',
@@ -5206,7 +5206,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            399 => 
+            399 =>
             array (
                 'id' => 400,
                 'nombre' => 'tinta pfi-050 bk negro original',
@@ -5219,7 +5219,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            400 => 
+            400 =>
             array (
                 'id' => 401,
                 'nombre' => 'tinta pfi-050 c cyan  original',
@@ -5232,7 +5232,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            401 => 
+            401 =>
             array (
                 'id' => 402,
                 'nombre' => 'tinta pfi-050 m magenta original',
@@ -5245,7 +5245,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            402 => 
+            402 =>
             array (
                 'id' => 403,
                 'nombre' => 'tinta pfi-050 y amarillo original',
@@ -5258,7 +5258,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            403 => 
+            403 =>
             array (
                 'id' => 404,
                 'nombre' => 'tinta t504 bk negro original',
@@ -5271,7 +5271,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            404 => 
+            404 =>
             array (
                 'id' => 405,
                 'nombre' => 'tinta t504 c cyan original',
@@ -5284,7 +5284,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            405 => 
+            405 =>
             array (
                 'id' => 406,
                 'nombre' => 'tinta t504 m magenta original',
@@ -5297,7 +5297,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            406 => 
+            406 =>
             array (
                 'id' => 407,
                 'nombre' => 'tinta t504 y amarillo original',
@@ -5310,7 +5310,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            407 => 
+            407 =>
             array (
                 'id' => 408,
                 'nombre' => 'tóner  mx-c30nt-b negro original',
@@ -5323,7 +5323,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            408 => 
+            408 =>
             array (
                 'id' => 409,
                 'nombre' => 'tóner  mx-c30nt-a amarillo original',
@@ -5336,7 +5336,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            409 => 
+            409 =>
             array (
                 'id' => 410,
                 'nombre' => 'tóner  mx-c30nt-c cyan original',
@@ -5349,7 +5349,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            410 => 
+            410 =>
             array (
                 'id' => 411,
                 'nombre' => 'tóner  mx-c30nt-m magenta  original',
@@ -5362,7 +5362,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            411 => 
+            411 =>
             array (
                 'id' => 412,
                 'nombre' => 'tóner al2051 original',
@@ -5375,7 +5375,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            412 => 
+            412 =>
             array (
                 'id' => 413,
                 'nombre' => 'tóner tn-1060 negro original',
@@ -5388,7 +5388,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            413 => 
+            413 =>
             array (
                 'id' => 414,
                 'nombre' => 'tóner 054 amarillo original',
@@ -5401,7 +5401,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            414 => 
+            414 =>
             array (
                 'id' => 415,
                 'nombre' => 'tóner 054 cyan original',
@@ -5414,7 +5414,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            415 => 
+            415 =>
             array (
                 'id' => 416,
                 'nombre' => 'tóner 054 magenta original',
@@ -5427,7 +5427,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            416 => 
+            416 =>
             array (
                 'id' => 417,
                 'nombre' => 'tóner 054 negro original',
@@ -5440,7 +5440,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            417 => 
+            417 =>
             array (
                 'id' => 418,
                 'nombre' => 'tóner 103a w1103a negro original',
@@ -5453,7 +5453,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            418 => 
+            418 =>
             array (
                 'id' => 419,
                 'nombre' => 'tóner 105a negro laser jet w1105a original',
@@ -5466,7 +5466,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            419 => 
+            419 =>
             array (
                 'id' => 420,
                 'nombre' => 'tóner 136x w1360x negro original',
@@ -5479,7 +5479,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            420 => 
+            420 =>
             array (
                 'id' => 421,
                 'nombre' => 'tóner 145a laserjet w1450a negro original',
@@ -5492,7 +5492,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            421 => 
+            421 =>
             array (
                 'id' => 422,
                 'nombre' => 'tóner 150a w1500a negro original',
@@ -5505,7 +5505,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            422 => 
+            422 =>
             array (
                 'id' => 423,
                 'nombre' => 'tóner 151a laserjet w1510a negro original',
@@ -5518,7 +5518,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            423 => 
+            423 =>
             array (
                 'id' => 424,
                 'nombre' => 'toner 414a w2020a black original',
@@ -5531,7 +5531,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            424 => 
+            424 =>
             array (
                 'id' => 425,
                 'nombre' => 'tóner 414a w2021a cyan original',
@@ -5544,7 +5544,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            425 => 
+            425 =>
             array (
                 'id' => 426,
                 'nombre' => 'toner 414a w2022a yellow original',
@@ -5557,7 +5557,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            426 => 
+            426 =>
             array (
                 'id' => 427,
                 'nombre' => 'tóner 414a w2023a magenta original',
@@ -5570,7 +5570,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            427 => 
+            427 =>
             array (
                 'id' => 428,
                 'nombre' => 'tóner 712 3ed67a cyan  original',
@@ -5583,7 +5583,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            428 => 
+            428 =>
             array (
                 'id' => 429,
                 'nombre' => 'tóner 712 3ed68a magenta original',
@@ -5596,7 +5596,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            429 => 
+            429 =>
             array (
                 'id' => 430,
                 'nombre' => 'tóner 712 3ed69a amarillo original',
@@ -5609,7 +5609,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            430 => 
+            430 =>
             array (
                 'id' => 431,
                 'nombre' => 'tóner 712 3ed71a negro original',
@@ -5622,7 +5622,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            431 => 
+            431 =>
             array (
                 'id' => 432,
                 'nombre' => 'tóner laserjet 151a w1510a negro original',
@@ -5635,7 +5635,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            432 => 
+            432 =>
             array (
                 'id' => 433,
                 'nombre' => 'tóner mx-c30nt-n negro original',
@@ -5648,7 +5648,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            433 => 
+            433 =>
             array (
                 'id' => 434,
                 'nombre' => 'tóner 101s negro original',
@@ -5661,7 +5661,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            434 => 
+            434 =>
             array (
                 'id' => 435,
                 'nombre' => 'tóner tk-5442 b negro original',
@@ -5674,7 +5674,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            435 => 
+            435 =>
             array (
                 'id' => 436,
                 'nombre' => 'tóner tk-5442 c cyan original',
@@ -5687,7 +5687,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            436 => 
+            436 =>
             array (
                 'id' => 437,
                 'nombre' => 'tóner tk-5442 m magenta original',
@@ -5700,7 +5700,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            437 => 
+            437 =>
             array (
                 'id' => 438,
                 'nombre' => 'tóner tk-5442 y amarillo original',
@@ -5713,7 +5713,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            438 => 
+            438 =>
             array (
                 'id' => 439,
                 'nombre' => 'alcohol etílico desnaturalizado al 70%, ',
@@ -5726,7 +5726,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            439 => 
+            439 =>
             array (
                 'id' => 440,
                 'nombre' => 'aromatizante ambiental líquido en aerosol.',
@@ -5739,7 +5739,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            440 => 
+            440 =>
             array (
                 'id' => 441,
                 'nombre' => 'bolsa biodegradable negra de asa tipo camiseta 30 x 60',
@@ -5752,7 +5752,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            441 => 
+            441 =>
             array (
                 'id' => 442,
                 'nombre' => 'bolsa biodegradable negra para basura 60 x 90',
@@ -5765,7 +5765,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            442 => 
+            442 =>
             array (
                 'id' => 443,
                 'nombre' => 'bolsa negra biodegradable para basura 90 x 120',
@@ -5778,7 +5778,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            443 => 
+            443 =>
             array (
                 'id' => 444,
                 'nombre' => 'bomba para w.c.',
@@ -5791,7 +5791,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            444 => 
+            444 =>
             array (
                 'id' => 445,
                 'nombre' => 'cepillo para piso',
@@ -5804,7 +5804,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            445 => 
+            445 =>
             array (
                 'id' => 446,
                 'nombre' => 'cepillo para piso cerdas suaves',
@@ -5817,7 +5817,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            446 => 
+            446 =>
             array (
                 'id' => 447,
                 'nombre' => 'cepillo para w.c. con base',
@@ -5830,7 +5830,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            447 => 
+            447 =>
             array (
                 'id' => 448,
                 'nombre' => 'cesto de basura grande',
@@ -5843,7 +5843,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            448 => 
+            448 =>
             array (
                 'id' => 449,
                 'nombre' => 'cesto para basura de plástico',
@@ -5856,7 +5856,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            449 => 
+            449 =>
             array (
                 'id' => 450,
                 'nombre' => 'cloro',
@@ -5869,7 +5869,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            450 => 
+            450 =>
             array (
                 'id' => 451,
                 'nombre' => 'cubetas de 18 litros de plástico',
@@ -5882,7 +5882,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            451 => 
+            451 =>
             array (
                 'id' => 452,
                 'nombre' => 'desengrasante',
@@ -5895,7 +5895,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            452 => 
+            452 =>
             array (
                 'id' => 453,
                 'nombre' => 'desinfectante en aerosol para ambientes y superficies.',
@@ -5908,7 +5908,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            453 => 
+            453 =>
             array (
                 'id' => 454,
                 'nombre' => 'escoba de palma',
@@ -5921,7 +5921,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            454 => 
+            454 =>
             array (
                 'id' => 455,
                 'nombre' => 'escoba de plástico tipo abanico',
@@ -5934,7 +5934,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            455 => 
+            455 =>
             array (
                 'id' => 456,
                 'nombre' => 'fibra de metal',
@@ -5947,7 +5947,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            456 => 
+            456 =>
             array (
                 'id' => 457,
                 'nombre' => 'fibra negra',
@@ -5960,7 +5960,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            457 => 
+            457 =>
             array (
                 'id' => 458,
                 'nombre' => 'fibra verde con esponja',
@@ -5973,7 +5973,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            458 => 
+            458 =>
             array (
                 'id' => 459,
                 'nombre' => 'franela',
@@ -5986,7 +5986,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            459 => 
+            459 =>
             array (
                 'id' => 460,
                 'nombre' => 'gel antibacterial base de alcohol',
@@ -5999,7 +5999,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            460 => 
+            460 =>
             array (
                 'id' => 461,
                 'nombre' => 'guantes para aseo medianos',
@@ -6012,7 +6012,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            461 => 
+            461 =>
             array (
                 'id' => 462,
                 'nombre' => 'insecticida en aerosol',
@@ -6025,7 +6025,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            462 => 
+            462 =>
             array (
                 'id' => 463,
                 'nombre' => 'jabón detergente en polvo',
@@ -6038,7 +6038,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            463 => 
+            463 =>
             array (
                 'id' => 464,
                 'nombre' => 'jabón líquido para manos',
@@ -6051,7 +6051,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            464 => 
+            464 =>
             array (
                 'id' => 465,
                 'nombre' => 'jabón líquido para trastes',
@@ -6064,7 +6064,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            465 => 
+            465 =>
             array (
                 'id' => 466,
                 'nombre' => 'jalador de hule para agua',
@@ -6077,7 +6077,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            466 => 
+            466 =>
             array (
                 'id' => 467,
                 'nombre' => 'jerga',
@@ -6090,7 +6090,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            467 => 
+            467 =>
             array (
                 'id' => 468,
                 'nombre' => 'limpia vidrios',
@@ -6103,7 +6103,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            468 => 
+            468 =>
             array (
                 'id' => 469,
                 'nombre' => 'limpiador en polvo            ',
@@ -6116,7 +6116,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            469 => 
+            469 =>
             array (
                 'id' => 470,
                 'nombre' => 'limpiador liquido multiusos con amonio',
@@ -6129,7 +6129,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            470 => 
+            470 =>
             array (
                 'id' => 471,
                 'nombre' => 'limpiador liquido multiusos esencia de pino',
@@ -6142,7 +6142,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            471 => 
+            471 =>
             array (
                 'id' => 472,
                 'nombre' => 'limpiador liquido varios aromas',
@@ -6155,7 +6155,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            472 => 
+            472 =>
             array (
                 'id' => 473,
                 'nombre' => 'limpiador para muebles de madera en aerosol',
@@ -6168,7 +6168,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            473 => 
+            473 =>
             array (
                 'id' => 474,
                 'nombre' => 'líquido destapacaño',
@@ -6181,7 +6181,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            474 => 
+            474 =>
             array (
                 'id' => 475,
                 'nombre' => 'liquido sanitizante',
@@ -6194,7 +6194,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            475 => 
+            475 =>
             array (
                 'id' => 476,
                 'nombre' => 'pañuelos desechables',
@@ -6207,7 +6207,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            476 => 
+            476 =>
             array (
                 'id' => 477,
                 'nombre' => 'papel higiénico jumbo',
@@ -6220,7 +6220,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            477 => 
+            477 =>
             array (
                 'id' => 478,
                 'nombre' => 'papel higiénico junior 200 metros',
@@ -6233,7 +6233,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            478 => 
+            478 =>
             array (
                 'id' => 479,
                 'nombre' => 'papel sanitario',
@@ -6246,7 +6246,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            479 => 
+            479 =>
             array (
                 'id' => 480,
                 'nombre' => 'pastilla desodorante para w.c.',
@@ -6259,7 +6259,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            480 => 
+            480 =>
             array (
                 'id' => 481,
                 'nombre' => 'plumero de 3 metros',
@@ -6272,7 +6272,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            481 => 
+            481 =>
             array (
                 'id' => 482,
                 'nombre' => 'quita sarro',
@@ -6285,7 +6285,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            482 => 
+            482 =>
             array (
                 'id' => 483,
                 'nombre' => 'recogedores de basura con mango',
@@ -6298,7 +6298,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            483 => 
+            483 =>
             array (
                 'id' => 484,
                 'nombre' => 'repuesto para mops medidas de 90 x 16 cm',
@@ -6311,7 +6311,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            484 => 
+            484 =>
             array (
                 'id' => 485,
                 'nombre' => 'tapete de mingitorio',
@@ -6324,7 +6324,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            485 => 
+            485 =>
             array (
                 'id' => 486,
                 'nombre' => 'toalla de microfibra',
@@ -6337,7 +6337,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            486 => 
+            486 =>
             array (
                 'id' => 487,
                 'nombre' => 'toalla en rollo para manos.',
@@ -6350,7 +6350,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            487 => 
+            487 =>
             array (
                 'id' => 488,
                 'nombre' => 'toalla interdoblada desechable.',
@@ -6363,7 +6363,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            488 => 
+            488 =>
             array (
                 'id' => 489,
                 'nombre' => 'toallas multiusos de tela absorbente',
@@ -6376,7 +6376,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            489 => 
+            489 =>
             array (
                 'id' => 490,
                 'nombre' => 'trapeador de micro fibra',
@@ -6389,7 +6389,7 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
-            490 => 
+            490 =>
             array (
                 'id' => 491,
                 'nombre' => 'trapeador no. 20 hilaza',
@@ -6402,8 +6402,21 @@ class ArticulosTableSeeder extends Seeder
                 'created_at' => '2025-03-26 13:50:52',
                 'updated_at' => '2025-03-26 13:50:52',
             ),
+            491 =>
+            array (
+                'id' => 492,
+                'nombre' => 'lápiz checador',
+                'marca' => 'S/M',
+                'serial' => NULL,
+                'descripcion' => 'lápiz checador.',
+                'categoria_id' => 1,
+                'creado_por' => NULL,
+                'actualizado_por' => NULL,
+                'created_at' => '2025-03-26 13:50:52',
+                'updated_at' => '2025-03-26 13:50:52',
+            ),
         ));
-        
-        
+
+
     }
 }

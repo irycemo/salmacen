@@ -1,0 +1,495 @@
+﻿id,nombre,cantidad,precio por unidad,origen,comentario
+1,banderitas auto adheribles,82,29.84,compra,Existencias al 28 de marzo de 2025
+2,bolígrafo punto fino tinta azul,5336,2.5,compra,Existencias al 28 de marzo de 2025
+3,bolígrafo punto fino tinta negro,1032,2.5,compra,Existencias al 28 de marzo de 2025
+4,bolígrafo punto fino tinta rojo,264,2.5,compra,Existencias al 28 de marzo de 2025
+5,bolígrafo punto mediano azul,996,2.5,compra,Existencias al 28 de marzo de 2025
+6,bolígrafo punto mediano negro,204,2.5,compra,Existencias al 28 de marzo de 2025
+7,bolígrafo punto mediano rojo,36,2.5,compra,Existencias al 28 de marzo de 2025
+8,bolígrafo roller ball gel azul,59,5,compra,Existencias al 28 de marzo de 2025
+9,bolígrafo roller ball gel negro,0,5,compra,Existencias al 28 de marzo de 2025
+10,broches para archivo no.8 ,136,30.94,compra,Existencias al 28 de marzo de 2025
+11,caja archivo muerto alta resistencia oficio,285,110.86,compra,Existencias al 28 de marzo de 2025
+12,caja archivo muerto de plástico tamaño oficio,0,61.38,compra,Existencias al 28 de marzo de 2025
+13,caja guarda historia tamaño oficio,0,36.44,compra,Existencias al 28 de marzo de 2025
+14,caja para archivo tamaño carta,0,29.75,compra,Existencias al 28 de marzo de 2025
+15,caja para archivo tamaño oficio,0,139.57,compra,Existencias al 28 de marzo de 2025
+16,calculadora de escritorio,0,146.55,compra,Existencias al 28 de marzo de 2025
+17,carpeta con broche metálico tamaño carta,32,10.33,compra,Existencias al 28 de marzo de 2025
+18,carpeta con broche metálico tamaño oficio,25,13.07,compra,Existencias al 28 de marzo de 2025
+19,carpeta con palanca metálica tamaño carta,0,18.2,compra,Existencias al 28 de marzo de 2025
+20,carpeta con palanca metálica tamaño oficio,0,204.82,compra,Existencias al 28 de marzo de 2025
+21,"carpeta de vinil con 3 argollas 1/2 """,3,38.45,compra,Existencias al 28 de marzo de 2025
+22,"carpeta de vinil con 3 argollas de 1""",9,38.45,compra,Existencias al 28 de marzo de 2025
+23,"carpeta de vinil con 3 argollas de 2""",2,50.65,compra,Existencias al 28 de marzo de 2025
+24,"carpeta de vinil con 3 argollas de 3""",1,72.6,compra,Existencias al 28 de marzo de 2025
+25,"carpeta de vinil con 3 argollas de 4""",0,94.76,compra,Existencias al 28 de marzo de 2025
+26,cartulina opalina tamaño carta gruesa. ,6,73.3,compra,Existencias al 28 de marzo de 2025
+27,charola de escritorio para documentos carta juego con dos piezas,3,284.25,compra,Existencias al 28 de marzo de 2025
+28,charolas de escritorio para documentos carta juego con tres piezas,0,205.65,compra,Existencias al 28 de marzo de 2025
+29,cinta adhesiva 24x65,6,46.65,compra,Existencias al 28 de marzo de 2025
+30,cinta adhesiva transparente 12 x 33,158,5.09,compra,Existencias al 28 de marzo de 2025
+31,cinta adhesiva transparente 18 mm  x 65m,27,35.65,compra,Existencias al 28 de marzo de 2025
+32,cinta adhesiva transparente 18 x 33,0,7.5,compra,Existencias al 28 de marzo de 2025
+33,cinta canela,100,35.33,compra,Existencias al 28 de marzo de 2025
+34,"cinta masking tape 1""",43,27.68,compra,Existencias al 28 de marzo de 2025
+35,"cinta masking tape 2""",66,55.26,compra,Existencias al 28 de marzo de 2025
+36,clip estándar no. 1,3,5.96,compra,Existencias al 28 de marzo de 2025
+37,clip mariposa no. 1,58,13.44,compra,Existencias al 28 de marzo de 2025
+38,clip mariposa no.2,271,25.29,compra,Existencias al 28 de marzo de 2025
+39,clip sujetadocumentos 15 mm,70,7.2,compra,Existencias al 28 de marzo de 2025
+40,clip sujetadocumentos 19 mm,87,8.58,compra,Existencias al 28 de marzo de 2025
+41,clip sujetadocumentos 25 mm,63,14.05,compra,Existencias al 28 de marzo de 2025
+42,clip sujetadocumentos 32 mm,32,19.98,compra,Existencias al 28 de marzo de 2025
+43,clip sujetadocumentos 50 mm,147,57,compra,Existencias al 28 de marzo de 2025
+44,clips estándar no.2 ,919,5.53,compra,Existencias al 28 de marzo de 2025
+45,cojín para sello no. 2,100,29.25,compra,Existencias al 28 de marzo de 2025
+46,corrector en cinta,0,29.43,compra,Existencias al 28 de marzo de 2025
+47,corrector líquido con brocha,0,8.13,compra,Existencias al 28 de marzo de 2025
+48,cuenta fácil,329,9.49,compra,Existencias al 28 de marzo de 2025
+49,cutter grande,103,8.49,compra,Existencias al 28 de marzo de 2025
+50,dedal de hule no. 12,675,0.5,compra,Existencias al 28 de marzo de 2025
+51,engrapadora tira completa de golpe,54,315.05,compra,Existencias al 28 de marzo de 2025
+52,engrapadora uso pesado,3,856.46,compra,Existencias al 28 de marzo de 2025
+53,folder tamaño carta ,53,176.84,compra,Existencias al 28 de marzo de 2025
+54,folder tamaño oficio ,49,210.13,compra,Existencias al 28 de marzo de 2025
+55,foliador de 6 dígitos,0,307.27,compra,Existencias al 28 de marzo de 2025
+56,goma de migajón,546,4.79,compra,Existencias al 28 de marzo de 2025
+57,grapa uso rudo  23.81 mm (15/16''),0,50.56,compra,Existencias al 28 de marzo de 2025
+58,grapas estándar,382,22.37,compra,Existencias al 28 de marzo de 2025
+59,grapas uso rudo  14.29 mm (9/16''),0,35.31,compra,Existencias al 28 de marzo de 2025
+60,grapas uso rudo  20.64 mm (13/16''),82,38.69,compra,Existencias al 28 de marzo de 2025
+61,grapas uso rudo  9.53 mm (3/8''),5,16.76,compra,Existencias al 28 de marzo de 2025
+62,hojas de colores paquete de 100 hojas,0,45.08,compra,Existencias al 28 de marzo de 2025
+63,lápiz adhesivo,152,21.08,compra,Existencias al 28 de marzo de 2025
+64,lápiz bicolor hexagonal,882,2.52,compra,Existencias al 28 de marzo de 2025
+65,lápiz no. 2 hexagonal,1000,2.17,compra,Existencias al 28 de marzo de 2025
+66,libreta de pasta gruesa forma francesa de raya,69,30.23,compra,Existencias al 28 de marzo de 2025
+67,libreta de pasta gruesa forma italiana de raya,0,27.95,compra,Existencias al 28 de marzo de 2025
+68,libreta de raya profesional,76,25.95,compra,Existencias al 28 de marzo de 2025
+69,libreta de taquigrafía,116,10.35,compra,Existencias al 28 de marzo de 2025
+70,libro florete sin índice forma francesa,49,196.75,compra,Existencias al 28 de marzo de 2025
+71,ligas de hule #18,123,16.78,compra,Existencias al 28 de marzo de 2025
+72,ligas de hule #33,64,16.78,compra,Existencias al 28 de marzo de 2025
+73,marcador permanente color azul,130,7.3,compra,Existencias al 28 de marzo de 2025
+74,marcador permanente color negro,120,7.3,compra,Existencias al 28 de marzo de 2025
+75,marcador permanente ultra fino color negro,2,12.66,compra,Existencias al 28 de marzo de 2025
+76,marcador de tinta fugaz para pintarrón azul,15,16.15,compra,Existencias al 28 de marzo de 2025
+77,marcador de tinta fugaz para pintarrón negro,13,16.15,compra,Existencias al 28 de marzo de 2025
+78,notas adhesivas 3 x 3,16,26.56,compra,Existencias al 28 de marzo de 2025
+79,papel  bond original tamaño carta  ,3730,82.27,compra,Existencias al 28 de marzo de 2025
+80,papel  bond original tamaño oficio ,1770,84.7,compra,Existencias al 28 de marzo de 2025
+81,papel opalina tamaño carta ,12,41.98,compra,Existencias al 28 de marzo de 2025
+82,perforadora de 2 orificios,16,269.42,compra,Existencias al 28 de marzo de 2025
+83,perforadora de 3 orificios,0,111.17,compra,Existencias al 28 de marzo de 2025
+84,plumón marca texto  rosa,283,4.23,compra,Existencias al 28 de marzo de 2025
+85,plumón marca texto amarillo,623,4.23,compra,Existencias al 28 de marzo de 2025
+86,plumón marca texto azul,168,4.23,compra,Existencias al 28 de marzo de 2025
+87,plumón marca texto naranja,370,4.23,compra,Existencias al 28 de marzo de 2025
+88,plumón marca texto verde,193,4.23,compra,Existencias al 28 de marzo de 2025
+89,protector para hojas tamaño carta,19,88.24,compra,Existencias al 28 de marzo de 2025
+90,quitagrapas,142,12.08,compra,Existencias al 28 de marzo de 2025
+91,recopiladores tamaño carta dos arillos,83,30.96,compra,Existencias al 28 de marzo de 2025
+92,recopiladores tamaño oficio dos arillos,89,39.9,compra,Existencias al 28 de marzo de 2025
+93,regla metálica 30 cm,80,10.37,compra,Existencias al 28 de marzo de 2025
+94,rollos térmico  80x80,5400,23.49,compra,Existencias al 28 de marzo de 2025
+95,sacapuntas metálico,330,2.88,compra,Existencias al 28 de marzo de 2025
+96,separador de hojas con 5 divisiones,15,14.19,compra,Existencias al 28 de marzo de 2025
+97,separador de hojas con 8 divisiones,2,19.03,compra,Existencias al 28 de marzo de 2025
+98,separadores plástico c/12 divisiones,0,24.95,compra,Existencias al 28 de marzo de 2025
+99,sobre bolsa amarillo con solapa engomada tamaño carta,57,123.69,compra,Existencias al 28 de marzo de 2025
+100,sobre bolsa amarillo con solapa engomada tamaño oficio,71,159.04,compra,Existencias al 28 de marzo de 2025
+101,sobre bolsa amarillo tamaño esquela con solapa engomada,12,79.87,compra,Existencias al 28 de marzo de 2025
+102,sobre bolsa tamaño radiografía,72,427.33,compra,Existencias al 28 de marzo de 2025
+103,sobres para cd blancos,274,0.87,compra,Existencias al 28 de marzo de 2025
+104,tabla de madera sujeta documentos con clip tamaño oficio,6,21.83,compra,Existencias al 28 de marzo de 2025
+105,tarjeta bristol 3x5,0,3,compra,Existencias al 28 de marzo de 2025
+106,tijeras metálicas no. 6,91,65.63,compra,Existencias al 28 de marzo de 2025
+107,tinta para sello color azul,118,18.13,compra,Existencias al 28 de marzo de 2025
+108,tinta para sello color negro,2,18.13,compra,Existencias al 28 de marzo de 2025
+109,tinta para sello color rojo,0,18.13,compra,Existencias al 28 de marzo de 2025
+110,tinta protectora de cheques azul,0,33.26,compra,Existencias al 28 de marzo de 2025
+111,tinta protectora de cheques negro,0,33.26,compra,Existencias al 28 de marzo de 2025
+112,tinta protectora de cheques rojo,0,33.26,compra,Existencias al 28 de marzo de 2025
+113,aire comprimido,0,130,compra,Existencias al 28 de marzo de 2025
+114,espuma limpiadora,0,110,compra,Existencias al 28 de marzo de 2025
+115,memoria usb flash 32 gb,0,130,compra,Existencias al 28 de marzo de 2025
+116,memoria usb flash 64 gb,0,140,compra,Existencias al 28 de marzo de 2025
+117,memoria usb flash 128 gb,0,195,compra,Existencias al 28 de marzo de 2025
+118,memoria usb flash 256 gb,0,349,compra,Existencias al 28 de marzo de 2025
+119,CD-R,703,15.8,compra,Existencias al 28 de marzo de 2025
+120,DVD-R,281,12.4,compra,Existencias al 28 de marzo de 2025
+121,cartucho 195 t195120al bk negro genérico,0,189,compra,Existencias al 28 de marzo de 2025
+122,cartucho 195 t195220al c cian genérico,0,189,compra,Existencias al 28 de marzo de 2025
+123,cartucho 195 t195320al m magenta genérico,0,189,compra,Existencias al 28 de marzo de 2025
+124,cartucho 195 t195420al y amarillo genérico,0,189,compra,Existencias al 28 de marzo de 2025
+125,cartucho 21a c9351al negro genérico,0,520,compra,Existencias al 28 de marzo de 2025
+126,cartucho 60xl cc641wl negro genérico,0,150,compra,Existencias al 28 de marzo de 2025
+127,cartucho 60xl cc644wl tricolor genérico,0,150,compra,Existencias al 28 de marzo de 2025
+128,cartucho 662xl cz105al negro genérico,0,620,compra,Existencias al 28 de marzo de 2025
+129,cartucho 662xl cz106al tricolor genérico,0,620,compra,Existencias al 28 de marzo de 2025
+130,cartucho 664xl f6v28al tricolor genérico,0,690,compra,Existencias al 28 de marzo de 2025
+131,cartucho 664xl f6v31al negro genérico,0,690,compra,Existencias al 28 de marzo de 2025
+132,cartucho 711 cz129a negro genérico,0,950,compra,Existencias al 28 de marzo de 2025
+133,cartucho 711 cz130a cian genérico,0,425,compra,Existencias al 28 de marzo de 2025
+134,cartucho 711 cz131a magenta genérico,0,450,compra,Existencias al 28 de marzo de 2025
+135,cartucho 711 cz132a amarillo genérico,0,450,compra,Existencias al 28 de marzo de 2025
+136,cartucho 920xl cd972al cian genérico,0,210,compra,Existencias al 28 de marzo de 2025
+137,cartucho 920xl cd973al magenta genérico,0,210,compra,Existencias al 28 de marzo de 2025
+138,cartucho 920xl cd974al amarillo genérico,0,210,compra,Existencias al 28 de marzo de 2025
+139,cartucho 920xl cd975al negro genérico,0,890,compra,Existencias al 28 de marzo de 2025
+140,cartucho 950xl cn045al negro genérico,0,500,compra,Existencias al 28 de marzo de 2025
+141,cartucho 951xl cn046al cyan genérico,0,440,compra,Existencias al 28 de marzo de 2025
+142,cartucho 951xl cn047al magenta genérico,0,440,compra,Existencias al 28 de marzo de 2025
+143,cartucho 951xl cn048al amarillo genérico,0,440,compra,Existencias al 28 de marzo de 2025
+144,cartucho 954xl l0s62al cian genérico,0,700,compra,Existencias al 28 de marzo de 2025
+145,cartucho 954xl l0s65al magenta genérico,0,700,compra,Existencias al 28 de marzo de 2025
+146,cartucho 954xl l0s68al amarillo genérico,0,700,compra,Existencias al 28 de marzo de 2025
+147,cartucho 954xl l0s71al negro genérico,0,700,compra,Existencias al 28 de marzo de 2025
+148,cartucho 970xl cn6221am negro genérico,0,150,compra,Existencias al 28 de marzo de 2025
+149,cartucho 971xl cn622am cian genérico,0,150,compra,Existencias al 28 de marzo de 2025
+150,cartucho 971xl cn623am magenta genérico,0,150,compra,Existencias al 28 de marzo de 2025
+151,cartucho 971xl cn624am amarillo genérico,0,150,compra,Existencias al 28 de marzo de 2025
+152,tóner 05a ce505a negro genérico,18,1090,compra,Existencias al 28 de marzo de 2025
+153,tóner 10a q2610a negro genérico,0,150,compra,Existencias al 28 de marzo de 2025
+154,tóner 124a q6000a negro genérico,0,150,compra,Existencias al 28 de marzo de 2025
+155,tóner 124a q6001a cian genérico,0,150,compra,Existencias al 28 de marzo de 2025
+156,tóner 124a q6002a amarillo genérico,0,150,compra,Existencias al 28 de marzo de 2025
+157,tóner 124a q6003a magenta genérico,0,150,compra,Existencias al 28 de marzo de 2025
+158,tóner 125a cb540a negro genérico,4,880,compra,Existencias al 28 de marzo de 2025
+159,tóner 125a cb541a cian genérico,4,880,compra,Existencias al 28 de marzo de 2025
+160,tóner 125a cb542a amarillo genérico,2,880,compra,Existencias al 28 de marzo de 2025
+161,tóner 125a cb543a magenta genérico,2,880,compra,Existencias al 28 de marzo de 2025
+162,tóner 128a ce320a negro genérico,0,800,compra,Existencias al 28 de marzo de 2025
+163,tóner 128a ce321a cian genérico,1,800,compra,Existencias al 28 de marzo de 2025
+164,tóner 128a ce322a amarillo genérico,0,800,compra,Existencias al 28 de marzo de 2025
+165,tóner 128a ce323a magenta genérico,0,800,compra,Existencias al 28 de marzo de 2025
+166,tóner 12a q2612a negro genérico,0,890,compra,Existencias al 28 de marzo de 2025
+167,tóner 131a cf210a negro genérico,0,150,compra,Existencias al 28 de marzo de 2025
+168,tóner 131a cf211a cian genérico,0,150,compra,Existencias al 28 de marzo de 2025
+169,tóner 131a cf212a amarillo genérico,0,150,compra,Existencias al 28 de marzo de 2025
+170,tóner 131a cf213a magenta genérico,0,150,compra,Existencias al 28 de marzo de 2025
+171,tóner 17a cf217a negro genérico,0,530,compra,Existencias al 28 de marzo de 2025
+172,tóner 204a cf510a negro genérico,0,850,compra,Existencias al 28 de marzo de 2025
+173,tóner 204a cf511a cian genérico,0,850,compra,Existencias al 28 de marzo de 2025
+174,tóner 204a cf512a amarillo genérico,0,850,compra,Existencias al 28 de marzo de 2025
+175,tóner 204a cf513 magenta genérico,0,850,compra,Existencias al 28 de marzo de 2025
+176,tóner 26a cf226a negro genérico,15,675,compra,Existencias al 28 de marzo de 2025
+177,tóner 304a cc530a cp2025 negro genérico,0,880,compra,Existencias al 28 de marzo de 2025
+178,tóner 304a cc531a cp2025 cian genérico,0,880,compra,Existencias al 28 de marzo de 2025
+179,tóner 304a cc532a cp2025 amarillo genérico,0,880,compra,Existencias al 28 de marzo de 2025
+180,tóner 304a cc533a cp2025 magenta genérico,0,880,compra,Existencias al 28 de marzo de 2025
+181,tóner 305a ce411a cian genérico,0,1280,compra,Existencias al 28 de marzo de 2025
+182,tóner 305a ce412a amarillo genérico,0,1280,compra,Existencias al 28 de marzo de 2025
+183,tóner 305a ce413a magenta genérico,0,1280,compra,Existencias al 28 de marzo de 2025
+184,tóner 305x ce410x negro genérico,0,1280,compra,Existencias al 28 de marzo de 2025
+185,tóner 35a  cb435a negro genérico,0,850,compra,Existencias al 28 de marzo de 2025
+186,tóner 36a cb436a negro genérico,0,850,compra,Existencias al 28 de marzo de 2025
+187,tóner 410a cf410a negro genérico,0,1190,compra,Existencias al 28 de marzo de 2025
+188,tóner 410a cf411a cian genérico,0,1190,compra,Existencias al 28 de marzo de 2025
+189,tóner 410a cf412a amarillo genérico,1,1190,compra,Existencias al 28 de marzo de 2025
+190,tóner 410a cf413a magenta genérico,0,1190,compra,Existencias al 28 de marzo de 2025
+191,tóner 49a q5949a negro genérico,0,850,compra,Existencias al 28 de marzo de 2025
+192,tóner 53a q7553a genérico,0,900,compra,Existencias al 28 de marzo de 2025
+193,tóner 55x ce255x genérico,0,2800,compra,Existencias al 28 de marzo de 2025
+194,tóner 64x cc364xd negro genérico,0,1400,compra,Existencias al 28 de marzo de 2025
+195,tóner 78a ce278a negro genérico,0,890,compra,Existencias al 28 de marzo de 2025
+196,tóner 80a cf280a negro genérico,23,1090,compra,Existencias al 28 de marzo de 2025
+197,tóner 83a cf283a negro genérico,0,850,compra,Existencias al 28 de marzo de 2025
+198,tóner 85a ce285a negro genérico,2,890,compra,Existencias al 28 de marzo de 2025
+199,tóner 90a ce390a negro genérico,5,1090,compra,Existencias al 28 de marzo de 2025
+200,tóner 974a l0r87al cian genérico,0,1700,compra,Existencias al 28 de marzo de 2025
+201,tóner 974a l0r90al magenta genérico,0,1700,compra,Existencias al 28 de marzo de 2025
+202,tóner 974a l0r93al amarillo genérico,0,1700,compra,Existencias al 28 de marzo de 2025
+203,tóner 974a l0r96al negro genérico,0,1700,compra,Existencias al 28 de marzo de 2025
+204,tóner mlt d104s genérico,0,677,compra,Existencias al 28 de marzo de 2025
+205,tóner mlt d111s negro genérico,0,850,compra,Existencias al 28 de marzo de 2025
+206,tóner mlt d205l ml 3710 3310 negro genérico,0,850,compra,Existencias al 28 de marzo de 2025
+207,tóner tk1112 fs1060dn genérico,0,780,compra,Existencias al 28 de marzo de 2025
+208,tóner tk-1152 ecosys p2235 dn genérico,0,850,compra,Existencias al 28 de marzo de 2025
+209,tóner tk-132 ecosys genérico,0,901,compra,Existencias al 28 de marzo de 2025
+210,tóner tk-172 ecosys genérico,0,901,compra,Existencias al 28 de marzo de 2025
+211,tinta 544 bk negro genérico,0,350,compra,Existencias al 28 de marzo de 2025
+212,tinta 544 c cyan genérico,0,350,compra,Existencias al 28 de marzo de 2025
+213,tinta 544 m magenta genérico,0,350,compra,Existencias al 28 de marzo de 2025
+214,tinta 544 y amarillo genérico,0,350,compra,Existencias al 28 de marzo de 2025
+215,tinta 664 t6641 bk negro genérico,0,130,compra,Existencias al 28 de marzo de 2025
+216,tinta 664 t6642 c cyan genérico,0,130,compra,Existencias al 28 de marzo de 2025
+217,tinta 664 t6643 m magenta genérico,0,130,compra,Existencias al 28 de marzo de 2025
+218,tinta 664 t6643 y amarillo genérico,0,130,compra,Existencias al 28 de marzo de 2025
+219,tinta 673 bk negro genérico,0,121,compra,Existencias al 28 de marzo de 2025
+220,tinta 673 c cyan genérico,0,121,compra,Existencias al 28 de marzo de 2025
+221,tinta 673 m magenta genérico,0,121,compra,Existencias al 28 de marzo de 2025
+222,tinta 673 y amarillo genérico,0,121,compra,Existencias al 28 de marzo de 2025
+223,tinta 674 bk negro genérico,0,121,compra,Existencias al 28 de marzo de 2025
+224,tinta 674 c cyan genérico,0,121,compra,Existencias al 28 de marzo de 2025
+225,tinta 674 m magenta genérico,0,121,compra,Existencias al 28 de marzo de 2025
+226,tinta 674 y amarillo genérico,0,121,compra,Existencias al 28 de marzo de 2025
+227,tinta 774 bk negro genérico,0,260,compra,Existencias al 28 de marzo de 2025
+228,tinta 122 negro genérico,0,825,compra,Existencias al 28 de marzo de 2025
+229,tinta 122 tricolor  genérico,0,842,compra,Existencias al 28 de marzo de 2025
+230,tinta gt52 amarillo genérico,0,136,compra,Existencias al 28 de marzo de 2025
+231,tinta gt52 cyan genérico,0,136,compra,Existencias al 28 de marzo de 2025
+232,tinta gt52 magenta genérico,0,136,compra,Existencias al 28 de marzo de 2025
+233,tinta gt53 negro genérico,0,136,compra,Existencias al 28 de marzo de 2025
+234,tinta pfi-050 bk negro genérico,0,486,compra,Existencias al 28 de marzo de 2025
+235,tinta pfi-050 c cyan  genérico,0,486,compra,Existencias al 28 de marzo de 2025
+236,tinta pfi-050 m magenta genérico,0,486,compra,Existencias al 28 de marzo de 2025
+237,tinta pfi-050 y amarillo genérico,0,486,compra,Existencias al 28 de marzo de 2025
+238,tinta t504 bk negro genérico,0,121,compra,Existencias al 28 de marzo de 2025
+239,tinta t504 c cyan genérico,0,121,compra,Existencias al 28 de marzo de 2025
+240,tinta t504 m magenta genérico,0,121,compra,Existencias al 28 de marzo de 2025
+241,tinta t504 y amarillo genérico,0,121,compra,Existencias al 28 de marzo de 2025
+242,tóner 045 h black genérico,0,1301,compra,Existencias al 28 de marzo de 2025
+243,tóner 045 h cyan genérico,0,1301,compra,Existencias al 28 de marzo de 2025
+244,tóner 045 h magenta genérico,0,1301,compra,Existencias al 28 de marzo de 2025
+245,tóner 045 h yellow genérico,0,1301,compra,Existencias al 28 de marzo de 2025
+246,tóner 1170 d negro genérico,0,486,compra,Existencias al 28 de marzo de 2025
+247,tóner 55b4000 negro genérico,0,6242,compra,Existencias al 28 de marzo de 2025
+248,tóner b405 genérico,0,1907,compra,Existencias al 28 de marzo de 2025
+249,tóner 103a w1103a negro genérico,0,247,compra,Existencias al 28 de marzo de 2025
+250,tóner 105a negro laser jet w1105a genérico,0,1040,compra,Existencias al 28 de marzo de 2025
+251,tóner 126a ce310a negro genérico,0,790,compra,Existencias al 28 de marzo de 2025
+252,tóner 126a ce311a cian genérico,0,790,compra,Existencias al 28 de marzo de 2025
+253,tóner 126a ce312a amarillo genérico,0,790,compra,Existencias al 28 de marzo de 2025
+254,tóner 126a ce313a magenta genérico,0,790,compra,Existencias al 28 de marzo de 2025
+255,tóner 130a amarillo genérico,0,694,compra,Existencias al 28 de marzo de 2025
+256,tóner 130a cyan genérico,0,694,compra,Existencias al 28 de marzo de 2025
+257,tóner 130a magenta genérico,0,694,compra,Existencias al 28 de marzo de 2025
+258,tóner 130a negro  genérico,0,694,compra,Existencias al 28 de marzo de 2025
+259,tóner 145a laserjet w1450a negro genérico,0,1214,compra,Existencias al 28 de marzo de 2025
+260,tóner 150a w1500a negro genérico,0,954,compra,Existencias al 28 de marzo de 2025
+261,tóner 201a cf400a negro genérico,7,1006,compra,Existencias al 28 de marzo de 2025
+262,tóner 201a cf401a cyan genérico,1,1006,compra,Existencias al 28 de marzo de 2025
+263,tóner 201a cf402a yellow genérico,3,1006,compra,Existencias al 28 de marzo de 2025
+264,tóner 201a cf403a magenta genérico,2,1006,compra,Existencias al 28 de marzo de 2025
+265,tóner 30a cf230a negro genérico,4,694,compra,Existencias al 28 de marzo de 2025
+266,tóner 30x cf230x negro genérico,0,1195,compra,Existencias al 28 de marzo de 2025
+267,tóner 32a cf232a negro genérico,0,1006,compra,Existencias al 28 de marzo de 2025
+268,tóner 414a w2020a black genérico,0,1907,compra,Existencias al 28 de marzo de 2025
+269,tóner 414a w2021a cyan genérico,0,1907,compra,Existencias al 28 de marzo de 2025
+270,tóner 414a w2022a yellow genérico,0,1907,compra,Existencias al 28 de marzo de 2025
+271,tóner 414a w2023a magenta genérico,0,1907,compra,Existencias al 28 de marzo de 2025
+272,tóner 48a negro cf248a genérico,0,1074,compra,Existencias al 28 de marzo de 2025
+273,tóner 507a ce400a negro genérico,0,1914,compra,Existencias al 28 de marzo de 2025
+274,tóner 507a ce401a cyan genérico,0,1914,compra,Existencias al 28 de marzo de 2025
+275,tóner 507a ce402a yelow genérico,0,1914,compra,Existencias al 28 de marzo de 2025
+276,tóner 507a ce403a magenta genérico,0,1914,compra,Existencias al 28 de marzo de 2025
+277,tóner 58x cf258x negro genérico,0,2601,compra,Existencias al 28 de marzo de 2025
+278,tóner 79a cf279a negro genérico,0,607,compra,Existencias al 28 de marzo de 2025
+279,tóner 87x cf287x negro genérico,0,3295,compra,Existencias al 28 de marzo de 2025
+280,tóner 89a cf289a negro genérico,0,2428,compra,Existencias al 28 de marzo de 2025
+281,tóner 151a laserjet w1510a negro genérico,0,1595,compra,Existencias al 28 de marzo de 2025
+282,tóner mlt d209l negro genérico,0,954,compra,Existencias al 28 de marzo de 2025
+283,tóner 101s negro genérico,0,598,compra,Existencias al 28 de marzo de 2025
+284,tóner tk-5442 b negro genérico,0,1197,compra,Existencias al 28 de marzo de 2025
+285,tóner tk-5442 c cyan genérico,0,1197,compra,Existencias al 28 de marzo de 2025
+286,tóner tk-5442 m magenta genérico,0,1197,compra,Existencias al 28 de marzo de 2025
+287,tóner tk-5442 y amarillo genérico,0,1197,compra,Existencias al 28 de marzo de 2025
+288,cartucho 60xl cc641wl negro original,0,250,compra,Existencias al 28 de marzo de 2025
+289,cartucho 60xl cc644wl tricolor original,0,250,compra,Existencias al 28 de marzo de 2025
+290,cartucho 62xl c2p05al negro original,0,1700,compra,Existencias al 28 de marzo de 2025
+291,cartucho 62xl c2p07al tricolor original,0,1700,compra,Existencias al 28 de marzo de 2025
+292,cartucho 662xl cz105al negro original,0,735,compra,Existencias al 28 de marzo de 2025
+293,cartucho 662xl cz106al tricolor original,0,802,compra,Existencias al 28 de marzo de 2025
+294,cartucho 664xl f6v28al tricolor original,0,150,compra,Existencias al 28 de marzo de 2025
+295,cartucho 664xl f6v31al negro original,0,150,compra,Existencias al 28 de marzo de 2025
+296,cartucho 950xl cn045al negro original,0,1300,compra,Existencias al 28 de marzo de 2025
+297,cartucho 951xl cn046al cyan original,0,1050,compra,Existencias al 28 de marzo de 2025
+298,cartucho 951xl cn047al magenta original,0,1050,compra,Existencias al 28 de marzo de 2025
+299,cartucho 951xl cn048al amarillo original,0,1050,compra,Existencias al 28 de marzo de 2025
+300,cartucho 954xl l0s62al cian original,0,950,compra,Existencias al 28 de marzo de 2025
+301,cartucho 954xl l0s65al magenta original,0,950,compra,Existencias al 28 de marzo de 2025
+302,cartucho 954xl l0s68al amarillo original,0,950,compra,Existencias al 28 de marzo de 2025
+303,cartucho 954xl l0s71al negro original,0,1155,compra,Existencias al 28 de marzo de 2025
+304,cartucho 970xl cn6221am negro original,0,250,compra,Existencias al 28 de marzo de 2025
+305,cartucho 971xl cn622am cian original,0,164,compra,Existencias al 28 de marzo de 2025
+306,cartucho 971xl cn623am magenta original,0,164,compra,Existencias al 28 de marzo de 2025
+307,cartucho 971xl cn624am amarillo original,0,250,compra,Existencias al 28 de marzo de 2025
+308,tinta t664 bk negra  original,0,210,compra,Existencias al 28 de marzo de 2025
+309,tinta t664 c cian  original,0,210,compra,Existencias al 28 de marzo de 2025
+310,tinta t664 m magenta original,0,210,compra,Existencias al 28 de marzo de 2025
+311,tinta t664 y amarillo original,0,210,compra,Existencias al 28 de marzo de 2025
+312,tóner 125a cb541a cian genérico,0,2540,compra,Existencias al 28 de marzo de 2025
+313,tóner 10a q2610a negro original,0,250,compra,Existencias al 28 de marzo de 2025
+314,tóner 124a q6000a negro original,0,250,compra,Existencias al 28 de marzo de 2025
+315,tóner 124a q6001a cian original,0,250,compra,Existencias al 28 de marzo de 2025
+316,tóner 124a q6002a amarillo original,0,250,compra,Existencias al 28 de marzo de 2025
+317,tóner 124a q6003a magenta original,0,250,compra,Existencias al 28 de marzo de 2025
+318,tóner 125a cb540a negro original,0,1900,compra,Existencias al 28 de marzo de 2025
+319,tóner 125a cb541a cian original,0,1809,compra,Existencias al 28 de marzo de 2025
+320,tóner 125a cb542a amarillo original,0,1818,compra,Existencias al 28 de marzo de 2025
+321,tóner 125a cb543a magenta original,0,1818,compra,Existencias al 28 de marzo de 2025
+322,tóner 126a ce310a negro original,0,1420,compra,Existencias al 28 de marzo de 2025
+323,tóner 126a ce311a cian original,0,1545,compra,Existencias al 28 de marzo de 2025
+324,tóner 126a ce312a amarillo original,0,1545,compra,Existencias al 28 de marzo de 2025
+325,tóner 126a ce313a magenta original,0,1545,compra,Existencias al 28 de marzo de 2025
+326,tóner 128a ce320a negro original,0,1600,compra,Existencias al 28 de marzo de 2025
+327,tóner 128a ce321a cian original,0,1600,compra,Existencias al 28 de marzo de 2025
+328,tóner 128a ce322a amarillo original,0,1600,compra,Existencias al 28 de marzo de 2025
+329,tóner 128a ce323a magenta original,0,1600,compra,Existencias al 28 de marzo de 2025
+330,tóner 12a q2612a negro original,0,2250,compra,Existencias al 28 de marzo de 2025
+331,tóner 131a cf210a negro original,0,250,compra,Existencias al 28 de marzo de 2025
+332,tóner 131a cf211a cian original,0,250,compra,Existencias al 28 de marzo de 2025
+333,tóner 131a cf212a amarillo original,0,250,compra,Existencias al 28 de marzo de 2025
+334,tóner 131a cf213a magenta original,0,250,compra,Existencias al 28 de marzo de 2025
+335,tóner 17a cf217a negro original,0,1420,compra,Existencias al 28 de marzo de 2025
+336,tóner 204a cf510a negro original,0,1445,compra,Existencias al 28 de marzo de 2025
+337,tóner 204a cf511a cian original,0,1487,compra,Existencias al 28 de marzo de 2025
+338,tóner 204a cf512a amarillo original,0,1487,compra,Existencias al 28 de marzo de 2025
+339,tóner 204a cf513 magenta original,0,1487,compra,Existencias al 28 de marzo de 2025
+340,tóner 26a cf226a negro original,0,2992,compra,Existencias al 28 de marzo de 2025
+341,tóner 304a cc530a cp2025 negro original,0,2900,compra,Existencias al 28 de marzo de 2025
+342,tóner 304a cc531a cp2025 cian original,0,2900,compra,Existencias al 28 de marzo de 2025
+343,tóner 304a cc532a cp2025 amarillo original,0,2900,compra,Existencias al 28 de marzo de 2025
+344,tóner 304a cc533a cp2025 magenta original,0,2900,compra,Existencias al 28 de marzo de 2025
+345,tóner 305a ce411a cian original,0,2890,compra,Existencias al 28 de marzo de 2025
+346,tóner 305a ce412a amarillo original,0,2890,compra,Existencias al 28 de marzo de 2025
+347,tóner 305a ce413a magenta original,0,2890,compra,Existencias al 28 de marzo de 2025
+348,tóner 305x ce410x negro original,0,4427,compra,Existencias al 28 de marzo de 2025
+349,tóner 35a  cb435a negro original,0,1694,compra,Existencias al 28 de marzo de 2025
+350,tóner 36a cb436a negro original,0,1739,compra,Existencias al 28 de marzo de 2025
+351,tóner 410a cf410a negro original,1,2356,compra,Existencias al 28 de marzo de 2025
+352,tóner 410a cf411a cian original,1,3210,compra,Existencias al 28 de marzo de 2025
+353,tóner 410a cf412a amarillo original,0,3210,compra,Existencias al 28 de marzo de 2025
+354,tóner 410a cf413a magenta original,1,3210,compra,Existencias al 28 de marzo de 2025
+355,tóner 49a q5949a negro original,0,2650,compra,Existencias al 28 de marzo de 2025
+356,tóner 53a q7553a original,0,2060,compra,Existencias al 28 de marzo de 2025
+357,tóner 64x cc364xd negro original,0,5181,compra,Existencias al 28 de marzo de 2025
+358,tóner 78a ce278a negro original,0,2200,compra,Existencias al 28 de marzo de 2025
+359,tóner 80a cf280a negro original,0,2826,compra,Existencias al 28 de marzo de 2025
+360,tóner 83a cf283a negro original,0,1790,compra,Existencias al 28 de marzo de 2025
+361,tóner 85a ce285a negro original,2,1790,compra,Existencias al 28 de marzo de 2025
+362,tóner 974a l0r87al cian original,0,1890,compra,Existencias al 28 de marzo de 2025
+363,tóner 974a l0r90al magenta original,0,1890,compra,Existencias al 28 de marzo de 2025
+364,tóner 974a l0r93al amarillo original,0,1890,compra,Existencias al 28 de marzo de 2025
+365,tóner 974a l0r96al negro original,0,1890,compra,Existencias al 28 de marzo de 2025
+366,tóner tk1112 fs1060dn original,0,3042,compra,Existencias al 28 de marzo de 2025
+367,tinta 215 t215520 colores original,0,1431,compra,Existencias al 28 de marzo de 2025
+368,tinta 215 t215520 negro original,0,1441,compra,Existencias al 28 de marzo de 2025
+369,tinta 544 bk negro original,0,249,compra,Existencias al 28 de marzo de 2025
+370,tinta 544 c cyan original,0,249,compra,Existencias al 28 de marzo de 2025
+371,tinta 544 m magenta original,0,249,compra,Existencias al 28 de marzo de 2025
+372,tinta 544 y amarillo original,0,249,compra,Existencias al 28 de marzo de 2025
+373,tinta 664 t6641 bk negro original,0,240,compra,Existencias al 28 de marzo de 2025
+374,tinta 664 t6642 c cyan original,0,240,compra,Existencias al 28 de marzo de 2025
+375,tinta 664 t6643 m magenta original,0,240,compra,Existencias al 28 de marzo de 2025
+376,tinta 664 t6643 y amarillo original,0,240,compra,Existencias al 28 de marzo de 2025
+377,tinta 673 bk negro original,0,321,compra,Existencias al 28 de marzo de 2025
+378,tinta 673 c cyan original,0,321,compra,Existencias al 28 de marzo de 2025
+379,tinta 673 c cyan ligth original,0,321,compra,Existencias al 28 de marzo de 2025
+380,tinta 673 m magenta ligth original,0,321,compra,Existencias al 28 de marzo de 2025
+381,tinta 673 m magenta original,0,321,compra,Existencias al 28 de marzo de 2025
+382,tinta 673 y amarillo original,0,321,compra,Existencias al 28 de marzo de 2025
+383,tinta 674 bk negro original,0,2300,compra,Existencias al 28 de marzo de 2025
+384,tinta 674 c cyan original,0,1983,compra,Existencias al 28 de marzo de 2025
+385,tinta 674 m magenta original,0,1983,compra,Existencias al 28 de marzo de 2025
+386,tinta 674 y amarillo original,0,1983,compra,Existencias al 28 de marzo de 2025
+387,tinta 774 bk negro original,0,536,compra,Existencias al 28 de marzo de 2025
+388,tinta 964xl 3ja54al cyan original,0,1094,compra,Existencias al 28 de marzo de 2025
+389,tinta 964xl 3ja55al magenta original,0,1094,compra,Existencias al 28 de marzo de 2025
+390,tinta 964xl 3ja56al amarillo original,0,1094,compra,Existencias al 28 de marzo de 2025
+391,tinta 964xl 3ja57al negro original,0,1324,compra,Existencias al 28 de marzo de 2025
+392,tinta 728 amarillo original,0,4139,compra,Existencias al 28 de marzo de 2025
+393,tinta 728 cyan original,0,4233,compra,Existencias al 28 de marzo de 2025
+394,tinta 728 magenta original,0,4433,compra,Existencias al 28 de marzo de 2025
+395,tinta 728 negro original,0,4504,compra,Existencias al 28 de marzo de 2025
+396,tinta gt52 amarillo original,0,238,compra,Existencias al 28 de marzo de 2025
+397,tinta gt52 cyan original,0,238,compra,Existencias al 28 de marzo de 2025
+398,tinta gt52 magenta original,0,238,compra,Existencias al 28 de marzo de 2025
+399,tinta gt53 negro original,0,238,compra,Existencias al 28 de marzo de 2025
+400,tinta pfi-050 bk negro original,0,3383,compra,Existencias al 28 de marzo de 2025
+401,tinta pfi-050 c cyan  original,0,3383,compra,Existencias al 28 de marzo de 2025
+402,tinta pfi-050 m magenta original,0,3383,compra,Existencias al 28 de marzo de 2025
+403,tinta pfi-050 y amarillo original,0,3383,compra,Existencias al 28 de marzo de 2025
+404,tinta t504 bk negro original,0,321,compra,Existencias al 28 de marzo de 2025
+405,tinta t504 c cyan original,0,249,compra,Existencias al 28 de marzo de 2025
+406,tinta t504 m magenta original,0,249,compra,Existencias al 28 de marzo de 2025
+407,tinta t504 y amarillo original,0,249,compra,Existencias al 28 de marzo de 2025
+408,tóner  mx-c30nt-b negro original,0,2414,compra,Existencias al 28 de marzo de 2025
+409,tóner  mx-c30nt-a amarillo original,0,2414,compra,Existencias al 28 de marzo de 2025
+410,tóner  mx-c30nt-c cyan original,0,2414,compra,Existencias al 28 de marzo de 2025
+411,tóner  mx-c30nt-m magenta  original,0,2414,compra,Existencias al 28 de marzo de 2025
+412,tóner al2051 original,0,3729,compra,Existencias al 28 de marzo de 2025
+413,tóner tn-1060 negro original,0,794,compra,Existencias al 28 de marzo de 2025
+414,tóner 054 amarillo original,0,2175,compra,Existencias al 28 de marzo de 2025
+415,tóner 054 cyan original,0,2175,compra,Existencias al 28 de marzo de 2025
+416,tóner 054 magenta original,0,2175,compra,Existencias al 28 de marzo de 2025
+417,tóner 054 negro original,0,2039,compra,Existencias al 28 de marzo de 2025
+418,tóner 103a w1103a negro original,0,400,compra,Existencias al 28 de marzo de 2025
+419,tóner 105a negro laser jet w1105a original,0,2830,compra,Existencias al 28 de marzo de 2025
+420,tóner 136x w1360x negro original,0,3691,compra,Existencias al 28 de marzo de 2025
+421,tóner 145a laserjet w1450a negro original,0,2023,compra,Existencias al 28 de marzo de 2025
+422,tóner 150a w1500a negro original,0,1601,compra,Existencias al 28 de marzo de 2025
+423,tóner 151a laserjet w1510a negro original,0,3473,compra,Existencias al 28 de marzo de 2025
+424,toner 414a w2020a black original,0,2660,compra,Existencias al 28 de marzo de 2025
+425,tóner 414a w2021a cyan original,0,3442,compra,Existencias al 28 de marzo de 2025
+426,toner 414a w2022a yellow original,0,3442,compra,Existencias al 28 de marzo de 2025
+427,tóner 414a w2023a magenta original,0,3442,compra,Existencias al 28 de marzo de 2025
+428,tóner 712 3ed67a cyan  original,0,1062,compra,Existencias al 28 de marzo de 2025
+429,tóner 712 3ed68a magenta original,0,1054,compra,Existencias al 28 de marzo de 2025
+430,tóner 712 3ed69a amarillo original,0,1062,compra,Existencias al 28 de marzo de 2025
+431,tóner 712 3ed71a negro original,0,2068,compra,Existencias al 28 de marzo de 2025
+432,tóner laserjet 151a w1510a negro original,0,3473,compra,Existencias al 28 de marzo de 2025
+433,tóner mx-c30nt-n negro original,0,1381,compra,Existencias al 28 de marzo de 2025
+434,tóner 101s negro original,0,2222,compra,Existencias al 28 de marzo de 2025
+435,tóner tk-5442 b negro original,0,1984,compra,Existencias al 28 de marzo de 2025
+436,tóner tk-5442 c cyan original,0,2813,compra,Existencias al 28 de marzo de 2025
+437,tóner tk-5442 m magenta original,0,2813,compra,Existencias al 28 de marzo de 2025
+438,tóner tk-5442 y amarillo original,0,2813,compra,Existencias al 28 de marzo de 2025
+439,"alcohol etílico desnaturalizado al 70%, ",3,94,compra,Existencias al 28 de marzo de 2025
+440,aromatizante ambiental líquido en aerosol.,15,92,compra,Existencias al 28 de marzo de 2025
+441,bolsa biodegradable negra de asa tipo camiseta 30 x 60,32,76,compra,Existencias al 28 de marzo de 2025
+442,bolsa biodegradable negra para basura 60 x 90,41,76,compra,Existencias al 28 de marzo de 2025
+443,bolsa negra biodegradable para basura 90 x 120,30,76,compra,Existencias al 28 de marzo de 2025
+444,bomba para w.c.,68,29.5,compra,Existencias al 28 de marzo de 2025
+445,cepillo para piso,31,63.75,compra,Existencias al 28 de marzo de 2025
+446,cepillo para piso cerdas suaves,10,89.5,compra,Existencias al 28 de marzo de 2025
+447,cepillo para w.c. con base,20,48.25,compra,Existencias al 28 de marzo de 2025
+448,cesto de basura grande,10,710,compra,Existencias al 28 de marzo de 2025
+449,cesto para basura de plástico,33,152.5,compra,Existencias al 28 de marzo de 2025
+450,cloro,331,13.49,compra,Existencias al 28 de marzo de 2025
+451,cubetas de 18 litros de plástico,22,97.75,compra,Existencias al 28 de marzo de 2025
+452,desengrasante,0,27.9,compra,Existencias al 28 de marzo de 2025
+453,desinfectante en aerosol para ambientes y superficies.,2,110.5,compra,Existencias al 28 de marzo de 2025
+454,escoba de palma,0,63,compra,Existencias al 28 de marzo de 2025
+455,escoba de plástico tipo abanico,22,64.5,compra,Existencias al 28 de marzo de 2025
+456,fibra de metal,12,136,compra,Existencias al 28 de marzo de 2025
+457,fibra negra,5,43.75,compra,Existencias al 28 de marzo de 2025
+458,fibra verde con esponja,79,35,compra,Existencias al 28 de marzo de 2025
+459,franela,6,29.75,compra,Existencias al 28 de marzo de 2025
+460,gel antibacterial base de alcohol,344,85,compra,Existencias al 28 de marzo de 2025
+461,guantes para aseo medianos,152,64.25,compra,Existencias al 28 de marzo de 2025
+462,insecticida en aerosol,59,97.75,compra,Existencias al 28 de marzo de 2025
+463,jabón detergente en polvo,82,68,compra,Existencias al 28 de marzo de 2025
+464,jabón líquido para manos,360,24.525,compra,Existencias al 28 de marzo de 2025
+465,jabón líquido para trastes,300,26.95,compra,Existencias al 28 de marzo de 2025
+466,jalador de hule para agua,46,66.5,compra,Existencias al 28 de marzo de 2025
+467,jerga,0,22,compra,Existencias al 28 de marzo de 2025
+468,limpia vidrios,160,14.04,compra,Existencias al 28 de marzo de 2025
+469,limpiador en polvo            ,11,77.75,compra,Existencias al 28 de marzo de 2025
+470,limpiador liquido multiusos con amonio,360,14.03,compra,Existencias al 28 de marzo de 2025
+471,limpiador liquido multiusos esencia de pino,380,14.5,compra,Existencias al 28 de marzo de 2025
+472,limpiador liquido varios aromas,173,14.5,compra,Existencias al 28 de marzo de 2025
+473,limpiador para muebles de madera en aerosol,11,111,compra,Existencias al 28 de marzo de 2025
+474,líquido destapacaño,20,60.25,compra,Existencias al 28 de marzo de 2025
+475,liquido sanitizante,20,24.53,compra,Existencias al 28 de marzo de 2025
+476,pañuelos desechables,27,41.75,compra,Existencias al 28 de marzo de 2025
+477,papel higiénico jumbo,199,98.5,compra,Existencias al 28 de marzo de 2025
+478,papel higiénico junior 200 metros,0,78,compra,Existencias al 28 de marzo de 2025
+479,papel sanitario,500,77,compra,Existencias al 28 de marzo de 2025
+480,pastilla desodorante para w.c.,383,18.25,compra,Existencias al 28 de marzo de 2025
+481,plumero de 3 metros,1,230.75,compra,Existencias al 28 de marzo de 2025
+482,quita sarro,0,50.25,compra,Existencias al 28 de marzo de 2025
+483,recogedores de basura con mango,52,135.75,compra,Existencias al 28 de marzo de 2025
+484,repuesto para mops medidas de 90 x 16 cm,5,164.75,compra,Existencias al 28 de marzo de 2025
+485,tapete de mingitorio,175,88,compra,Existencias al 28 de marzo de 2025
+486,toalla de microfibra,62,58.5,compra,Existencias al 28 de marzo de 2025
+487,toalla en rollo para manos.,103,86.25,compra,Existencias al 28 de marzo de 2025
+488,toalla interdoblada desechable.,622,19.25,compra,Existencias al 28 de marzo de 2025
+489,toallas multiusos de tela absorbente,0,74.75,compra,Existencias al 28 de marzo de 2025
+490,trapeador de micro fibra,27,145,compra,Existencias al 28 de marzo de 2025
+491,trapeador no. 20 hilaza,68,88.5,compra,Existencias al 28 de marzo de 2025
+492,lápiz checador,252,2.52,compra,Existencias al 28 de marzo de 2025
+,,,,,
+,,,,,

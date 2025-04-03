@@ -13,6 +13,7 @@ use App\Traits\ComponentesTrait;
 use Livewire\Attributes\Computed;
 use App\Models\ArticuloDisponible;
 use App\Models\PSD;
+use App\Services\ArticuloDisponibleService;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
@@ -111,7 +112,9 @@ class Entradas extends Component
                 $this->modelo_editar->creado_por = auth()->user()->id;
                 $this->modelo_editar->save();
 
-                $this->crearArticuloDisponible();
+                (new ArticuloDisponibleService())->crear($this->articuloSeleccionado->id, $this->modelo_editar->id, $this->modelo_editar->cantidad, $this->precio_unidad);
+
+                /* $this->crearArticuloDisponible(); */
 
             });
 
