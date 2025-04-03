@@ -272,7 +272,7 @@
 
                                             <x-table.cell>
 
-                                                {{ $solicitud->detalles_sum_cantidad }}
+                                                {{ $solicitud->detalles_sum_cantidad ?? '' }}
 
                                             </x-table.cell>
 
