@@ -188,7 +188,7 @@ class CrearEditarSolicitud extends Component
 
                 }
 
-                $this->solicitud->decrement('precio', $precioTotal);
+                $this->solicitud->decrement('precio', $detalle->precio);
 
                 $stock_total = PrecioStock::where('articulo_disponible_id', $detalle->articulo_disponible_id)->sum('stock');
 
