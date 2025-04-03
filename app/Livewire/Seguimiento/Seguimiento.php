@@ -56,7 +56,7 @@ class Seguimiento extends Component
         if( $this->articuloDisponibleGeneral || $this->articuloDisponibleCatastro || $this->articuloDisponibleRpp){
 
 
-            $this->solicitudes = Solicitud::with('creadoPor:id,name')
+            $this->solicitudes = Solicitud::with('creadoPor:id,name', 'detalles.articuloDisponible')
                                             ->withWhereHas('detalles', function($q){
                                                 $q->when(isset($this->articuloDisponibleGeneral), function($q){
                                                         $q->where('articulo_disponible_id', $this->articuloDisponibleGeneral->id);

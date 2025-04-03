@@ -272,7 +272,17 @@
 
                                             <x-table.cell>
 
-                                                {{ $solicitud->detalles_sum_cantidad ?? '' }}
+                                                <p>{{ $solicitud->detalles_sum_cantidad ?? '' }} artículo(s) en total</p>
+
+                                                @foreach($solicitud->detalles as $detalle)
+
+                                                    @if($detalle->articuloDisponible->articulo_id = $articuloSeleccionado->id)
+
+                                                        <p>{{ $detalle->cantidad }} artículo(s) seleccionado</p>
+
+                                                    @endif
+
+                                                @endforeach
 
                                             </x-table.cell>
 
