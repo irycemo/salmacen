@@ -117,7 +117,7 @@ class Solicitudes extends Component
 
         try {
 
-            $this->modelo_editar->load('detalles.psds.precioStock');
+            $this->modelo_editar->load('detalles.psds.precioStock', 'detalles.articuloDisponible');
 
             DB::transaction(function () {
 
@@ -133,19 +133,19 @@ class Solicitudes extends Component
 
                         $psd->precioStock->increment('stock', $psd->cantidad);
 
+                        $detalle->articuloDisponible->increment('stock_total', $psd->cantidad);
+
                         $psd->delete();
 
                     }
-
-                    $stock_total = PrecioStock::where('articulo_disponible_id', $detalle->articulo_disponible_id)->sum('stock');
-
-                    $detalle->articuloDisponible->update(['stock_total' => $stock_total]);
 
                 }
 
             });
 
-            $this->resetearTodo($borrado = true);
+            $this->modalVer = false;
+
+            $this->modelo_editar->load('detalles.articuloDisponible.articulo');
 
             $this->dispatch('mostrarMensaje', ['success', "La solicitud se rechazó con éxito."]);
 
@@ -184,7 +184,7 @@ class Solicitudes extends Component
 
             }else{
 
-                ArticuloDisponible::create([
+                $articuloDisponible = ArticuloDisponible::create([
                     'articulo_id' => $detalle->articuloDisponible->articulo_id,
                     'stock_total' => $detalle->cantidad,
                     'ubicacion' => $this->modelo_editar->creadoPor->area == 'Dirección de Catastro' ? 'Catastro' : 'RPP'
@@ -275,6 +275,14 @@ class Solicitudes extends Component
             $this->resetearTodo();
 
         }
+
+    }
+
+    public function mount(){
+
+        $this->crearModeloVacio();
+
+        array_push($this->fields, 'modalVer', 'comentario');
 
     }
 

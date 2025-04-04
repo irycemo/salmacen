@@ -90,8 +90,6 @@ class CrearEditarSolicitud extends Component
 
         }
 
-        dd($articuloDisponible);
-
         $precioStock = $articuloDisponible->precioStock->where('stock', '>', 0)->first();
 
         while($cantidad > 0){
@@ -176,25 +174,13 @@ class CrearEditarSolicitud extends Component
 
                     $psd->precioStock->increment('stock', $psd->cantidad);
 
+                    $detalle->articuloDisponible->increment('stock_total', $psd->cantidad);
+
                     $psd->delete();
 
                 }
 
-                $this->solicitud->load('detalles.articuloDisponible.articulo');
-
-                $precioTotal = 0;
-
-                foreach($this->solicitud->detalles as $detalle){
-
-                    $precioTotal += $detalle->precio;
-
-                }
-
                 $this->solicitud->decrement('precio', $detalle->precio);
-
-                $stock_total = PrecioStock::where('articulo_disponible_id', $detalle->articulo_disponible_id)->sum('stock');
-
-                $detalle->articuloDisponible->update(['stock_total' => $stock_total]);
 
                 $detalle->delete();
 
