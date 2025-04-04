@@ -90,6 +90,8 @@ class CrearEditarSolicitud extends Component
 
         }
 
+        dd($articuloDisponible);
+
         $precioStock = $articuloDisponible->precioStock->where('stock', '>', 0)->first();
 
         while($cantidad > 0){

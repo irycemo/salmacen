@@ -176,12 +176,24 @@ class Solicitudes extends Component
 
                 $articuloDisponible->increment('stock_total', $detalle->cantidad);
 
+                PrecioStock::create([
+                    'articulo_disponible_id' => $articuloDisponible->id,
+                    'stock' => $detalle->cantidad,
+                    'precio' => $detalle->precio / $detalle->cantidad
+                ]);
+
             }else{
 
                 ArticuloDisponible::create([
                     'articulo_id' => $detalle->articuloDisponible->articulo_id,
                     'stock_total' => $detalle->cantidad,
                     'ubicacion' => $this->modelo_editar->creadoPor->area == 'Dirección de Catastro' ? 'Catastro' : 'RPP'
+                ]);
+
+                PrecioStock::create([
+                    'articulo_disponible_id' => $articuloDisponible->id,
+                    'stock' => $detalle->cantidad,
+                    'precio' => $detalle->precio / $detalle->cantidad
                 ]);
 
             }
