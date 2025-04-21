@@ -365,14 +365,6 @@
 
                     @endif
 
-                    <x-button-red
-                        wire:click="$toggle('modalVer')"
-                        wire:loading.attr="disabled"
-                        wire:target="$toggle('modalVer')"
-                        type="button">
-                        X
-                    </x-button-red>
-
                 </div>
 
             </div>

@@ -23,6 +23,11 @@ class CrearEditarSolicitud extends Component
 
     public $search;
 
+    public function updatingSearch():void
+    {
+        $this->resetPage();
+    }
+
     public function validaciones($articulo, $cantidad){
 
         if($cantidad < 1) throw new GeneralExpection("La cantidad no puede ser menor a 1.");
