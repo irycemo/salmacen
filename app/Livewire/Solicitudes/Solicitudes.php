@@ -302,6 +302,11 @@ class Solicitudes extends Component
                                     function($q){
                                         $q->where('creado_por', auth()->id());
                                     }
+                                )->when(
+                                    auth()->user()->hasRole(['Almacenista']),
+                                    function($q){
+                                        $q->where('ubicacion', auth()->user()->ubicacion);
+                                    }
                                 )
                                 ->where('estado', 'LIKE', '%' . $this->search . '%')
                                 ->withSum('detalles', 'cantidad')

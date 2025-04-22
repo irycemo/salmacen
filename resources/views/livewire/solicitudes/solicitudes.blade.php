@@ -323,7 +323,7 @@
 
                 <div class="flex gap-3 justify-end">
 
-                    @if(auth()->user()->hasRole(['Administrador', 'Almacenista', 'Contadora(o)', 'Delegada(o) Administrativo']))
+                    @if(auth()->user()->hasRole(['Administrador', 'Almacenista', 'Contador(a)', 'Delegada(o) Administrativo']))
 
                         @if(!in_array($modelo_editar->estado, ['entregado', 'rechazado']))
 
