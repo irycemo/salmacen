@@ -215,6 +215,7 @@
                         <td>
                             <div style="width: 100%;text-align: center;">
                                 <p class="linea" style="margin-left: auto; margin-right: auto;">Sello</p>
+                            </div>
                         </td>
 
                         <td>
@@ -222,6 +223,36 @@
                             <div class="linea" style="margin-left: auto; margin-right: auto;">
                                 <p>Solicitante</p>
                                 <p>{{ $solicitud->creadoPor->name }}</p>
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <table class="footer">
+
+                <thead></thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>
+                            <div style="width: 100%;text-align: center;">
+                                <p class="linea" style="margin-left: auto; margin-right: auto;">Entrega</p>
+                                <p>{{ auth()->user()->name }}</p>
+                            </div>
+                        </td>
+
+                        <td>
+
+                            <div style="margin-left: auto; margin-right: auto;">
+                                <p class="linea" style="margin-left: auto; margin-right: auto;">Autoriza</p>
+                                <p>{{ $autoriza }}</p>
                             </div>
 
                         </td>

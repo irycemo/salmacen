@@ -2,6 +2,7 @@
 
 namespace App\Livewire\Solicitudes;
 
+use App\Models\User;
 use Livewire\Component;
 use App\Models\Solicitud;
 use App\Models\PrecioStock;
@@ -208,6 +209,12 @@ class Solicitudes extends Component
 
         $pdf = Pdf::loadView('recibo.recibo', [
             'solicitud' => $this->modelo_editar,
+            'autoriza' => User::whereHas('roles', function($q){
+                                                $q->where('name', 'Contador(a)');
+                                            })
+                                            ->where('area', 'Departamento de Recursos Humanos, Materiales y Servicios Generales')
+                                            ->first()
+                                            ->name
         ]);
 
         $pdf->render();
