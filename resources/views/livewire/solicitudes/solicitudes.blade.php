@@ -152,7 +152,7 @@
                                             Editar
                                         </a>
 
-                                    @elseif($solicitud->estado == 'entregado')
+                                    @elseif(in_array($solicitud->estado, ['entregado', 'aceptado']))
 
                                         <button
                                             wire:click="reimprimir({{  $solicitud->id }})"
