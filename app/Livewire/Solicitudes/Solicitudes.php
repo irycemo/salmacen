@@ -308,7 +308,10 @@ class Solicitudes extends Component
                                         $q->where('ubicacion', auth()->user()->ubicacion);
                                     }
                                 )
-                                ->where('estado', 'LIKE', '%' . $this->search . '%')
+                                ->where(function($q){
+                                    $q->where('estado', 'LIKE', '%' . $this->search . '%')
+                                        ->orWhere('folio', $this->search);
+                                })
                                 ->withSum('detalles', 'cantidad')
                                 ->orderBy($this->sort, $this->direction)
                                 ->paginate($this->pagination);

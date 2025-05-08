@@ -68,6 +68,7 @@ class Seguimiento extends Component
                                                         $q->orWhere('articulo_disponible_id', $this->articuloDisponibleRpp->id);
                                                     });
                                             })
+                                            ->whereNotIn('estado', ['rechazado'])
                                             ->withSum('detalles', 'cantidad')
                                             ->get();
 

@@ -260,7 +260,12 @@
 
                                             <x-table.cell>
 
-                                                {{ $solicitud->folio }}
+                                                <div class="text-center">
+
+                                                    <p>{{ $solicitud->folio }}</p>
+                                                    <p class="text-xs">{{ ucfirst($solicitud->estado) }}</p>
+
+                                                </div>
 
                                             </x-table.cell>
 
