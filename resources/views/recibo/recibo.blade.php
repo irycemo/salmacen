@@ -213,33 +213,13 @@
                     <tr>
 
                         <td>
+
                             <div style="width: 100%;text-align: center;">
-                                <p class="linea" style="margin-left: auto; margin-right: auto;">Sello</p>
-                            </div>
-                        </td>
-
-                        <td>
-
-                            <div class="linea" style="margin-left: auto; margin-right: auto;">
-                                <p>Solicitante</p>
+                                <p class="linea" style="margin-left: auto; margin-right: auto;">Solicitante</p>
                                 <p>{{ $solicitud->creadoPor->name }}</p>
                             </div>
 
                         </td>
-
-                    </tr>
-
-                </tbody>
-
-            </table>
-
-            <table class="footer">
-
-                <thead></thead>
-
-                <tbody>
-
-                    <tr>
 
                         <td>
                             <div style="width: 100%;text-align: center;">
