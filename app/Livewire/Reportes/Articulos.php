@@ -33,7 +33,7 @@ class Articulos extends Component
 
             Log::error("Error generar archivo de reporte de artículos por el usuario: (id: " . auth()->user()->id . ") " . auth()->user()->name . ". " . $th);
 
-            $this->dispatchBrowserEvent('mostrarMensaje', ['error', "Ha ocurrido un error."]);
+            $this->dispatch('mostrarMensaje', ['error', "Ha ocurrido un error."]);
 
         }
 

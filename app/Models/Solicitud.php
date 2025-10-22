@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\User;
 use App\Models\Detalle;
 use App\Traits\ModelosTrait;
 use Illuminate\Database\Eloquent\Model;
@@ -24,6 +25,10 @@ class Solicitud extends Model
 
     public function detalles(){
         return $this->hasMany(Detalle::class);
+    }
+
+    public function entregadoPor(){
+        return $this->belongsTo(User::class, 'entregado_por');
     }
 
 }

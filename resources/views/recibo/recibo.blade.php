@@ -153,6 +153,8 @@
                         <p>Solicitud número: {{ $solicitud->folio }}</p>
                         <p>Impreso por:</p>
                         <p>{{ auth()->user()->name }}</p>
+                        <p>Entregado en:</p>
+                        <p>{{ $solicitud->updated_at }}</p>
 
                     </th>
 
@@ -224,7 +226,7 @@
                         <td>
                             <div style="width: 100%;text-align: center;">
                                 <p class="linea" style="margin-left: auto; margin-right: auto;">Entrega</p>
-                                <p>{{ auth()->user()->name }}</p>
+                                <p>{{ $solicitud->entregadoPor?->name }}</p>
                             </div>
                         </td>
 

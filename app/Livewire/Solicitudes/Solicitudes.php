@@ -79,6 +79,7 @@ class Solicitudes extends Component
 
                     $this->modelo_editar->update([
                         'estado' => 'entregado',
+                        'entregado_por' => auth()->id(),
                         'actualizado_por' => auth()->id()
                     ]);
 
@@ -90,6 +91,7 @@ class Solicitudes extends Component
 
                 $this->modelo_editar->update([
                     'estado' => 'entregado',
+                    'entregado_por' => auth()->id(),
                     'actualizado_por' => auth()->id()
                 ]);
 

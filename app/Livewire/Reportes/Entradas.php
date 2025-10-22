@@ -33,7 +33,7 @@ class Entradas extends Component
 
             Log::error("Error generar archivo de reporte de entradas por el usuario: (id: " . auth()->user()->id . ") " . auth()->user()->name . ". " . $th);
 
-            $this->dispatchBrowserEvent('mostrarMensaje', ['error', "Ha ocurrido un error."]);
+            $this->dispatch('mostrarMensaje', ['error', "Ha ocurrido un error."]);
 
         }
 

@@ -15,6 +15,7 @@ class Reportes extends Component
     public $verEntradas = false;
     public $verSolicitudes = false;
     public $verGastos = false;
+    public $verSalidas = false;
 
     protected function rules(){
         return [
@@ -37,6 +38,7 @@ class Reportes extends Component
                 'verEntradas',
                 'verSolicitudes',
                 'verGastos',
+                'verSalidas'
             ]);
 
             $this->verArticulos = true;
@@ -48,6 +50,7 @@ class Reportes extends Component
                 'verEntradas',
                 'verSolicitudes',
                 'verGastos',
+                'verSalidas'
             ]);
 
             $this->verEntradas = true;
@@ -59,6 +62,7 @@ class Reportes extends Component
                 'verEntradas',
                 'verSolicitudes',
                 'verGastos',
+                'verSalidas'
             ]);
 
             $this->verSolicitudes = true;
@@ -70,9 +74,21 @@ class Reportes extends Component
                 'verEntradas',
                 'verSolicitudes',
                 'verGastos',
+                'verSalidas'
             ]);
 
             $this->verGastos = true;
+
+        }elseif($this->area == 'salidas'){
+
+            $this->reset([
+                'verArticulos',
+                'verEntradas',
+                'verSolicitudes',
+                'verGastos',
+            ]);
+
+            $this->verSalidas = true;
 
         }
 

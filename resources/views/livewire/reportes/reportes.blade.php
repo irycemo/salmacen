@@ -13,6 +13,7 @@
                 <option value="entradas">Entradas</option>
                 <option value="solicitudes">Solicitudes</option>
                 <option value="gastos">Gastos</option>
+                <option value="salidas">Salidas</option>
 
             </x-input-select>
 
@@ -41,6 +42,12 @@
     @if ($verGastos)
 
         @livewire('reportes.gastos', ['fecha1' => $this->fecha1, 'fecha2' => $this->fecha2])
+
+    @endif
+
+    @if ($verSalidas)
+
+        @livewire('reportes.salidas', ['fecha1' => $this->fecha1, 'fecha2' => $this->fecha2])
 
     @endif
 
