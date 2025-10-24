@@ -18,7 +18,7 @@ use Maatwebsite\Excel\Concerns\WithCustomStartCell;
 class SalidasExport implements FromCollection,  WithProperties, WithDrawings, ShouldAutoSize, WithEvents, WithCustomStartCell, WithColumnWidths, WithHeadings, WithMapping
 {
 
-    public function __construct(public $articulo_id, public $fecha1, public $fecha2)
+    public function __construct(public $articulo_id, public $almacen, public $fecha1, public $fecha2)
     {}
 
     public function collection()
@@ -27,6 +27,11 @@ class SalidasExport implements FromCollection,  WithProperties, WithDrawings, Sh
                             ->when($this->articulo_id, function($q){
                                 $q->whereHas('articuloDisponible', function($q){
                                     $q->where('articulo_id', $this->articulo_id);
+                                });
+                            })
+                            ->when($this->almacen, function($q){
+                                $q->whereHas('solicitud', function($q){
+                                    $q->where('ubicacion', $this->almacen);
                                 });
                             })
                             ->whereBetween('created_at', [$this->fecha1 . ' 00:00:00', $this->fecha2 . ' 23:59:59'])
@@ -54,6 +59,7 @@ class SalidasExport implements FromCollection,  WithProperties, WithDrawings, Sh
             'Cantidad',
             'Precio',
             'Folio de solicitud',
+            'Almacén'
         ];
     }
 
@@ -63,7 +69,8 @@ class SalidasExport implements FromCollection,  WithProperties, WithDrawings, Sh
             ucfirst($detalle->articuloDisponible->articulo->nombre),
             $detalle->cantidad,
             $detalle->precio,
-            $detalle->solicitud->folio
+            $detalle->solicitud->folio,
+            $detalle->solicitud->ubicacion
         ];
     }
 
@@ -80,10 +87,10 @@ class SalidasExport implements FromCollection,  WithProperties, WithDrawings, Sh
     {
         return [
             AfterSheet::class => function(AfterSheet $event) {
-                $event->sheet->mergeCells('A1:D1');
+                $event->sheet->mergeCells('A1:E1');
                 $event->sheet->setCellValue('A1', "Instituto Registral Y Catastral Del Estado De Michoacán De Ocampo\nReporte de salidas (Sistema de Almacén)\n" . now()->format('d-m-Y'));
                 $event->sheet->getStyle('A1')->getAlignment()->setWrapText(true);
-                $event->sheet->getStyle('A1:D1')->applyFromArray([
+                $event->sheet->getStyle('A1:E1')->applyFromArray([
                     'font' => [
                         'bold' => true,
                         'size' => 13
@@ -94,7 +101,7 @@ class SalidasExport implements FromCollection,  WithProperties, WithDrawings, Sh
                     ],
                 ]);
                 $event->sheet->getRowDimension('1')->setRowHeight(90);
-                $event->sheet->getStyle('A2:D2')->applyFromArray([
+                $event->sheet->getStyle('A2:E2')->applyFromArray([
                         'font' => [
                             'bold' => true
                         ]

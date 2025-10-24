@@ -21,6 +21,8 @@ class Salidas extends Component
 
     public $articulos;
     public $articulo_id;
+    public $almacenes;
+    public $almacen;
 
     public $pagination = 10;
 
@@ -28,7 +30,7 @@ class Salidas extends Component
 
         try {
 
-            return Excel::download(new SalidasExport($this->articulo_id, $this->fecha1, $this->fecha2), 'Reporte_de_salidas_' . now()->format('d-m-Y') . '.xlsx');
+            return Excel::download(new SalidasExport($this->articulo_id, $this->almacen, $this->fecha1, $this->fecha2), 'Reporte_de_salidas_' . now()->format('d-m-Y') . '.xlsx');
 
         } catch (\Throwable $th) {
 
@@ -53,6 +55,11 @@ class Salidas extends Component
                         ->when($this->articulo_id, function($q){
                             $q->whereHas('articuloDisponible', function($q){
                                 $q->where('articulo_id', $this->articulo_id);
+                            });
+                        })
+                        ->when($this->almacen, function($q){
+                            $q->whereHas('solicitud', function($q){
+                                $q->where('ubicacion', $this->almacen);
                             });
                         })
                         ->whereBetween('created_at', [$this->fecha1 . ' 00:00:00', $this->fecha2 . ' 23:59:59'])
