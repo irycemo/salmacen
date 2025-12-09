@@ -31,7 +31,8 @@ class Usuarios extends Component
             'modelo_editar.estado' => 'required|in:activo,inactivo',
             'role' => 'required',
             'modelo_editar.ubicacion' => 'required',
-            'modelo_editar.area' => 'required'
+            'modelo_editar.area' => 'required',
+            'modelo_editar.cargo' => 'required'
          ];
     }
 

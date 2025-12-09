@@ -348,6 +348,16 @@
 
             </div>
 
+            <div class="flex flex-col md:flex-row justify-between gap-3 mb-3">
+
+                <x-input-group for="modelo_editar.cargo" label="Cargo" :error="$errors->first('modelo_editar.cargo')" class="w-full">
+
+                    <x-input-text id="modelo_editar.cargo" wire:model="modelo_editar.cargo" />
+
+                </x-input-group>
+
+            </div>
+
         </x-slot>
 
         <x-slot name="footer">

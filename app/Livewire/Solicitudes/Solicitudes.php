@@ -209,14 +209,15 @@ class Solicitudes extends Component
 
         $this->modelo_editar->load('detalles.articuloDisponible.articulo');
 
+        $autoriza  =User::whereHas('roles', function($q){
+                                $q->where('name', 'Contador(a)');
+                            })
+                            ->where('area', 'Departamento de Recursos Humanos, Materiales y Servicios Generales')
+                            ->first();
+
         $pdf = Pdf::loadView('recibo.recibo', [
             'solicitud' => $this->modelo_editar,
-            'autoriza' => User::whereHas('roles', function($q){
-                                                $q->where('name', 'Contador(a)');
-                                            })
-                                            ->where('area', 'Departamento de Recursos Humanos, Materiales y Servicios Generales')
-                                            ->first()
-                                            ->name
+            'autoriza' => $autoriza
         ]);
 
         $pdf->render();

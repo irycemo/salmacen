@@ -219,6 +219,7 @@
                             <div style="width: 100%;text-align: center;">
                                 <p class="linea" style="margin-left: auto; margin-right: auto;">Solicitante</p>
                                 <p>{{ $solicitud->creadoPor->name }}</p>
+                                <p>{{ $solicitud->creadoPor->cargo }}</p>
                             </div>
 
                         </td>
@@ -227,6 +228,7 @@
                             <div style="width: 100%;text-align: center;">
                                 <p class="linea" style="margin-left: auto; margin-right: auto;">Entrega</p>
                                 <p>{{ $solicitud->entregadoPor?->name }}</p>
+                                <p>{{ $solicitud->entregadoPor?->cargo }}</p>
                             </div>
                         </td>
 
@@ -235,6 +237,7 @@
                             <div style="margin-left: auto; margin-right: auto;">
                                 <p class="linea" style="margin-left: auto; margin-right: auto;">Autoriza</p>
                                 <p>{{ $autoriza }}</p>
+                                <p>{{ $autoriza->cargo }}</p>
                             </div>
 
                         </td>

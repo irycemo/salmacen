@@ -315,11 +315,15 @@
 
             <div class="flex flex-col space-y-3 w-full">
 
-                <x-input-group for="comentario" label="" :error="$errors->first('comentario')" class="text-left">
+                @if(!in_array($modelo_editar->estado, ['entregado', 'rechazado']))
 
-                    <textarea @if(auth()->id() == $modelo_editar->creado_por) readonly @endif autofocus="false" class="bg-white rounded text-sm w-full " rows="3" wire:model="comentario" placeholder="Comentario del rechazo"></textarea>
+                    <x-input-group for="comentario" label="" :error="$errors->first('comentario')" class="text-left">
 
-                </x-input-group>
+                        <textarea @if(auth()->id() == $modelo_editar->creado_por) readonly @endif autofocus="false" class="bg-white rounded text-sm w-full " rows="3" wire:model="comentario" placeholder="Comentario del rechazo"></textarea>
+
+                    </x-input-group>
+
+                @endif
 
                 <div class="flex gap-3 justify-end">
 
