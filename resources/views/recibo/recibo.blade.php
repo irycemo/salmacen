@@ -236,7 +236,7 @@
 
                             <div style="margin-left: auto; margin-right: auto;">
                                 <p class="linea" style="margin-left: auto; margin-right: auto;">Autoriza</p>
-                                <p>{{ $autoriza }}</p>
+                                <p>{{ $autoriza->name }}</p>
                                 <p>{{ $autoriza->cargo }}</p>
                             </div>
 
