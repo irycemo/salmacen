@@ -2,11 +2,12 @@
 
 namespace App\Livewire\Almacen;
 
+use App\Models\ArticuloDisponible;
+use App\Traits\ComponentesTrait;
+use Illuminate\Support\Facades\Log;
+use Livewire\Attributes\Computed;
 use Livewire\Component;
 use Livewire\WithPagination;
-use App\Traits\ComponentesTrait;
-use App\Models\ArticuloDisponible;
-use Illuminate\Support\Facades\Log;
 
 class AlmacenGeneral extends Component
 {
@@ -56,19 +57,25 @@ class AlmacenGeneral extends Component
 
     }
 
-    public function render()
-    {
+    #[Computed]
+    public function articulos(){
 
-        $articulos = ArticuloDisponible::where('ubicacion', 'general')
-                                        ->withWhereHas('articulo', function($q){
-                                            $q->where('nombre', 'LIKE', '%' . $this->search . '%')
-                                                ->orWhere('marca', 'LIKE', '%' . $this->search . '%')
-                                                ->orWhere('serial', 'LIKE', '%' . $this->search . '%');
-                                        })
-                                        ->orderBy($this->sort, $this->direction)
-                                        ->paginate($this->pagination);
-
-        return view('livewire.almacen.almacen-general', compact('articulos'))->extends('layouts.admin');
+        return ArticuloDisponible::select('id', 'stock_total', 'alerta', 'articulo_id', 'created_at', 'updated_at')
+                                    ->where('ubicacion', 'general')
+                                    ->withWhereHas('articulo', function($q){
+                                        $q->select('id', 'nombre', 'marca', 'serial', 'descripcion')
+                                            ->where('nombre', 'LIKE', '%' . $this->search . '%')
+                                            ->orWhere('marca', 'LIKE', '%' . $this->search . '%')
+                                            ->orWhere('serial', 'LIKE', '%' . $this->search . '%');
+                                    })
+                                    ->orderBy($this->sort, $this->direction)
+                                    ->paginate($this->pagination);
 
     }
+
+    public function render()
+    {
+        return view('livewire.almacen.almacen-general')->extends('layouts.admin');
+    }
+
 }

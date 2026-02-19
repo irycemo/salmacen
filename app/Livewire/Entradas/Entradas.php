@@ -311,17 +311,22 @@ class Entradas extends Component
 
     }
 
+    #[Computed]
+    public function entradas(){
+
+        return Entrada::select('id', 'articulo_id', 'cantidad', 'precio', 'origen', 'descripcion',  'creado_por', 'actualizado_por', 'created_at', 'updated_at')
+                        ->with('creadoPor:id,name', 'actualizadoPor:id,name', 'articulo:id,nombre,marca')
+                        ->whereHas('articulo', function($q){
+                            $q->where('nombre', 'LIKE', '%' . $this->search . '%')
+                                ->orWhere('marca', 'LIKE', '%' . $this->search . '%');
+                        })
+                        ->orderBy($this->sort, $this->direction)
+                        ->paginate($this->pagination);
+
+    }
+
     public function render()
     {
-
-        $entradas = Entrada::with('creadoPor', 'actualizadoPor', 'articulo:id,nombre,marca')
-                                ->whereHas('articulo', function($q){
-                                    $q->where('nombre', 'LIKE', '%' . $this->search . '%')
-                                        ->orWhere('marca', 'LIKE', '%' . $this->search . '%');
-                                })
-                                ->orderBy($this->sort, $this->direction)
-                                ->paginate($this->pagination);
-
-        return view('livewire.entradas.entradas', compact('entradas'))->extends('layouts.admin');
+        return view('livewire.entradas.entradas')->extends('layouts.admin');
     }
 }

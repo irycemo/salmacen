@@ -55,38 +55,29 @@
 
             <x-slot name="body">
 
-                @forelse ($articulos as $articulo)
+                @forelse ($this->articulos as $articulo)
 
                 <x-table.row wire:loading.class.delaylongest="opacity-50" wire:key="row-{{ $articulo->id }}">
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Nombre</span>
+                    <x-table.cell title="Nombre">
 
                         {{ ucfirst($articulo->nombre) }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden  absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Marca</span>
+                    <x-table.cell title="Marca">
 
                         {{ $articulo->marca }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden  absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Descripción</span>
+                    <x-table.cell title="Descripción">
 
                         {{ ucfirst($articulo->descripcion) }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Registrado</span>
-
+                    <x-table.cell title="Registrado">
 
                         <span class="font-semibold">@if($articulo->creadoPor != null)Registrado por: {{$articulo->creadoPor->name}} @else Registro: @endif</span> <br>
 
@@ -94,9 +85,7 @@
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Actualizado</span>
+                    <x-table.cell title="Actualizado">
 
                         <span class="font-semibold">@if($articulo->actualizadoPor != null)Actualizado por: {{$articulo->actualizadoPor->name}} @else Actualizado: @endif</span> <br>
 
@@ -104,9 +93,7 @@
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Acciones</span>
+                    <x-table.cell title="Acciones">
 
                         <div class="ml-3 relative" x-data="{ open_drop_down:false }">
 
@@ -183,7 +170,7 @@
 
                     <x-table.cell colspan="9" class="bg-gray-50">
 
-                        {{ $articulos->links()}}
+                        {{ $this->articulos->links()}}
 
                     </x-table.cell>
 

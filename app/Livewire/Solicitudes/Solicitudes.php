@@ -2,16 +2,17 @@
 
 namespace App\Livewire\Solicitudes;
 
-use App\Models\User;
-use Livewire\Component;
-use App\Models\Solicitud;
-use App\Models\PrecioStock;
-use Livewire\WithPagination;
-use Barryvdh\DomPDF\Facade\Pdf;
-use App\Traits\ComponentesTrait;
 use App\Models\ArticuloDisponible;
+use App\Models\PrecioStock;
+use App\Models\Solicitud;
+use App\Models\User;
+use App\Traits\ComponentesTrait;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Livewire\Attributes\Computed;
+use Livewire\Component;
+use Livewire\WithPagination;
 
 class Solicitudes extends Component
 {
@@ -25,6 +26,9 @@ class Solicitudes extends Component
 
     public $comentario;
 
+    public $director_catastro = false;
+    public $director_rpp = false;
+
     protected $queryString = ['search'];
 
     protected $validationAttributes  = [
@@ -34,6 +38,16 @@ class Solicitudes extends Component
 
     public function crearModeloVacio(){
         $this->modelo_editar = Solicitud::make();
+    }
+
+    public function updatedDirectorCatastro(){
+        if($this->director_catastro) $this->director_rpp = false;
+        if(! $this->director_catastro) $this->director_rpp = false;
+    }
+
+    public function updatedDirectorRpp(){
+        if($this->director_rpp) $this->director_catastro = false;
+        if(! $this->director_rpp) $this->director_catastro = false;
     }
 
     public function abrirModalVer(Solicitud $solicitud){
@@ -71,7 +85,7 @@ class Solicitudes extends Component
 
         try {
 
-            if($this->modelo_editar->creadoPor->hasRole('Director')){
+            if($this->modelo_editar->creadoPor->hasRole('Director') || $this->director_rpp || $this->director_catastro){
 
                 DB::transaction(function () {
 
@@ -171,6 +185,12 @@ class Solicitudes extends Component
                                                         })
                                                         ->when($this->modelo_editar->creadoPor->area == 'Dirección del Registro Público de la Propiedad',function($q){
                                                             $q->where('ubicacion', 'RPP');
+                                                        })
+                                                        ->when($this->director_rpp,function($q){
+                                                            $q->where('ubicacion', 'RPP');
+                                                        })
+                                                        ->when($this->director_catastro,function($q){
+                                                            $q->where('ubicacion', 'Catastro');
                                                         })
                                                         ->where('articulo_id', $detalle->articuloDisponible->articulo_id)
                                                         ->first();
@@ -296,30 +316,35 @@ class Solicitudes extends Component
 
     }
 
+    #[Computed]
+    public function solicitudes(){
+
+        return Solicitud::select('id', 'folio', 'estado', 'ubicacion', 'ubicacion', 'creado_por', 'actualizado_por', 'created_at', 'updated_at')
+                            ->with('creadoPor:id,name', 'actualizadoPor:id,name')
+                            ->when(
+                                auth()->user()->hasRole(['Solicitante', 'Director']),
+                                function($q){
+                                    $q->where('creado_por', auth()->id());
+                                }
+                            )->when(
+                                auth()->user()->hasRole(['Almacenista']),
+                                function($q){
+                                    $q->where('ubicacion', auth()->user()->ubicacion);
+                                }
+                            )
+                            ->where(function($q){
+                                $q->where('estado', 'LIKE', '%' . $this->search . '%')
+                                    ->orWhere('folio', $this->search);
+                            })
+                            ->withSum('detalles', 'cantidad')
+                            ->orderBy($this->sort, $this->direction)
+                            ->paginate($this->pagination);
+
+    }
+
     public function render()
     {
-
-        $solicitudes = Solicitud::with('creadoPor', 'actualizadoPor')
-                                ->when(
-                                    auth()->user()->hasRole(['Solicitante', 'Director']),
-                                    function($q){
-                                        $q->where('creado_por', auth()->id());
-                                    }
-                                )->when(
-                                    auth()->user()->hasRole(['Almacenista']),
-                                    function($q){
-                                        $q->where('ubicacion', auth()->user()->ubicacion);
-                                    }
-                                )
-                                ->where(function($q){
-                                    $q->where('estado', 'LIKE', '%' . $this->search . '%')
-                                        ->orWhere('folio', $this->search);
-                                })
-                                ->withSum('detalles', 'cantidad')
-                                ->orderBy($this->sort, $this->direction)
-                                ->paginate($this->pagination);
-
-        return view('livewire.solicitudes.solicitudes', compact('solicitudes'))->extends('layouts.admin');
+        return view('livewire.solicitudes.solicitudes')->extends('layouts.admin');
     }
+
 }
-;

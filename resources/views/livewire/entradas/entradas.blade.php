@@ -58,82 +58,59 @@
 
             <x-slot name="body">
 
-                @forelse ($entradas as $entrada)
+                @forelse ($this->entradas as $entrada)
 
                 <x-table.row wire:loading.class.delaylongest="opacity-50" wire:key="row-{{ $entrada->id }}">
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Artículo</span>
+                    <x-table.cell title="Artículo">
 
                         {{ ucfirst($entrada->articulo->nombre) }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden  absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Marca</span>
+                    <x-table.cell title="Marca">
 
                         {{ ucfirst($entrada->articulo->marca) }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden  absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Cantidad</span>
+                    <x-table.cell title="Cantidad">
 
                         {{ $entrada->cantidad }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden  absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Precio</span>
+                    <x-table.cell title="Precio">
 
                         ${{ number_format($entrada->precio, 2) }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden  absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Origen</span>
+                    <x-table.cell title="Origen">
 
                         {{ ucfirst($entrada->origen) }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden  absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Descripción</span>
+                    <x-table.cell title="Descripción">
 
                         {{ $entrada->descripcion }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Registrado</span>
-
-
-                        <span class="font-semibold">@if($entrada->creadoPor != null)Registrado por: {{$entrada->creadoPor->name}} @else Registro: @endif</span> <br>
+                    <x-table.cell title="Registrado">
 
                         {{ $entrada->created_at }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Actualizado</span>
-
-                        <span class="font-semibold">@if($entrada->actualizadoPor != null)Actualizado por: {{$entrada->actualizadoPor->name}} @else Actualizado: @endif</span> <br>
+                    <x-table.cell title="Actualizado">
 
                         {{ $entrada->updated_at }}
 
                     </x-table.cell>
 
-                    <x-table.cell>
-
-                        <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Acciones</span>
+                    <x-table.cell title="Acciones">
 
                         <div class="ml-3 relative" x-data="{ open_drop_down:false }">
 
@@ -210,7 +187,7 @@
 
                     <x-table.cell colspan="9" class="bg-gray-50">
 
-                        {{ $entradas->links()}}
+                        {{ $this->entradas->links()}}
 
                     </x-table.cell>
 

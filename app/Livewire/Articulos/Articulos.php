@@ -2,12 +2,13 @@
 
 namespace App\Livewire\Articulos;
 
-use Livewire\Component;
 use App\Models\Articulo;
 use App\Models\Categoria;
-use Livewire\WithPagination;
 use App\Traits\ComponentesTrait;
 use Illuminate\Support\Facades\Log;
+use Livewire\Attributes\Computed;
+use Livewire\Component;
+use Livewire\WithPagination;
 
 class Articulos extends Component
 {
@@ -128,15 +129,20 @@ class Articulos extends Component
 
     }
 
+    #[Computed]
+    public function articulos(){
+
+        return Articulo::select('id', 'nombre', 'marca', 'creado_por', 'actualizado_por', 'created_at', 'updated_at', 'descripcion')
+                        ->with('creadoPor:id,name', 'actualizadoPor:id,name')
+                        ->where('nombre', 'LIKE', '%' . $this->search . '%')
+                        ->orderBy($this->sort, $this->direction)
+                        ->paginate($this->pagination);
+
+    }
+
     public function render()
     {
-
-        $articulos = Articulo::with('creadoPor', 'actualizadoPor')
-                                ->where('nombre', 'LIKE', '%' . $this->search . '%')
-                                ->orderBy($this->sort, $this->direction)
-                                ->paginate($this->pagination);
-
-        return view('livewire.articulos.articulos', compact('articulos'))->extends('layouts.admin');
+        return view('livewire.articulos.articulos')->extends('layouts.admin');
     }
 
 }

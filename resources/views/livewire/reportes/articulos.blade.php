@@ -1,6 +1,6 @@
 <div>
 
-    <div class="md:flex flex-col md:flex-row justify-center md:space-x-3 items-center bg-white rounded-xl mb-5 p-4">
+    <div class="md:flex flex-col md:flex-row justify-center md:space-x-3 space-y-2 md:space-y-0 items-center bg-white rounded-xl mb-5 p-4">
 
         <x-input-group for="ubicacion" label="Almacén" :error="$errors->first('ubicacion')">
 
@@ -38,13 +38,13 @@
 
     @if(count($articulos))
 
-        <div class="rounded-lg shadow-xl mb-5 p-4 font-thin md:flex items-center justify-between bg-white">
+        <div class="rounded-lg shadow-xl mb-5 p-4 font-thin md:flex md:items-center md:justify-between bg-white space-y-2 md:space-y-0">
 
-            <p class="text-xl font-extralight">Se encontraron: {{ number_format($articulos->total()) }} registros con los filtros seleccionados.</p>
+            <p class="font-extralight">Se encontraron: {{ number_format($articulos->total()) }} registros con los filtros seleccionados.</p>
 
             <x-button-green
                 wire:click="descargarExcel"
-                >
+                wire:loading.attr="disabled">
 
                 <img wire:loading wire:target="descargarExcel" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
 
@@ -58,132 +58,76 @@
 
         </div>
 
-        <div class="relative overflow-x-auto rounded-lg shadow-xl">
+        <div class="overflow-x-auto rounded-lg shadow-xl">
 
-            <table class="rounded-lg w-full">
+            <x-table>
 
-                <thead class="border-b border-gray-300 bg-gray-50">
+                <x-slot name="head">
 
-                    <tr class="text-xs  text-gray-500 uppercase text-left traling-wider">
+                    <x-table.heading >Nombre</x-table.heading>
+                    <x-table.heading >Marca</x-table.heading>
+                    <x-table.heading >Stock</x-table.heading>
+                    <x-table.heading >Descripcion</x-table.heading>
+                    <x-table.heading >Registro</x-table.heading>
 
-                        <th class="px-3 py-3 hidden lg:table-cell">
+                </x-slot>
 
-                            Nombre
-
-                        </th>
-
-                        <th class="px-3 py-3 hidden lg:table-cell">
-
-                            Marca
-
-                        </th>
-
-                        <th class="px-3 py-3 hidden lg:table-cell">
-
-                            Stock
-
-                        </th>
-
-                        <th class="px-3 py-3 hidden lg:table-cell">
-
-                            Descripcion
-
-                        </th>
-
-                        <th class="px-3 py-3 hidden lg:table-cell">
-
-                            Registro
-
-                        </th>
-
-                    </tr>
-
-                </thead>
-
-                <tbody class="divide-y divide-gray-200 flex-1 sm:flex-none">
+                <x-slot name="body">
 
                     @foreach($articulos as $articulo)
 
-                        <tr class="text-sm  text-gray-500 bg-white flex lg:table-row flex-row lg:flex-row flex-wrap lg:flex-no-wrap mb-10 lg:mb-0 text-center" wire:key="row-{{ $articulo->id }}">
+                        <x-table.row wire:loading.class.delaylongest="opacity-50" wire:key="row-{{ $articulo->id }}">
 
-                            <td class="w-full lg:w-auto p-3 text-gray-800  md:text-left lg:border-0 border border-b block lg:table-cell relative lg:static">
-
-                                <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Nombre</span>
+                            <x-table.cell title="Nombre">
 
                                 {{ ucfirst($articulo->nombre) }}
 
-                            </td>
+                            </x-table.cell>
 
-                            <td class="capitalize w-full lg:w-auto p-3 text-gray-800  md:text-left lg:border-0 border border-b block lg:table-cell relative lg:static">
-
-                                <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Marca</span>
+                            <x-table.cell title="Marca">
 
                                 {{ $articulo->marca }}
+                            </x-table.cell>
 
-                            </td>
-
-                            <td class="capitalize w-full lg:w-auto p-3 text-gray-800  md:text-left lg:border-0 border border-b block lg:table-cell relative lg:static">
-
-                                <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Stock</span>
+                            <x-table.cell title="Marca">
 
                                 {{ $articulo->articulosDisponibles->first()->stock_total }}
 
-                            </td>
+                            </x-table.cell>
 
-                            <td class="capitalize w-full lg:w-auto p-3 text-gray-800  md:text-left lg:border-0 border border-b block lg:table-cell relative lg:static">
-
-                                <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Descripción</span>
+                            <x-table.cell title="Descripción">
 
                                 {{ ucfirst($articulo->descripcion) }}
 
-                            </td>
+                            </x-table.cell>
 
-
-                            <td class="w-full lg:w-auto p-3 text-gray-800 text-center lg:border-0 border border-b block lg:table-cell relative lg:static">
-
-                                <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Registrado</span>
+                            <x-table.cell title="Registrado">
 
                                 {{ $articulo->created_at }}
 
-                            </td>
-                        </tr>
+                            </x-table.cell>
+
+                        </x-table.row>
 
                     @endforeach
 
-                </tbody>
+                </x-slot>
 
-                <tfoot class="border-gray-300 bg-gray-50">
+                <x-slot name="tfoot">
 
-                    <tr>
+                    <x-table.row>
 
-                        <td colspan="1" class="py-2 px-5">
+                        <x-table.cell colspan="9" class="bg-gray-50">
 
-                            <select class="bg-white rounded-full text-sm" wire:model="pagination">
-
-                                <option value="10">10</option>
-                                <option value="25">25</option>
-                                <option value="50">50</option>
-                                <option value="100">100</option>
-
-                            </select>
-
-                        </td>
-
-                        <td colspan="20" class="py-2 px-5">
                             {{ $articulos->links()}}
-                        </td>
 
-                    </tr>
+                        </x-table.cell>
 
-                </tfoot>
+                    </x-table.row>
 
-            </table>
+                </x-slot>
 
-            <div class="h-full w-full rounded-lg bg-gray-200 bg-opacity-75 absolute top-0 left-0" wire:loading.delay.longer>
-
-                <img class="mx-auto h-16" src="{{ asset('storage/img/loading.svg') }}" alt="">
-
-            </div>
+            </x-table>
 
         </div>
 

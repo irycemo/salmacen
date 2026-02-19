@@ -1,6 +1,6 @@
 <div>
 
-    <div class="md:flex md:flex-row flex-col md:space-x-4 items-center justify-center gap-3 bg-white rounded-xl mb-5 p-4">
+    <div class="md:flex md:flex-row flex-col md:space-x-4 items-center justify-center gap-3 bg-white rounded-xl mb-5 p-4 space-y-2 md:space-y-0">
 
         <x-input-group for="fecha1" label="Fecha inicial" :error="$errors->first('fecha1')" >
 
@@ -18,7 +18,7 @@
 
     @if($solicitudes->count() > 0)
 
-        <div class="grid grid-cols-3">
+        <div class="grid grid-cols-1 lg:grid-cols-3 space-y-2 lg:space-y-0">
 
             <div class="bg-white rounded-lg shadow-xl p-4 w-full lg:w-1/2 mx-auto space-y-2">
 

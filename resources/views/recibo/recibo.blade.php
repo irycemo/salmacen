@@ -144,7 +144,7 @@
                     <th>
 
                         <h1>Recibo de entrega</h1>
-                        <p>Sistema de Almacén</p>
+                        <p>Sistema de Almacén ({{ $solicitud->ubicacion }})</p>
 
                     </th>
 

@@ -52,27 +52,23 @@
 
             <x-slot name="body">
 
-                @forelse ($solicitudes as $solicitud)
+                @forelse ($this->solicitudes as $solicitud)
 
                     <x-table.row wire:loading.class.delaylongest="opacity-50" wire:key="row-{{ $solicitud->id }}">
 
-                        <x-table.cell>
-
-                            <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Folio</span>
+                        <x-table.cell title="Folio">
 
                             {{ $solicitud->folio }}
 
                         </x-table.cell>
 
-                        <x-table.cell>
-
-                            <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Folio</span>
+                        <x-table.cell title="Estado">
 
                             <span class="bg-{{ $solicitud->estado_color }} py-1 px-2 rounded-full text-white text-xs">{{ ucfirst($solicitud->estado) }}</span>
 
                         </x-table.cell>
 
-                        <x-table.cell>
+                        <x-table.cell title="Estado">
 
                             <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Folio</span>
 
@@ -80,26 +76,19 @@
 
                         </x-table.cell>
 
-                        <x-table.cell>
-
-                            <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Almacen</span>
+                        <x-table.cell title="Almacen">
 
                             <span class="capitalize">{{ $solicitud->ubicacion }}</span>
 
                         </x-table.cell>
 
-                        <x-table.cell>
-
-                            <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Comentario</span>
+                        <x-table.cell title="Comentario">
 
                             {{ $solicitud->comentario ?? 'N/A' }}
 
                         </x-table.cell>
 
-                        <x-table.cell>
-
-                            <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Registrado</span>
-
+                        <x-table.cell title="Registrado">
 
                             <span class="font-semibold">@if($solicitud->creadoPor != null)Registrado por: {{$solicitud->creadoPor->name}} @else Registro: @endif</span> <br>
 
@@ -107,7 +96,7 @@
 
                         </x-table.cell>
 
-                        <x-table.cell>
+                        <x-table.cell title="Actualizado">
 
                             <span class="font-semibold">@if($solicitud->actualizadoPor != null)Actualizado por: {{$solicitud->actualizadoPor->name}} @else Actualizado: @endif</span> <br>
 
@@ -115,9 +104,7 @@
 
                         </x-table.cell>
 
-                        <x-table.cell>
-
-                            <span class="lg:hidden absolute top-0 left-0 bg-blue-300 px-2 py-1 text-xs text-white font-bold uppercase rounded-br-xl">Acciones</span>
+                        <x-table.cell title="Acciones">
 
                             <div class="ml-3 relative" x-data="{ open_drop_down:false }">
 
@@ -198,7 +185,7 @@
 
                     <x-table.cell colspan="9" class="bg-gray-50">
 
-                        {{ $solicitudes->links()}}
+                        {{ $this->solicitudes->links()}}
 
                     </x-table.cell>
 
@@ -370,6 +357,22 @@
                     @endif
 
                 </div>
+
+                @if(auth()->user()->hasRole(['Contador(a)', 'Administrador']))
+
+                    <x-input-group for="director_catastro" label="Procesar para alimentar almacen de catastro" :error="$errors->first('director_catastro')" class="flex gap-3 items-center">
+
+                        <x-checkbox wire:model.live="director_catastro" id="director_catastro"/>
+
+                    </x-input-group>
+
+                    <x-input-group for="director_rpp" label="Procesar para alimentar almacen de rpp" :error="$errors->first('director_rpp')" class="flex gap-3 items-center">
+
+                        <x-checkbox wire:model.live="director_rpp" id="director_rpp"/>
+
+                    </x-input-group>
+
+                @endif
 
             </div>
 

@@ -2,9 +2,9 @@
 
     <x-header>Seguimiento</x-header>
 
-    <div class="grid grid-cols-12 gap-3">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-3">
 
-        <div class="bg-white shadow-xl p-4 rounded-lg col-span-3">
+        <div class="bg-white shadow-xl p-4 rounded-lg lg:col-span-3">
 
             <x-input-group for="articulo" label="Artículo" :error="$errors->first('articulo')" class="w-full">
 
@@ -99,13 +99,13 @@
 
         </div>
 
-        <div class="col-span-9 space-y-3">
+        <div class="lg:col-span-9 space-y-3">
 
             <div class="bg-white shadow-xl p-4 rounded-lg text-sm">
 
                 @if($articuloSeleccionado)
 
-                    <div class="flex items-center gap-3 mb-5">
+                    <div class="flex-row lg:flex space-y-3 lg:space-y-0 items-center gap-3 mb-5">
 
                         <div class="rounded-lg bg-gray-100 py-1 px-2">
 
@@ -137,7 +137,7 @@
 
                     </div>
 
-                    <div class="flex items-center gap-3">
+                    <div class="flex-row lg:flex space-y-3 lg:space-y-0 items-center gap-3">
 
                         <div class="rounded-lg bg-gray-100 py-1 px-2">
 
@@ -163,7 +163,7 @@
 
             </div>
 
-            <div class="grid grid-cols-2 gap-3">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
 
                 <div class="bg-white shadow-xl p-4 rounded-lg">
 

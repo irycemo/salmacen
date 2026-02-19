@@ -2,11 +2,12 @@
 
 namespace App\Livewire\Admin;
 
-use Livewire\Component;
 use App\Models\Categoria;
-use Livewire\WithPagination;
 use App\Traits\ComponentesTrait;
 use Illuminate\Support\Facades\Log;
+use Livewire\Attributes\Computed;
+use Livewire\Component;
+use Livewire\WithPagination;
 
 class Categorias extends Component
 {
@@ -107,15 +108,20 @@ class Categorias extends Component
 
     }
 
+    #[Computed]
+    public function categorias(){
+
+        return Categoria::select('id','nombre', 'creado_por', 'actualizado_por', 'created_at', 'updated_at')
+                            ->with('creadoPor:id,name', 'actualizadoPor:id,name')
+                            ->where('nombre', 'LIKE', '%' . $this->search . '%')
+                            ->orderBy($this->sort, $this->direction)
+                            ->paginate($this->pagination);
+
+    }
+
     public function render()
     {
-
-        $categorias = Categoria::with('creadoPor', 'actualizadoPor')
-                                ->where('nombre', 'LIKE', '%' . $this->search . '%')
-                                ->orderBy($this->sort, $this->direction)
-                                ->paginate($this->pagination);
-
-        return view('livewire.admin.categorias', compact('categorias'))->extends('layouts.admin');
+        return view('livewire.admin.categorias')->extends('layouts.admin');
     }
 
 }

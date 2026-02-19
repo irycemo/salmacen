@@ -2,7 +2,7 @@
 
     <x-header>Solicitud</x-header>
 
-    <div class="grid grid-cols-5 w-full gap-3 lg:w-2/3 mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-5 w-full gap-3 xl:w-2/3 mx-auto">
 
         <div class="bg-white rounded-xl p-4 shadow-lg col-span-3">
 
