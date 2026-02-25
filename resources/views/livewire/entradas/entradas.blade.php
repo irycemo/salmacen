@@ -215,6 +215,19 @@
 
             <div class="space-y-3 mb-3">
 
+                <x-input-group for="almacen" label="Almacén" :error="$errors->first('almacen')" class="w-full">
+
+                    <x-input-select id="almacen" wire:model.live="almacen" class="w-full">
+
+                        <option value="">Seleccione una opción</option>
+                        <option value="general">General</option>
+                        <option value="Catastro">Catastro</option>
+                        <option value="RPP">RPP</option>
+
+                    </x-input-select>
+
+                </x-input-group>
+
                 <x-input-group for="modelo_editar.origen" label="Origen" :error="$errors->first('modelo_editar.origen')" class="w-full">
 
                     <x-input-select id="modelo_editar.origen" wire:model.live="modelo_editar.origen" class="w-full">

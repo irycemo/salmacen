@@ -30,6 +30,8 @@ class Entradas extends Component
 
     public $precio_unidad;
 
+    public $almacen;
+
     protected function rules(){
         return [
             'modelo_editar.origen' => 'required',
@@ -38,13 +40,15 @@ class Entradas extends Component
                                             Rule::when($this->articuloSeleccionado?->serial, ['max:1', 'integer'])
                                         ],
             'modelo_editar.descripcion' => 'required',
-            'precio_unidad' => Rule::requiredIf($this->modelo_editar->origen == 'compra')
+            'precio_unidad' => Rule::requiredIf($this->modelo_editar->origen == 'compra'),
+            'almacen' => 'required|in:general,Catastro,RPP'
          ];
     }
 
     protected $validationAttributes  = [
         'modelo_editar.descripcion' => 'descripción',
-        'precio_unidad' => 'precio por unidad'
+        'precio_unidad' => 'precio por unidad',
+        'almacen' => 'almacén'
     ];
 
     public function crearModeloVacio(){
@@ -112,9 +116,7 @@ class Entradas extends Component
                 $this->modelo_editar->creado_por = auth()->user()->id;
                 $this->modelo_editar->save();
 
-                (new ArticuloDisponibleService())->crear($this->articuloSeleccionado->id, $this->modelo_editar->id, $this->modelo_editar->cantidad, $this->precio_unidad);
-
-                /* $this->crearArticuloDisponible(); */
+                (new ArticuloDisponibleService())->crear($this->articuloSeleccionado->id, $this->modelo_editar->id, $this->modelo_editar->cantidad, $this->precio_unidad, $this->almacen);
 
             });
 
@@ -138,50 +140,10 @@ class Entradas extends Component
 
     }
 
-    public function crearArticuloDisponible(){
+    public function actualizarArticuloDisponible(string $almacen){
 
         $articuloDisponible = ArticuloDisponible::where('articulo_id', $this->articuloSeleccionado->id)
-                                                    ->where('ubicacion', 'general')
-                                                    ->first();
-
-        if($articuloDisponible){
-
-            if($this->articuloSeleccionado->serial) throw new GeneralExpection('El artículo con el número de serie: ' . $this->articuloSeleccionado->serial . ' ya tiene una entrada.');
-
-            PrecioStock::create([
-                'articulo_disponible_id' => $articuloDisponible->id,
-                'entrada_id' => $this->modelo_editar->id,
-                'stock' => $this->modelo_editar->cantidad,
-                'precio' => $this->precio_unidad
-            ]);
-
-            $stock_total = PrecioStock::where('articulo_disponible_id', $articuloDisponible->id)->sum('stock');
-
-            $articuloDisponible->update(['stock_total' => $stock_total]);
-
-        }else{
-
-            $articuloDisponible = ArticuloDisponible::create([
-                'articulo_id' => $this->articuloSeleccionado->id,
-                'ubicacion' => 'general',
-                'stock_total' => $this->modelo_editar->cantidad
-            ]);
-
-            PrecioStock::create([
-                'articulo_disponible_id' => $articuloDisponible->id,
-                'entrada_id' => $this->modelo_editar->id,
-                'stock' => $this->modelo_editar->cantidad,
-                'precio' => $this->precio_unidad
-            ]);
-
-        }
-
-    }
-
-    public function actualizarArticuloDisponible(){
-
-        $articuloDisponible = ArticuloDisponible::where('articulo_id', $this->articuloSeleccionado->id)
-                                                    ->where('ubicacion', 'general')
+                                                    ->where('ubicacion', $almacen)
                                                     ->first();
 
         $precioStock = PrecioStock::where('articulo_disponible_id', $articuloDisponible->id)

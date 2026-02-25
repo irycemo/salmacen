@@ -9,11 +9,11 @@ use App\Exceptions\GeneralExpection;
 class ArticuloDisponibleService
 {
 
-    public function crear(int $articuloId, int $entradaId, int $cantidad, float $precioPorUnidad):void
+    public function crear(int $articuloId, int $entradaId, int $cantidad, float $precioPorUnidad, string $almacen):void
     {
 
         $articuloDisponible = ArticuloDisponible::where('articulo_id', $articuloId)
-                                                    ->where('ubicacion', 'general')
+                                                    ->where('ubicacion', $almacen)
                                                     ->first();
 
         if($articuloDisponible){
@@ -35,7 +35,7 @@ class ArticuloDisponibleService
 
             $articuloDisponible = ArticuloDisponible::create([
                                                                 'articulo_id' => $articuloId,
-                                                                'ubicacion' => 'general',
+                                                                'ubicacion' => $almacen,
                                                                 'stock_total' => $cantidad
                                                             ]);
 
