@@ -212,14 +212,13 @@ class Entradas extends Component
             $entrada = Entrada::find($this->selected_id);
 
             $articuloDisponible = ArticuloDisponible::where('articulo_id', $entrada->articulo_id)
-                                                    ->where('ubicacion', 'general')
+                                                    ->orderBy('stock_total', 'desc')
                                                     ->first();
 
-            $precioStock = PrecioStock::where('articulo_disponible_id', $articuloDisponible->id)
-                                            ->where('entrada_id', $this->selected_id)
+            $precioStock = PrecioStock::where('entrada_id', $this->selected_id)
                                             ->first();
 
-            if(PSD::where('precio_stock_id', $precioStock->id)->first()){
+            if($precioStock && PSD::where('precio_stock_id', $precioStock->id)->first()){
 
                  throw new GeneralExpection("El artículo de esta entrada ya esta relacionado en una solicitud, no es posible eliminarla.");
 
@@ -231,8 +230,7 @@ class Entradas extends Component
 
                 DB::transaction(function () use($entrada, $articuloDisponible){
 
-                    PrecioStock::where('articulo_disponible_id', $articuloDisponible->id)
-                                    ->where('entrada_id', $entrada->id)
+                    PrecioStock::where('entrada_id', $entrada->id)
                                     ->delete();
 
                     $articuloDisponible->decrement('stock_total', $entrada->cantidad);
