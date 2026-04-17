@@ -51,6 +51,7 @@ class EntradasExport implements FromCollection,  WithProperties, WithDrawings, S
     public function headings(): array
     {
         return [
+            'Almacén',
             'Nombre',
             'Marca',
             'Origen',
@@ -63,6 +64,7 @@ class EntradasExport implements FromCollection,  WithProperties, WithDrawings, S
     public function map($entrada): array
     {
         return [
+            $entrada->almacen,
             $entrada->articulo->nombre,
             $entrada->articulo->marca,
             $entrada->origen,

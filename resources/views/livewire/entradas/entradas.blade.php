@@ -44,6 +44,7 @@
 
             <x-slot name="head">
 
+                <x-table.heading sortable wire:click="sortBy('almacen')" :direction="$sort === 'almacen' ? $direction : null" >Almacén</x-table.heading>
                 <x-table.heading sortable wire:click="sortBy('articulo_id')" :direction="$sort === 'articulo_id' ? $direction : null" >Artículo</x-table.heading>
                 <x-table.heading >Marca</x-table.heading>
                 <x-table.heading sortable wire:click="sortBy('cantidad')" :direction="$sort === 'cantidad' ? $direction : null" >Cantidad</x-table.heading>
@@ -61,6 +62,12 @@
                 @forelse ($this->entradas as $entrada)
 
                 <x-table.row wire:loading.class.delaylongest="opacity-50" wire:key="row-{{ $entrada->id }}">
+
+                    <x-table.cell title="Artículo">
+
+                        {{ $entrada->almacen ?? 'N/A' }}
+
+                    </x-table.cell>
 
                     <x-table.cell title="Artículo">
 

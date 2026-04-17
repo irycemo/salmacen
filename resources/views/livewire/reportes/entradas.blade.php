@@ -78,6 +78,12 @@
 
                         <x-table.row wire:loading.class.delaylongest="opacity-50" wire:key="row-{{ $entrada->id }}">
 
+                            <x-table.cell title="Almacén">
+
+                                {{ $entrada->almacen ?? 'N/A' }}
+
+                            </x-table.cell>
+
                             <x-table.cell title="Artículo">
 
                                 {{ ucfirst($entrada->articulo->nombre) }}

@@ -114,6 +114,7 @@ class Entradas extends Component
                 $this->modelo_editar->articulo_id = $this->articuloSeleccionado->id;
                 $this->modelo_editar->precio = $this->modelo_editar->cantidad * $this->precio_unidad;
                 $this->modelo_editar->creado_por = auth()->user()->id;
+                $this->modelo_editar->almacen = $this->almacen;
                 $this->modelo_editar->save();
 
                 (new ArticuloDisponibleService())->crear($this->articuloSeleccionado->id, $this->modelo_editar->id, $this->modelo_editar->cantidad, $this->precio_unidad, $this->almacen);
@@ -274,7 +275,7 @@ class Entradas extends Component
     #[Computed]
     public function entradas(){
 
-        return Entrada::select('id', 'articulo_id', 'cantidad', 'precio', 'origen', 'descripcion',  'creado_por', 'actualizado_por', 'created_at', 'updated_at')
+        return Entrada::select('id', 'articulo_id', 'cantidad', 'almacen', 'precio', 'origen', 'descripcion',  'creado_por', 'actualizado_por', 'created_at', 'updated_at')
                         ->with('creadoPor:id,name', 'actualizadoPor:id,name', 'articulo:id,nombre,marca')
                         ->whereHas('articulo', function($q){
                             $q->where('nombre', 'LIKE', '%' . $this->search . '%')
