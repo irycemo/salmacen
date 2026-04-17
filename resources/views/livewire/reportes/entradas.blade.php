@@ -80,7 +80,7 @@
 
                             <x-table.cell title="Artículo">
 
-                                {{ ucfirst($articulo->nombre) }}
+                                {{ ucfirst($entrada->articulo->nombre) }}
 
                             </x-table.cell>
 
