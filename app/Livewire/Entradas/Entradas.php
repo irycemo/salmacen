@@ -81,13 +81,13 @@ class Entradas extends Component
 
         $this->articuloSeleccionado = Articulo::find($this->modelo_editar->articulo_id);
 
-        $articuloDisponible = ArticuloDisponible::where('articulo_id', $this->articuloSeleccionado->id)->where('ubicacion', 'general')->first();
+        $articuloDisponible = ArticuloDisponible::where('articulo_id', $this->articuloSeleccionado->id)->where('ubicacion', $this->modelo_editar->almacen)->first();
 
         $precioStock = PrecioStock::where('articulo_disponible_id', $articuloDisponible->id)
                                             ->where('entrada_id', $this->modelo_editar->id)
                                             ->first();
 
-        if(PSD::where('precio_stock_id', $precioStock->id)->first()){
+        if($precioStock && PSD::where('precio_stock_id', $precioStock->id)->first()){
 
             $this->dispatch('mostrarMensaje', ['warning', "El artículo de esta entrada ya esta relacionado en una solicitud, no es posible editarla."]);
 
@@ -95,7 +95,7 @@ class Entradas extends Component
 
         }
 
-        $this->precio_unidad = $precioStock->precio;
+        $this->almacen = $this->modelo_editar->almacen;
 
         $this->modal = true;
 
