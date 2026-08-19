@@ -104,7 +104,7 @@
 
     @endcan
 
-    {{-- @can('Lista de solicitudes')
+    @can('Lista de solicitudes')
 
         <div class="flex items-center w-full justify-between hover:text-red-600 transition ease-in-out duration-500 hover:bg-gray-100 rounded-xl">
 
@@ -119,7 +119,7 @@
 
         </div>
 
-    @endcan --}}
+    @endcan
 
     @can('Seguimiento')
 
