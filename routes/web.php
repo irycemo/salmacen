@@ -42,7 +42,7 @@ Route::group(['middleware' => ['auth', 'esta.activo']], function(){
     Route::get('almacen_catastro', AlmacenCatastro::class)->middleware('permission:Almacén catastro')->name('almacen_catastro');
 
     Route::get('solicitudes', Solicitudes::class)->middleware('permission:Lista de solicitudes')->name('solicitudes');
-    Route::get('solicitud/{solicitud?}', CrearEditarSolicitud::class)->middleware('permission:Editar solicitud')->name('solicitud');
+    Route::get('solicitud/{solicitud?}', CrearEditarSolicitud::class)->middleware(['permission:Editar solicitud', 'solicitudes_habilitadas'])->name('solicitud');
 
     Route::get('seguimiento', Seguimiento::class)->middleware('permission:Seguimiento')->name('seguimiento');
 

@@ -23,9 +23,29 @@
 
             @can('Crear solicitud')
 
-                <a href="{{ route('solicitud') }}" class="bg-gray-500 hover:shadow-lg hover:bg-gray-700 text-sm py-2 px-4 text-white rounded-full hidden md:block items-center justify-center focus:outline-gray-400 focus:outline-offset-2">Agregar nueva solicitud</a>
+                <div class="flex gap-2 justify-between items-center">
 
-                <a href="{{ route('solicitud') }}" class="bg-gray-500 hover:shadow-lg hover:bg-gray-700 float-right text-sm py-2 px-4 text-white rounded-full md:hidden focus:outline-gray-400 focus:outline-offset-2">+</a>
+                    <a href="{{ route('solicitud') }}" class="bg-gray-500 hover:shadow-lg hover:bg-gray-700 text-sm py-2 px-4 text-white rounded-full hidden md:block items-center justify-center focus:outline-gray-400 focus:outline-offset-2">Agregar nueva solicitud</a>
+
+                    <a href="{{ route('solicitud') }}" class="bg-gray-500 hover:shadow-lg hover:bg-gray-700 float-right text-sm py-2 px-4 text-white rounded-full md:hidden focus:outline-gray-400 focus:outline-offset-2">+</a>
+
+                    @can('Inactivas solicitudes')
+
+                        <button
+                            wire:click="onOff"
+                            wire:click.attr="disabled"
+                            class="bg-gray-500 hover:shadow-lg hover:bg-gray-700 rounded-full text-white p-1">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5.636 5.636a9 9 0 1 0 12.728 0M12 3v9" />
+                            </svg>
+
+                        </button>
+
+                    @endcan
+
+                </div>
+
 
             @endcan
 

@@ -3,6 +3,8 @@
 namespace App\Livewire\Solicitudes;
 
 use App\Models\ArticuloDisponible;
+use App\Models\Categoria;
+use App\Models\Configuracion;
 use App\Models\PrecioStock;
 use App\Models\Solicitud;
 use App\Models\User;
@@ -305,6 +307,16 @@ class Solicitudes extends Component
             $this->resetearTodo();
 
         }
+
+    }
+
+    public function onOff(){
+
+        $configuracion = Configuracion::first();
+
+        $configuracion->update(['solicitudes' => $configuracion->solicitudes ? false : true]);
+
+        $this->dispatch('mostrarMensaje', ['success', "Las solicitudes se " . ($configuracion->solicitudes ? 'habilitaron' : 'deshabilitaron') . " con éxito."]);
 
     }
 

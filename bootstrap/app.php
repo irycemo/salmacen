@@ -1,11 +1,12 @@
 <?php
 
-use Illuminate\Foundation\Application;
 use App\Http\Middleware\EstaActivoMiddleware;
-use Spatie\Permission\Middleware\RoleMiddleware;
+use App\Http\Middleware\SolicitudesHabilitadasMiddleware;
+use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
 use Spatie\Permission\Middleware\PermissionMiddleware;
+use Spatie\Permission\Middleware\RoleMiddleware;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -19,7 +20,8 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'esta.activo' => EstaActivoMiddleware::class,
             'role'=> RoleMiddleware::class,
-            'permission' => PermissionMiddleware::class
+            'permission' => PermissionMiddleware::class,
+            'solicitudes_habilitadas' => SolicitudesHabilitadasMiddleware::class,
         ]);
 
     })
