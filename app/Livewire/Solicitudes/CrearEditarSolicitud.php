@@ -205,22 +205,37 @@ class CrearEditarSolicitud extends Component
     #[Computed]
     public function articulos(){
 
-        return ArticuloDisponible::when(auth()->user()->ubicacion == 'Catastro', function($q){
-                                $q->where('ubicacion', 'catastro');
-                            })
-                            ->when(auth()->user()->ubicacion == 'General', function($q){
-                                $q->where('ubicacion', 'general');
-                            })
-                            ->when(auth()->user()->ubicacion == 'RPP', function($q){
-                                $q->where('ubicacion', 'rpp');
-                            })
-                            ->where('stock_total', '>', 0)
-                            ->withWhereHas('articulo', function($q){
-                                $q->select('id' ,'nombre', 'marca')
-                                    ->where('nombre', 'LIKE', '%' . $this->search . '%')
-                                    ->orWhere('marca', 'LIKE', '%' . $this->search . '%');
-                            })
-                            ->simplePaginate(10);
+        if(auth()->id() != $this->solicitud->creado_por){
+
+            return ArticuloDisponible::where('ubicacion', $this->solicitud->creadoPor->ubicacion)
+                                    ->where('stock_total', '>', 0)
+                                    ->withWhereHas('articulo', function($q){
+                                        $q->select('id' ,'nombre', 'marca')
+                                            ->where('nombre', 'LIKE', '%' . $this->search . '%')
+                                            ->orWhere('marca', 'LIKE', '%' . $this->search . '%');
+                                    })
+                                    ->simplePaginate(10);
+
+        }else{
+
+            return ArticuloDisponible::when(auth()->user()->ubicacion == 'Catastro', function($q){
+                                    $q->where('ubicacion', 'catastro');
+                                })
+                                ->when(auth()->user()->ubicacion == 'General', function($q){
+                                    $q->where('ubicacion', 'general');
+                                })
+                                ->when(auth()->user()->ubicacion == 'RPP', function($q){
+                                    $q->where('ubicacion', 'rpp');
+                                })
+                                ->where('stock_total', '>', 0)
+                                ->withWhereHas('articulo', function($q){
+                                    $q->select('id' ,'nombre', 'marca')
+                                        ->where('nombre', 'LIKE', '%' . $this->search . '%')
+                                        ->orWhere('marca', 'LIKE', '%' . $this->search . '%');
+                                })
+                                ->simplePaginate(10);
+
+        }
 
     }
 
