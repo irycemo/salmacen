@@ -213,6 +213,7 @@ class Entradas extends Component
             $entrada = Entrada::find($this->selected_id);
 
             $articuloDisponible = ArticuloDisponible::where('articulo_id', $entrada->articulo_id)
+                                                    ->where('ubicacion', $entrada->almacen)
                                                     ->orderBy('stock_total', 'desc')
                                                     ->first();
 

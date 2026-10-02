@@ -205,7 +205,7 @@ class CrearEditarSolicitud extends Component
     #[Computed]
     public function articulos(){
 
-        if(auth()->id() != $this->solicitud->creado_por){
+        if($this->solicitud->id && auth()->id() != $this->solicitud->creado_por){
 
             return ArticuloDisponible::where('ubicacion', $this->solicitud->creadoPor->ubicacion)
                                     ->where('stock_total', '>', 0)
