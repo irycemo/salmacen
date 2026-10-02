@@ -3,6 +3,7 @@
 namespace App\Livewire\Almacen;
 
 use App\Models\ArticuloDisponible;
+use Illuminate\Validation\Rule;
 use App\Traits\ComponentesTrait;
 use Illuminate\Support\Facades\Log;
 use Livewire\Attributes\Computed;
@@ -17,9 +18,12 @@ class AlmacenRPP extends Component
 
     public ArticuloDisponible $modelo_editar;
 
+    public $modal_cantidad = false;
+
     protected function rules(){
         return [
-            'modelo_editar.alerta' => 'required'
+            'modelo_editar.alerta' => Rule::requiredIf($this->modal),
+            'modelo_editar.stock_total' => Rule::requiredIf($this->modal_cantidad)
          ];
     }
 
@@ -35,6 +39,14 @@ class AlmacenRPP extends Component
 
     }
 
+    public function abrirModalCantidad(ArticuloDisponible $articulo){
+
+        $this->modelo_editar = $articulo;
+
+        $this->modal_cantidad = true;
+
+    }
+
     public function actualizar(){
 
         $this->validate();
@@ -45,7 +57,7 @@ class AlmacenRPP extends Component
 
             $this->dispatch('mostrarMensaje', ['success', "La información se guardo con éxito."]);
 
-            $this->modal = false;
+            $this->reset(['modal', 'modal_cantidad']);
 
         } catch (\Throwable $th) {
 

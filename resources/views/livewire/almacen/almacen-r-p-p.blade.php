@@ -127,6 +127,18 @@
 
                                     @endif
 
+                                    @can('Modificar cantidad')
+
+                                        <button
+                                            wire:click="abrirModalCantidad({{ $articulo->id }})"
+                                            wire:loading.attr="disabled"
+                                            class="w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                                            role="menuitem">
+                                            Modificar cantidad
+                                        </button>
+
+                                    @endcan
+
                                 </div>
 
                             </div>
@@ -211,6 +223,52 @@
                     wire:click="$toggle('modal')"
                     wire:loading.attr="disabled"
                     wire:target="$toggle('modal')"
+                    type="button">
+                    Cerrar
+                </x-button-red>
+
+            </div>
+
+        </x-slot>
+
+    </x-dialog-modal>
+
+    <x-dialog-modal wire:model="modal_cantidad" maxWidth="sm">
+
+        <x-slot name="title">
+
+            Modificar cantidad
+
+        </x-slot>
+
+        <x-slot name="content">
+
+            <x-input-group for="modelo_editar.stock_total" label="Cantidad" :error="$errors->first('modelo_editar.stock_total')" class="w-full">
+
+                <x-input-text id="modelo_editar.stock_total" wire:model="modelo_editar.stock_total" />
+
+            </x-input-group>
+
+        </x-slot>
+
+        <x-slot name="footer">
+
+            <div class="flex gap-3">
+
+                <x-button-blue
+                    wire:click="actualizar"
+                    wire:loading.attr="disabled"
+                    wire:target="actualizar">
+
+                    <img wire:loading wire:target="actualizar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
+
+                    <span>Actualizar</span>
+                </x-button-blue>
+
+                <x-button-red
+                    wire:click="$toggle('modal_cantidad')"
+                    wire:loading.attr="disabled"
+                    wire:target="$toggle('modal_cantidad')"
                     type="button">
                     Cerrar
                 </x-button-red>
