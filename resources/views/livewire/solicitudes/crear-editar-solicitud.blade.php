@@ -1,6 +1,6 @@
 <div>
 
-    <x-header>Solicitud</x-header>
+    <x-header>Solicitud ({{ $solicitud->folio }})</x-header>
 
     <div class="grid grid-cols-1 lg:grid-cols-5 w-full gap-3 xl:w-2/3 mx-auto">
 

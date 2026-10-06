@@ -69,6 +69,30 @@ class AlmacenGeneral extends Component
 
     }
 
+    public function actualizarStock(){
+
+        $this->validate();
+
+        try {
+
+            $this->modelo_editar->save();
+
+            $this->modelo_editar->precioStock->sortByDesc('id')->first()->update(['stock' => $this->modelo_editar->stock_total]);
+
+            $this->dispatch('mostrarMensaje', ['success', "La información se guardo con éxito."]);
+
+            $this->reset(['modal', 'modal_cantidad']);
+
+        } catch (\Throwable $th) {
+
+            Log::error("Error al actualizar alerta por el usuario: (id: " . auth()->user()->id . ") " . auth()->user()->name . ". " . $th);
+            $this->dispatch('mostrarMensaje', ['error',  $th->getMessage()]);
+            $this->resetearTodo();
+
+        }
+
+    }
+
     #[Computed]
     public function articulos(){
 

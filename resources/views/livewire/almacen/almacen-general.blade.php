@@ -256,11 +256,11 @@
             <div class="flex gap-3">
 
                 <x-button-blue
-                    wire:click="actualizar"
+                    wire:click="actualizarStock"
                     wire:loading.attr="disabled"
-                    wire:target="actualizar">
+                    wire:target="actualizarStock">
 
-                    <img wire:loading wire:target="actualizar" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
+                    <img wire:loading wire:target="actualizarStock" class="mx-auto h-4 mr-1" src="{{ asset('storage/img/loading3.svg') }}" alt="Loading">
 
                     <span>Actualizar</span>
                 </x-button-blue>
