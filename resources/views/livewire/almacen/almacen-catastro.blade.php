@@ -291,7 +291,7 @@
 
         <x-slot name="title">
 
-            Actualizar alerta
+            Auditar
 
         </x-slot>
 
