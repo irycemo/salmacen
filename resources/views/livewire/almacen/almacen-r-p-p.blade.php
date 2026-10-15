@@ -139,6 +139,14 @@
 
                                     @endcan
 
+                                    <button
+                                        wire:click="abrirModalActividades({{ $articulo->id }})"
+                                        wire:loading.attr="disabled"
+                                        class="w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                                        role="menuitem">
+                                        Auditar
+                                    </button>
+
                                 </div>
 
                             </div>
@@ -269,6 +277,61 @@
                     wire:click="$toggle('modal_cantidad')"
                     wire:loading.attr="disabled"
                     wire:target="$toggle('modal_cantidad')"
+                    type="button">
+                    Cerrar
+                </x-button-red>
+
+            </div>
+
+        </x-slot>
+
+    </x-dialog-modal>
+
+    <x-dialog-modal wire:model="modal_actividad" maxWidth="sm">
+
+        <x-slot name="title">
+
+            Actualizar alerta
+
+        </x-slot>
+
+        <x-slot name="content">
+
+            <div>
+
+                @foreach ($activities as $activity)
+
+                    <div class="bg-gray-100 p-2 mb-2 rounded-lg">
+
+                        <p>Creado por: <strong>{{ $activity->causer->name }}</strong></p>
+                        <p>Creado en: <strong>{{ $activity->created_at}}</strong></p>
+                        @foreach ($activity->attribute_changes->get('attributes', []) as $field => $newValue)
+                            @php
+                                $oldValue = $activity->attribute_changes->get('old', [])[$field] ?? null;
+                            @endphp
+                            <strong>Stock Total</strong>
+                            <div>
+                                <span>Antiguo: {{ $oldValue }}</span> ->
+                                <span>Nuevo: {{ $newValue }}</span>
+                            </div>
+                        @endforeach
+
+                    </div>
+
+                @endforeach
+
+            </div>
+
+        </x-slot>
+
+        <x-slot name="footer">
+
+            <div class="flex gap-3">
+
+                <x-button-red
+                    wire:click="$toggle('modal_actividad')"
+                    wire:loading.attr="disabled"
+                    wire:target="$toggle('modal_actividad')"
                     type="button">
                     Cerrar
                 </x-button-red>

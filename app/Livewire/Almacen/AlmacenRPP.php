@@ -3,6 +3,7 @@
 namespace App\Livewire\Almacen;
 
 use App\Models\ArticuloDisponible;
+use App\Models\Activity;
 use Illuminate\Validation\Rule;
 use App\Traits\ComponentesTrait;
 use Illuminate\Support\Facades\Log;
@@ -19,6 +20,8 @@ class AlmacenRPP extends Component
     public ArticuloDisponible $modelo_editar;
 
     public $modal_cantidad = false;
+    public $modal_actividad = false;
+    public $activities = [];
 
     protected function rules(){
         return [
@@ -66,6 +69,16 @@ class AlmacenRPP extends Component
             $this->resetearTodo();
 
         }
+
+    }
+
+    public function abrirModalActividades(ArticuloDisponible $articulo){
+
+        $this->modelo_editar = $articulo;
+
+        $this->activities = Activity::with('causer')->forSubject($this->modelo_editar)->get();
+
+        $this->modal_actividad = true;
 
     }
 

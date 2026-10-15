@@ -3,12 +3,16 @@
 namespace App\Models;
 
 use App\Models\Articulo;
+use Spatie\Activitylog\Support\LogOptions;
+use Spatie\Activitylog\Models\Concerns\LogsActivity;
 use App\Models\Solicitud;
 use App\Models\PrecioStock;
 use Illuminate\Database\Eloquent\Model;
 
 class ArticuloDisponible extends Model
 {
+
+    use LogsActivity;
 
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
@@ -22,6 +26,12 @@ class ArticuloDisponible extends Model
 
     public function precioStock(){
         return $this->hasMany(PrecioStock::class);
+    }
+
+    public function getActivitylogOptions(): LogOptions
+    {
+        return LogOptions::defaults()
+        ->logOnly(['stock_total']);
     }
 
 }
